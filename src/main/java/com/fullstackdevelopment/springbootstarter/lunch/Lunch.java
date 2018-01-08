@@ -1,7 +1,12 @@
 package com.fullstackdevelopment.springbootstarter.lunch;
 
+import java.util.List;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.fullstackdevelopment.springbootstarter.Model.Dish;
+import com.fullstackdevelopment.springbootstarter.database.GetFoodList;
 
 /**
  * This class that returns the list of lunch items 
@@ -11,8 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class Lunch {
 	
 	@RequestMapping("/lunch")
-	public String getLunchMenu() {
-		return "This is the lunch menu for all the week days.";
+	public List<Dish> getLunchMenu() throws Exception{
+		GetFoodList list = new GetFoodList("textfiles/lunch.txt");
+		return list.getFoodList();
 	}
 	
 	@RequestMapping("/lunch/monday")
