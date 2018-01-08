@@ -24,15 +24,22 @@ public class GetContentFromFile {
 		CreateDish createDish;
 		
 		while(reader.hasNextLine()) {
+			
 			text = reader.nextLine();
 			
-			if(text.equals("*")) {
+			if(text.isEmpty()) {
+				continue;
+			}
+			
+			if(text.equals("#") && !content.isEmpty()) {
 				createDish = new CreateDish(content);
 				list.add(createDish.getDish());
+				//System.out.println(createDish.getDish());
 				content.clear();
 			}
-			else if(text.equals("#")) {
-				
+			else if(text.equals("#") && content.isEmpty()) {
+				//System.out.println("#");
+				continue;
 			}
 			else {
 				content.add(text);
