@@ -8,24 +8,16 @@ import com.fullstackdevelopment.springbootstarter.Model.Dish;
 
 public class GetFoodList {
 	
-	private String fileName;
-	private List<Dish> foodList;
+	private static List<Dish> foodList;
 
-	
-	public GetFoodList(String fileName) {
-		this.fileName = fileName;
-		this.foodList = null;
-	}
-	
-	
-	public List<Dish> getFoodList() throws Exception{
-		Scanner reader = (new OpenFile(this.fileName)).getFileScanner();
+	public static List<Dish> getFoodList(String fileName){
+		Scanner reader = (new OpenFile(fileName)).getFileScanner();
 		
 		if(reader != null) {
 			GetContentFromFile getContentFromFile = new GetContentFromFile(reader);
-			this.foodList = getContentFromFile.getFoodList();
+			foodList = getContentFromFile.getFoodList();
 		}
 		
-		return this.foodList;
+		return foodList;
 	}
 }

@@ -22,18 +22,17 @@ public class OpenFile {
 	}
 	
 	// return the file handler
-	public Scanner getFileScanner() throws Exception{
+	public Scanner getFileScanner(){
 		// open file
-		/*
+		
 		try {
 			this.openFile();
 		}
 		catch(Exception e) {
-			System.out.print("cannot open the file!!");
+			System.out.print(e.getMessage());
 			return null;
 		}
-		*/
-		this.openFile();
+		
 		
 		return this.reader;
 	}
