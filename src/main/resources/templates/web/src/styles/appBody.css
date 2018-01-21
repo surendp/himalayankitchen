@@ -1,0 +1,15 @@
+.app-Body {
+  position: relative;
+  margin: 0px;
+  margin-top: -17px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.slides {
+  left:0px;
+  top:0px;
+  width:100%;
+  height: auto;
+  margin-top: -19px;
+}

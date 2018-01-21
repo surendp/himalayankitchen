@@ -1,22 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-<<<<<<< HEAD
-	
-=======
->>>>>>> 67fed3ce6f9a9de78aa22c2c943bd90c0f922715
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.fullstackdevelopment.projectwebsite</groupId>
   <artifactId>himalayankitchen</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Himalayan Kitchen</name>
-<<<<<<< HEAD
-  <packaging>pom</packaging>
-  
-  <modules>
-    <module>reactfrontend</module>
-    <module>springbootbackend</module>
-  </modules>
-</project>
-=======
   
   <parent>
   	<groupId>org.springframework.boot</groupId>
@@ -41,4 +28,3 @@
   </properties>
   
 </project>
->>>>>>> 67fed3ce6f9a9de78aa22c2c943bd90c0f922715

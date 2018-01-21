@@ -1,0 +1,15 @@
+.App-title {
+  background-color: #f2f2f2;
+  margin: 0px;
+}
+
+.App-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -17px;
+  padding:0px;
+  height:80px;
+  width:auto;
+  max-width: 99.5%;
+}
