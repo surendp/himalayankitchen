@@ -1,0 +1,38 @@
+
+#
+Lammas ruoka
+10.5 euros
+Main Dish
+It is the most favourite food of customers in our restaurant
+#
+
+#
+Butter Chicken
+9.5
+Main Dish
+very much spices
+#
+
+#
+fish
+9.5
+Main Dish
+very much spices
+#
+
+#
+vegetarian Dish
+9.5
+Main Dish
+Vegetarian dish very delicious
+#
+
+#
+Coca cola
+2.5
+Drinks
+Soft Drink
+#
+
+
+
