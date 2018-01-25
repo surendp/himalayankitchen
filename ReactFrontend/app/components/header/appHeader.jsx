@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import menuIcon from '../media/menu_icon.png';
-import '../styles/header.css';
+import React from 'react';
+import menuIcon from '../../media/menu_icon.png';
+import '../../css/header.css';
 
-class Header extends Component {
+class Header extends React.Component {
   render() {
     return (
       <header className="App-header">

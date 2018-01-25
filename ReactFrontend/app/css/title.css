@@ -1,14 +1,9 @@
 .App-title {
   background-color: #ffffff;
-  margin: 0px;
+  position: sticky;
+  top: 0;
 }
 
 .App-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -17px;
-  height:80px;
-  width:auto;
-  max-width: 99.5%;
+  width: 100%;
 }

@@ -1,4 +1,5 @@
 .App{
+	height: inherit;
+	width: inherit;
 	color: green;
-	margin-left:10px;
 }
