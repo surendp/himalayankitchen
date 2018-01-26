@@ -1,14 +1,17 @@
 .App-header {
   background-color: #ff9900;
-  height: 40px;
-  padding: 30px;
+  height: 6%;
+  padding: 1%;
+  padding-top: 4%;
+  position: sticky;
+  top: 0;
 }
 
-.menuIcon {
+#menuIcon {
   position: absolute;
-  right: 40px;
-  height: 40px;
-  padding-bottom: 20px;
+  right: 4%;
+  height: 45%;
+  padding-bottom: 3%;
 }
 
 /* @keyframes App-logo-spin {
