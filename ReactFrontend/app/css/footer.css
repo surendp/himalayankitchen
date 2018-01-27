@@ -1,0 +1,16 @@
+.App-footer {
+  background-color: #ff9900;
+  height: 6%;
+  padding: 1%;
+  padding-top: 4%;
+  position: sticky;
+  bottom: 0;
+}
+
+
+#fbIcon {
+  position: absolute;
+  left: 4%;
+  height: 45%;
+  padding-bottom: 3%;
+}
