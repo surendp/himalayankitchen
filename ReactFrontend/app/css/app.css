@@ -3,3 +3,12 @@
 	width: inherit;
 	color: green;
 }
+
+.styleBackground{
+  background-image: url("../media/bg2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+	overflow-y: scroll;
+}

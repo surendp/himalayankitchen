@@ -9,7 +9,7 @@ import Body from './components/body/body.jsx';
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="App styleBackground">
           <Header />
           <Title />
           <Body />

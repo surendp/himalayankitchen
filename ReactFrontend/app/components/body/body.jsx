@@ -10,7 +10,7 @@ import HomeDelivery from './homeDelivery.jsx';
 class Body extends React.Component{
   render(){
     return (
-        <div className="styleMainBodyDiv styleBackground">
+        <div className="styleMainBodyDiv">
             <AboutUs />
             <Location />
             <Info />

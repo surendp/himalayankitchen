@@ -2,13 +2,4 @@
   height: inherit;
   width: inherit;
   padding: 5% 0% 5% 0%;
-  overflow-y:  scroll;
-}
-
-.styleBackground{
-  background-image: url("../media/bg2.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
