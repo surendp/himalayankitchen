@@ -8,7 +8,7 @@ import '../../css/imgButtons.css';
 class ImgButtons extends React.Component{
     render(){
         return (
-            <div>
+            <div className="container">
               <img src={lunch} className="imgButtons" id="lunch" alt="Lunch Served" />
               <img src={orderOnline} className="imgButtons" id="orderOnline" alt="Order Online" />
                 <img src={reservation} className="imgButtons" id="reservation" alt="Reserve a Table" />
