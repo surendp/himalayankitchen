@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../../css/body.css';
 
-import AboutUs from './aboutUs.jsx';
-import Location from './location.jsx';
-import Info from './info.jsx';
-import HomeDelivery from './homeDelivery.jsx';
+import AboutUs from './content/aboutUs.jsx';
+import Location from './content/location.jsx';
+import Info from './content/info.jsx';
+import HomeDelivery from './content/homeDelivery.jsx';
 
 class Body extends React.Component{
   render(){
