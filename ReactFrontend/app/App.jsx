@@ -10,7 +10,7 @@ import Footer from './components/footer/footer.jsx';
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="App styleBackground">
           <Header />
           <Title />
           <Body />
