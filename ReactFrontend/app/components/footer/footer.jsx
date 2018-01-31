@@ -6,9 +6,9 @@ import facebookIcon from '../../media/facebookIcon.png';
 class Footer extends React.Component{
   render(){
     return (
-      <header className="App-footer">
+      <footer className="App-footer">
         <img src={facebookIcon} id="fbIcon" alt="Like on Facebook" />
-      </header>
+      </footer>
     );
   }
 }
