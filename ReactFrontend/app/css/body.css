@@ -1,9 +1,5 @@
 .styleMainBodyDiv{
-  height: inherit;
+  height: auto;
   width: inherit;
-  background-image: url("../media/bg2.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   padding: 5% 0% 5% 0%;
 }

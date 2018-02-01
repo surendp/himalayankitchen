@@ -11,8 +11,6 @@ import Location from './content/location.jsx';
 
 
 
-
-
 class HomePageContent extends React.Component{
   render(){
     return (

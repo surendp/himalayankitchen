@@ -16,7 +16,8 @@ class ImgButtons extends React.Component{
                 alt={this.props.alternate}
                 id={this.props.imgBtnId}
                 style={imgButtons}
-                className="imgButtons"></img>
+                className="imgButtons"
+                onClick={this.props.onClick}></img>
             </div>
         );
     }
