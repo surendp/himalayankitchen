@@ -3,10 +3,16 @@ import menuIcon from '../../media/menu_icon.png';
 import '../../css/header.css';
 
 class Header extends React.Component {
+
+  handleClick(){
+    alert('The Menu should open now!');
+  }
+
   render() {
     return (
       <header className="App-header">
-        <img src={menuIcon} id="menuIcon" alt="menu" />
+        <img src={menuIcon} id="menuIcon" alt="menu"
+         onClick={this.handleClick}/>
       </header>
     );
   }
