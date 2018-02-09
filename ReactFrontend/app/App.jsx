@@ -8,6 +8,7 @@ import Body from './components/body/body.jsx';
 import Footer from './components/footer/footer.jsx';
 
 class App extends React.Component {
+
   render() {
     return (
       <div className="App styleBackground">

@@ -5,7 +5,7 @@ import ImgButtons from './ImgButtons.jsx';
 class LunchButton extends React.Component{
 
   handleClick(){
-    alert('Lunch button clicked');
+    
   }
 
   render(){
@@ -13,6 +13,7 @@ class LunchButton extends React.Component{
       <ImgButtons
         source={lunch}
         alternate="Lunch"
+        path = '/lunch'
         imgBtnId = "lunchBtn"
         onClick = {() => this.handleClick()}/>
     );

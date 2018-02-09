@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../css/imgButtons.css';
+import {Link} from "react-router-dom";
 
 const imgButtons = {
   display: 'block',
@@ -8,16 +9,21 @@ const imgButtons = {
   width: '40%'
 };
 
+// Navigation link is created in this component
+// Every component rendering this component should pass 'path' prop to this component
+
 class ImgButtons extends React.Component{
     render(){
         return (
             <div className="container">
-              <img src={this.props.source}
-                alt={this.props.alternate}
-                id={this.props.imgBtnId}
-                style={imgButtons}
-                className="imgButtons"
-                onClick={this.props.onClick}></img>
+              <Link to={this.props.path}>
+                <img src={this.props.source}
+                  alt={this.props.alternate}
+                  id={this.props.imgBtnId}
+                  style={imgButtons}
+                  className="imgButtons"
+                  onClick={this.props.onClick}></img>
+                </Link>
             </div>
         );
     }

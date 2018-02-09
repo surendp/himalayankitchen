@@ -13,7 +13,7 @@ const content = <span>  when an unknown printer took a galley of type and scramb
 class HomeDelivery extends React.Component{
     render(){
       return(
-        <ContentDiv title = {title} content = {content} />
+            <ContentDiv title = {title} content = {content} />
       );
     }
 }
