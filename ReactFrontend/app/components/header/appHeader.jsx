@@ -6,15 +6,11 @@ import Menu from '../body/Menu.jsx';
 
 class Header extends React.Component {
 
-  handleClick(){
-    alert('The Menu should open now!');
-  }
-
   render() {
     return (
       <header className="App-header">
         <img src={menuIcon} id="menuIcon" alt="menu"
-         onClick={this.handleClick}/>
+         onClick={this.props.onClick()}/>
       </header>
     );
   }

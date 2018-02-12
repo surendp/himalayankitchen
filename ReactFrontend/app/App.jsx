@@ -8,12 +8,29 @@ import Body from './components/body/body.jsx';
 import Footer from './components/footer/footer.jsx';
 import Menu from './components/body/Menu.jsx';
 
+
 class App extends React.Component {
+
+  constructor(props){
+    super(props);
+
+    this.state = {
+      visible:false,
+    };
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+
+   handleClick(){
+     this.setState({visible: true});
+   }
+
   render() {
     return (
       <div className="App styleBackground">
-          <Menu />
-          <Header />
+          <Menu visible={this.state.visible}/>
+          <Header onClick = {() => this.handleClick}/>
           <Title />
           <Body />
           <Footer />

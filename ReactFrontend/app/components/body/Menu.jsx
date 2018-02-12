@@ -26,7 +26,7 @@ class Menu extends React.Component {
 
   render() {
     return (
-      <div className={"menu" + (this.state.visible ? "visible" : "invisible")}>
+      <div className={"menu" + (this.props.visible ? "visible" : "invisible")}>
           <h3>Fireflies</h3>
           <h3>Aint it Fun</h3>
           <h3>Ready or Not</h3>
