@@ -3,14 +3,14 @@ import FetchAPI from "../modelcomponents/fetchApi.jsx";
 
 let api = "http://localhost:8080/lunch/monday";
 
-class MondayLunch extends React.Component{
+class FridayLunch extends React.Component{
 
   render(){
     return(
-      <FetchAPI api={api} day="Monday" />
+      <FetchAPI api={api} day="Friday"/>
     )
   }
 
 }
 
-export default MondayLunch;
+export default FridayLunch;

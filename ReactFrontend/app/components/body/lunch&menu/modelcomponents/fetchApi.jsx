@@ -1,6 +1,6 @@
 import React from 'react';
 import Dish from './dish.jsx';
-
+import ContentDiv from '../../content/contentDiv.jsx';
 
 class FetchAPI extends React.Component{
 
@@ -11,6 +11,7 @@ class FetchAPI extends React.Component{
     this.state = {
       dishes: []
     };
+
   }
 
 
@@ -34,9 +35,27 @@ class FetchAPI extends React.Component{
 
   }
 
+  renderDishes(){
+    const dishes = this.state.dishes.map((dish, index) => {
+      return( <li key={index}>
+                {dish}
+              </li>)
+            });
+
+    return dishes;
+  }
 
   render(){
-    return(<div></div>);
+    let dishList = <div>
+                      <ul>{this.renderDishes()}</ul>
+                   </div>;
+
+    return(
+      <ContentDiv
+        title  ={this.props.day}
+        content={dishList}
+        />
+    );
   }
 }
 
