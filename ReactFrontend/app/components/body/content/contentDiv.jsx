@@ -23,7 +23,7 @@ class ContentDiv extends React.Component{
       return(
         <div style = {style}>
             <h1 style = {styleTitle} >{this.props.title}</h1>
-            <p style = {styleContent}>{this.props.content}</p>
+            <div style = {styleContent}>{this.props.content}</div>
         </div>
       );
     }

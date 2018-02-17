@@ -5,16 +5,17 @@ import ImgButtons from './ImgButtons.jsx';
 class OrderOnlineButton extends React.Component{
 
   handleClick(){
-    alert("oder online button clicked!");
+
   }
 
   render(){
     return(
-      <ImgButtons
-          source={orderOnline}
-          alternate="Order Online"
-          imgBtnId = "orderOnlineBtn"
-          onClick = {() => this.handleClick()} />
+          <ImgButtons
+              source={orderOnline}
+              alternate="Order Online"
+              imgBtnId = "orderOnlineBtn"
+              path = '/orderOnline'
+              onClick = {() => this.handleClick()} />
     );
   }
 }

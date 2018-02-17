@@ -5,7 +5,7 @@ import ImgButtons from './ImgButtons.jsx';
 class ReservationButton extends React.Component{
 
   handleClick(){
-    alert("Reservation button clicked!");
+    
   }
 
   render(){
@@ -14,6 +14,7 @@ class ReservationButton extends React.Component{
           source={reservation}
           alternate="Reservation"
           imgBtnId = "reservationBtn"
+          path = '/reservation'
           onClick = {() => this.handleClick()} />
     );
   }

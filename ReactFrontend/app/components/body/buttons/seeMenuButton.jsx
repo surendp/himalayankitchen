@@ -5,7 +5,7 @@ import ImgButtons from './ImgButtons.jsx';
 class SeeMenuButton extends React.Component{
 
   handleClick(){
-    alert("See Menu Button clicked!");
+    
   }
 
   render(){
@@ -14,6 +14,7 @@ class SeeMenuButton extends React.Component{
         source={seeMenu}
         alternate="See Menu"
         imgBtnId = "seeMenuBtn"
+        path = '/menu'
         onClick = {() => this.handleClick()}/>
     );
   }
