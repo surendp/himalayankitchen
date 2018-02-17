@@ -8,6 +8,7 @@ import AboutUs from './content/aboutUS.jsx';
 import HomeDelivery from './content/homeDelivery.jsx';
 import Info from './content/info.jsx';
 import Location from './content/location.jsx';
+import LunchToday from './lunch&menu/lunchcomponents/lunchToday.jsx';
 
 
 
