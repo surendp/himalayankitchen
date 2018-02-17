@@ -8,7 +8,10 @@ class Menu extends React.Component {
   render() {
     return (
       <div className={"menu" + (this.props.visible ? "visible" : "invisible")}>
-          <NavItem title="Home" />
+          <NavItem title="Home" path="/" />
+          <NavItem title="Lunch" path="/lunch" />
+          <NavItem title="Order Online" path="/orderOnline" />
+          <NavItem title="Menu" path="/menu" />
       </div>
     );
   }
