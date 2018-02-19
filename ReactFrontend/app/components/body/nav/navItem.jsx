@@ -1,24 +1,27 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 const navItem = {
   display: 'block',
-  margin: '0.5%, 0.5%, 0.5%, 0.5%',
+  margin: '10% 1% -7% 1%',
   textAlign: 'center',
-  padding: '1, 1, 1, 1',
-  width:'80%',
+  padding: '1% 1% 1% 1%',
+  width:'95%',
   height:'auto',
   color: 'white',
   fontSize: '50px',
-  ///background : 'rgba(0, 0, 0, 0.90)',
+  fontWeight: 'bold',
+  borderBottom: 'solid 3px #000000',
+  textDecorationLine:'none'
+  ///////////////
 };
 
 export default class NavItem extends React.Component {
   render() {
     return (
-      <Link to={this.props.path}>
-        <h1 style={navItem}>{this.props.title}</h1>
-      </Link>
+      <NavLink exact to={this.props.path} style={navItem} activeStyle={{ fontSize:'50px', color: '#ff9900'}}>
+        {this.props.title}
+      </NavLink>
     )
   }
 }

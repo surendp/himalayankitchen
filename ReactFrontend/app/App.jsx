@@ -30,9 +30,6 @@ class App extends React.Component {
    hide(){
      document.removeEventListener("click", this.hide);
      this.setState({visible: false });
-     console.log("A");
-
-     console.log("B");
    }
 
   render() {
