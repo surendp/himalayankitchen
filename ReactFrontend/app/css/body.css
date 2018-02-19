@@ -1,5 +1,5 @@
 .styleMainBodyDiv{
-  height: auto;
+  height: inherit;
   width: inherit;
   padding: 5% 0% 5% 0%;
 }
