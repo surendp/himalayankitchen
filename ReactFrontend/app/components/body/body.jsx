@@ -4,10 +4,9 @@ import '../../css/body.css';
 import AboutUs from './content/aboutUS.jsx';
 import HomeDelivery from './content/homeDelivery.jsx';
 import Buttons from './buttons/Buttons.jsx';
+import HomePageContent from './homePageContent.jsx';
 
 import WeekListLunch from './lunch&menu/lunchcomponents/WeekListLunch.jsx';
-
-import HomePageContent from './homePageContent.jsx';
 
 import {Route, Switch} from 'react-router-dom';
 

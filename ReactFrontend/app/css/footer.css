@@ -7,8 +7,8 @@
 }
 
 
-#fbIcon {
-  left: 4%;
-  height: 45%;
-  padding-bottom: 3%;
+.socialMediaIcon {
+  left: 10%;
+  height: 70%;
+  margin: 0% 1% 1% 2%;
 }
