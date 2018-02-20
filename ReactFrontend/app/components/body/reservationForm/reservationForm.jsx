@@ -18,7 +18,11 @@ class ReservationForm extends React.Component{
     this.state = {
       formData: {
         name: "",
-        email: "",
+        email:"",
+        phoneNumber:"",
+        date:"",
+        partySize:"",
+        message:"",
       }
     };
 

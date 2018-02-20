@@ -1,5 +1,9 @@
 import React from 'react';
 
+const style = {
+  margin:"10px 10px 10px 10px",
+}
+
 class Input extends React.Component{
 
   constructor(props){
@@ -17,11 +21,12 @@ class Input extends React.Component{
 
   render(){
     return(
-      <div>
-        <input type     = "text"
-               value    = {this.state.inputFieldValue}
+      <div style={style}>
+        <input type        = "text"
+               value       = {this.state.inputFieldValue}
                placeholder = {this.props.placeholder}
-               onChange = {this.handleUserInput}
+               onChange    = {this.handleUserInput}
+               style       = {this.props.style}
         />
       </div>
     )
