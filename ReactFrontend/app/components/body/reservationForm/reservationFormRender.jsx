@@ -5,8 +5,10 @@ const ReservationFormRender = (props) =>{
 
   return(
     <div style={props.style}>
+      <h1>Make A Reservation</h1>
       <Form onChange={props.onChange}/>
-      <h1>{(props.name!== "") ? (props.name+" is making a reservation in himalayan kitchen") : ""}</h1>
+
+      <h3>{(props.name!== "") ? (props.name+" is making a reservation in himalayan kitchen") : ""}</h3>
     </div>
   );
 };

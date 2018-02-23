@@ -1,7 +1,10 @@
 import React from 'react';
 
 const style = {
-  margin:"10px 10px 10px 10px",
+  display: 'block',
+  margin:"20px 20px 20px 20px",
+  padding:"20px 20px 20px 20px",
+  marginBottom: '50px'
 }
 
 class Input extends React.Component{

@@ -3,11 +3,14 @@ import ReservationFormRender from './reservationFormRender.jsx';
 
 const mainDivStyle = {
   color: 'white',
+  fontSize: '40px',
   textAlign:'center',
   textShadow:'2px 2px black',
   background: 'rgba(0, 0, 0, 0.45)',
   padding: '5% 5% 5% 5%',
   margin: '5% 5% 5% 5%',
+  minHeight:'80%',
+  //overflowX:'show'
 };
 
 class ReservationForm extends React.Component{

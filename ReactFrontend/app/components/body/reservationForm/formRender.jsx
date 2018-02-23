@@ -11,7 +11,6 @@ var FormRender = (props) => {
 
   return(
   <div>
-    <h1>Make A Reservation</h1>
     <InputFieldName         onChange = {props.onChangeForName} />
     <InputFieldEmail        onChange = {props.onChangeForEmail}/>
     <InputFieldPhone        onChange = {props.onChangeForPhoneNumber} />

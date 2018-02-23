@@ -1,11 +1,8 @@
 import React from 'react';
 import Input from './input.jsx';
+import {inputFieldStyle} from './inputFieldsStyle.jsx';
 
-const style = {
-  width:"100%",
-  height:"50px",
-  fontSize:"50px"
-};
+const style = inputFieldStyle;
 
 var InputFieldEmail = (props) => {
   return(

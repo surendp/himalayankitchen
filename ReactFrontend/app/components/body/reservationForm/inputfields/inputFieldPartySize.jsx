@@ -1,13 +1,9 @@
 
 import React from 'react';
 import Input from './input.jsx';
+import {inputFieldStyle} from './inputFieldsStyle.jsx';
 
-
-const style = {
-  width:"50%",
-  height:"50px",
-  fontSize:"50px"
-};
+const style = inputFieldStyle;
 
 var InputFieldPartySize = (props) => {
   return(
