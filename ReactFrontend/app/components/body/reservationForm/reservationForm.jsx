@@ -40,8 +40,11 @@ class ReservationForm extends React.Component{
 
   handleClick(){
     var formData = this.state.formData;
+
+    // instantiate SubmitForm object
     var submitForm = new SubmitForm(formData);
 
+    // submit the form date in the given api
     submitForm.submitData("http://localhost:8080/makeReservation/");
   }
 
