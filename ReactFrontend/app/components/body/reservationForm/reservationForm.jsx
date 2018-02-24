@@ -1,5 +1,6 @@
 import React from 'react';
 import ReservationFormRender from './reservationFormRender.jsx';
+import SubmitForm from './submitForm.js';
 
 const mainDivStyle = {
   color: 'white',
@@ -30,17 +31,27 @@ class ReservationForm extends React.Component{
     };
 
     this.handleChange = this.handleChange.bind(this);
+    this.handleClick  = this.handleClick.bind(this);
   }
 
   handleChange(formData){
     this.setState({formData:formData});
   }
 
+  handleClick(){
+    var formData = this.state.formData;
+    var submitForm = new SubmitForm(formData);
+
+    submitForm.submitData("http://localhost:8080/makeReservation/");
+  }
+
+
   render(){
     return(
       <ReservationFormRender
           style={mainDivStyle}
           onChange={this.handleChange}
+          onClick = {this.handleClick}
           name={this.state.formData.name} />
     )
   }
