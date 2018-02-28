@@ -1,7 +1,10 @@
 import React from 'react';
 
 const inputFieldStyle = {
-  width:'80%',
+  display: 'block',
+  width:'95%',
+  mediumWidth:'45%',
+  smallWidth: '25%',
   fontSize:'35px',
   fontWeight: 'bold',
   color: 'white',
