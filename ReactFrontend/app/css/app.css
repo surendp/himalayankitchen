@@ -2,6 +2,7 @@
 	height: inherit;
 	width: inherit;
 	color: green;
+	overflow-x: hidden;
 }
 
 .styleBackground{

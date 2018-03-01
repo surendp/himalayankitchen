@@ -1,6 +1,6 @@
 .menuvisible {
 display:block;
-position: absolute;
+position: fixed;
 z-index: 1;
 width: 45%;
 height:100%;
@@ -10,18 +10,50 @@ right:0;
 background : rgba(0, 0, 0, 0.85);
 margin: inherit;
 padding: 5%, 5%, 5%, 5%;
+-webkit-animation-name: show; /*safari*/
+-webkit-animation-duration:1s; /*safari*/
+animation-name: show;
+animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes show {
+    0%   {right: -45%;}
+    100% {right: 0%;}
+}
+
+/* Standard syntax */
+@keyframes show {
+  0%   {right: -45%;}
+  100% {right: 0%;}
 }
 
 .menuinvisible {
   display:block;
-  position: absolute;
+  position: fixed;
   z-index: -1;
   width: 45%;
   height:100%;
   overflow-y: visible;
   top:0;
-  right:0;
+  right:-45%;
   background : rgba(0, 0, 0, 0.85);
   margin: inherit;
   padding: 5%, 5%, 5%, 5%;
+  -webkit-animation-name: hide; /*safari*/
+  -webkit-animation-duration:1s; /*safari*/
+  animation-name: hide;
+  animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes hide {
+    0%   {right: 0%; z-index: 1;}
+    100% {right: -45%; z-index:-1;}
+}
+
+/* Standard syntax */
+@keyframes hide {
+  0%   {right: 0%; z-index: 1;}
+  100% {right: -45%; z-index:-1;}
 }
