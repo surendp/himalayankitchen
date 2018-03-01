@@ -13,7 +13,7 @@ padding: 5%, 5%, 5%, 5%;
 -webkit-animation-name: show; /*safari*/
 -webkit-animation-duration:1s; /*safari*/
 animation-name: show;
-animation-duration: 1s;
+animation-duration: 0.5s;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -31,7 +31,7 @@ animation-duration: 1s;
 .menuinvisible {
   display:block;
   position: fixed;
-  z-index: -1;
+  z-index: 1;
   width: 45%;
   height:100%;
   overflow-y: visible;
@@ -43,17 +43,17 @@ animation-duration: 1s;
   -webkit-animation-name: hide; /*safari*/
   -webkit-animation-duration:1s; /*safari*/
   animation-name: hide;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes hide {
-    0%   {right: 0%; z-index: 1;}
-    100% {right: -45%; z-index:-1;}
+    0%   {right: 0%;}
+    100% {right: -45%;}
 }
 
 /* Standard syntax */
 @keyframes hide {
-  0%   {right: 0%; z-index: 1;}
-  100% {right: -45%; z-index:-1;}
+  0%   {right: 0%;}
+  100% {right: -45%;}
 }
