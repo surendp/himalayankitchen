@@ -5,7 +5,7 @@ import ImgButtons from './ImgButtons.jsx';
 class OrderOnlineButton extends React.Component{
 
   handleClick(){
-
+    window.open('https://www.foodora.fi/en/restaurant/s2mj/himalayan-kitchen-vendor?r=1','_blank');
   }
 
   render(){
@@ -14,7 +14,7 @@ class OrderOnlineButton extends React.Component{
               source={orderOnline}
               alternate="Order Online"
               imgBtnId = "orderOnlineBtn"
-              path = '/orderOnline'
+              path = '/'
               onClick = {() => this.handleClick()} />
     );
   }
