@@ -6,11 +6,15 @@ import SeeMenuButton from './seeMenuButton.jsx';
 
 import Link from 'react-router-dom';
 
+const style={
+  display: 'block',
+  margin: '16% auto 20% auto'
+}
 
 class Buttons extends React.Component {
   render(){
     return(
-      <div>
+      <div style={style}>
         <LunchButton />
         <OrderOnlineButton />
         <ReservationButton />

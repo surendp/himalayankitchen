@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 const imgButtons = {
   display: 'block',
-  margin: '5% auto 5% auto',
+  margin: '7% auto 7% auto',
   background: 'rgba(0, 0, 0, 0.20)',
   width: '40%'
 };
