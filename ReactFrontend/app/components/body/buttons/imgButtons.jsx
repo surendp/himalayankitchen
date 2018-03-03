@@ -23,7 +23,7 @@ class ImgButtons extends React.Component{
                   style={imgButtons}
                   className="imgButtons"
                   onClick={this.props.onClick}></img>
-                </Link>
+              </Link>
             </div>
         );
     }

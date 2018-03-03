@@ -15,7 +15,6 @@ class Body extends React.Component{
     return (
         <Switch >
           <Route exact path = '/' component = {HomePageContent} />
-          <Route path = '/' component = {HomePageContent} />
           <Route path = '/lunch' component = {WeekListLunch} />
           <Route path = '/reservation' component = {AboutUs} />
           <Route path = '/menu' component = {AboutUs} />
