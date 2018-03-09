@@ -1,5 +1,6 @@
 import React from 'react';
 import ContentDiv from './contentDiv.jsx';
+import HomeDelivery from './homeDelivery.jsx';
 
 const title   = <span>About US</span>;
 
@@ -18,7 +19,7 @@ class AboutUs extends React.Component{
         return (
             <ContentDiv
               title = {title}
-              content = {content} />
+              content = {content}/>
         );
     }
 }

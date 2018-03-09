@@ -6,7 +6,8 @@ import HomeDelivery from './content/homeDelivery.jsx';
 import Buttons from './buttons/Buttons.jsx';
 import HomePageContent from './homePageContent.jsx';
 
-import WeekListLunch from './lunch&menu/lunchcomponents/WeekListLunch.jsx';
+import WeekListLunch from './lunch&menu/lunchcomponents/weekListLunch.jsx';
+import AlakartMenuList from './lunch&menu/menucomponents/alakartMenuList.jsx';
 
 import {Route, Switch} from 'react-router-dom';
 
@@ -17,7 +18,7 @@ class Body extends React.Component{
           <Route exact path = '/' component = {HomePageContent} />
           <Route path = '/lunch' component = {WeekListLunch} />
           <Route path = '/reservation' component = {AboutUs} />
-          <Route path = '/menu' component = {AboutUs} />
+          <Route path = '/menu' component = {AlakartMenuList} />
         </Switch>
     );
   }
