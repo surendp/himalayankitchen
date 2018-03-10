@@ -6,7 +6,7 @@ import '../../css/body.css';
 import AboutUs from './content/aboutUS.jsx';
 import HomeDelivery from './content/homeDelivery.jsx';
 import Buttons from './buttons/Buttons.jsx';
-import WeekListLunch from './lunch&menu/lunchcomponents/WeekListLunch.jsx';
+
 import HomePageContent from './homePageContent.jsx';
 import ReservationForm from './reservationForm/reservationForm.jsx';
 
@@ -21,7 +21,7 @@ class Body extends React.Component{
         <Switch >
           <Route exact path = '/' component = {HomePageContent} />
           <Route path = '/lunch' component = {WeekListLunch} />
-          <Route path = '/reservation' component = {AboutUs} />
+          <Route path = '/reservation' component = {ReservationForm} />
           <Route path = '/menu' component = {AlakartMenuList} />
         </Switch>
     );
