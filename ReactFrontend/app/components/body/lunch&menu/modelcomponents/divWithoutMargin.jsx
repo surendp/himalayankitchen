@@ -43,4 +43,4 @@ const DivWithMargin = (props) => {
 export default DivWithoutMargin;
 
 // export the component DivWithMargin
-export default DivWithMargin;
+export  {DivWithMargin};
