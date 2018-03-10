@@ -1,4 +1,4 @@
-package com.fullstackdevelopment.springbootstarter.lunch;
+package com.fullstackdevelopment.springbootstarter.alakartMenu;
 
 import java.util.List;
 
@@ -10,15 +10,14 @@ import com.fullstackdevelopment.springbootstarter.Model.Dish;
 import com.fullstackdevelopment.springbootstarter.database.GetFoodList;
 
 @RestController
-public class ThrusdayLunch implements WeekdayLunch{
-	
-	@Override
-	@CrossOrigin(origins = "*")
-	@RequestMapping("/lunch/thrusday")
-	public List<Dish> getLunchList() {
-		// TODO Auto-generated method stub
-		return GetFoodList.getFoodList("textfiles/lunch/ThrusdayLunch.txt");
-	}
+public class Drink implements Menu{
 
+	@Override
+	@RequestMapping("/alakartMenu/drink")
+	@CrossOrigin(origins="*")
+	public List<Dish> getDishList() {
+		// TODO Auto-generated method stub
+		return GetFoodList.getFoodList("/textFiles/alakartMenu/Drink.txt");
+	}
 
 }

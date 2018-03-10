@@ -6,7 +6,8 @@ const style = {
     textShadow:'2px 2px black',
     background: 'rgba(0, 0, 0, 0.45)',
     padding: '5% 5% 5% 5%',
-    margin: '5% 5% 5% 5%'
+    margin: '5% 5% 5% 5%',
+    height: '100%',
 };
 
 const styleTitle = {
