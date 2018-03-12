@@ -3,7 +3,7 @@ import React from 'react';
 const inputFieldStyle = {
   display: 'block',
   width:'95%',
-  mediumWidth:'35%',
+  mediumWidth:'45%',
   smallWidth: '25%',
   fontSize:'35px',
   fontWeight: 'bold',

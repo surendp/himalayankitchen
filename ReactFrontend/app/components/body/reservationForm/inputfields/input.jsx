@@ -30,6 +30,7 @@ class Input extends React.Component{
                placeholder = {this.props.placeholder}
                onChange    = {this.handleUserInput}
                style       = {this.props.style}
+               required
         />
       </div>
     )

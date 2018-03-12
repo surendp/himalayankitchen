@@ -6,15 +6,16 @@ import React from "react";
 
 // Style object for the button
 const style = {
-  backgroundColor: "white",
+  backgroundColor: "#ff9900",
    border: "none",
-   color: "black",
-   padding: "15px 32px",
+   color: "white",
+   padding: "4% 4% 4% 4%",
    textAlign: "center",
-   textDecoration:"none",
-   fontSize: "25px",
-   margin: "4px 2px",
+   fontSize: "40px",
+   fontWeight: 'bold',
+   margin: "4% 4% 4% 4%",
    cursor: "pointer",
+   borderRadius: '25px'
 };
 
 // react Button component

@@ -9,7 +9,7 @@ const ReservationFormRender = (props) =>{
       <h1>Make Reservation</h1>
       <Form onChange={props.onChange}/>
       <Button  onClick = {props.onClick}>
-        submit
+        Submit
       </Button>
       <h1>{(props.name!== "") ? (props.name+" is making a reservation in himalayan kitchen") : ""}</h1>
     </div>

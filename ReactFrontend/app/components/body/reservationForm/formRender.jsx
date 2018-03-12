@@ -14,8 +14,8 @@ var FormRender = (props) => {
     <InputFieldName         onChange = {props.onChangeForName} />
     <InputFieldEmail        onChange = {props.onChangeForEmail}/>
     <InputFieldPhone        onChange = {props.onChangeForPhoneNumber} />
-    <InputFieldDate         onChange = {props.onChangeForDate} />
     <InputFieldPartySize    onChange = {props.onChangeForPartySize} />
+    <InputFieldDate         onChange = {props.onChangeForDate} />
     <InputFieldMessage      onChange = {props.onChangeForMessage} />
   </div>
   );
