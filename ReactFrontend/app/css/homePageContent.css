@@ -3,3 +3,9 @@
   width: inherit;
   padding: 2% 0% 2% 0%;
 }
+
+
+::placeholder {
+  color: white;
+  opacity: .8;
+}

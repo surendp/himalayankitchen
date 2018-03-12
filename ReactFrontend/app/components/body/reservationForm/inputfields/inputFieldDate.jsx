@@ -17,7 +17,8 @@ const style = {
 
 var InputFieldDate = (props) => {
   return(
-    <Input placeholder = "20/02/2018"
+    <Input placeholder = "Date"
+           inputFieldType = "date"
            onChange = {props.onChange}
            style = {style}/>
   );

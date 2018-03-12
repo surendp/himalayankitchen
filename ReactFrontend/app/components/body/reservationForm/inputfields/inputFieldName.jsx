@@ -16,7 +16,8 @@ const style = {
 
 var InputFieldName = (props) => {
   return(
-    <Input placeholder="Name"
+    <Input  placeholder="Name"
+            inputFieldType = "text"
             onChange={props.onChange}
             style = {style}/>
   );

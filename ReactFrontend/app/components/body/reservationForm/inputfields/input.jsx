@@ -25,7 +25,7 @@ class Input extends React.Component{
   render(){
     return(
       <div style={style}>
-        <input type        = "text"
+        <input type        = {this.props.inputFieldType}
                value       = {this.state.inputFieldValue}
                placeholder = {this.props.placeholder}
                onChange    = {this.handleUserInput}

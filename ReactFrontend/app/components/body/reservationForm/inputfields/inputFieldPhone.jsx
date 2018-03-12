@@ -18,6 +18,7 @@ const style = {
 var InputFieldPhone = (props) => {
   return(
     <Input placeholder = "Phone Number"
+           inputFieldType = "tel"
            onChange = {props.onChange}
            style = {style}/>
   );

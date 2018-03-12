@@ -17,8 +17,9 @@ const style = {
 var InputFieldEmail = (props) => {
   return(
     <Input placeholder="Email"
-            onChange={props.onChange}
-            style = {style}/>
+           inputfieldType = "email"
+           onChange={props.onChange}
+           style = {style}/>
   );
 };
 

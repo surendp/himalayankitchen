@@ -18,6 +18,7 @@ const style = {
 var InputFieldPartySize = (props) => {
   return(
     <Input placeholder = "Party Size"
+           inputFieldType = "number"
            onChange = {props.onChange}
            style = {style}/>
   );
