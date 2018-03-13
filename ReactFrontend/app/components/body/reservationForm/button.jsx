@@ -22,7 +22,8 @@ const style = {
 const Button = (props) => {
   return(
     <button style = {style}
-            onClick = {props.onClick}>
+            onClick = {props.onClick}
+            type = {props.type}>
         {props.children}
     </button>
   )

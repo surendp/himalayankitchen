@@ -18,8 +18,9 @@ class Input extends React.Component{
   }
 
   handleUserInput(e){
-    this.setState({inputFieldValue: e.target.value});
-    this.props.onChange(e.target.value);
+    const value = e.target.value.trim();
+    this.setState({inputFieldValue: value});
+    this.props.onChange(value);
   }
 
   render(){

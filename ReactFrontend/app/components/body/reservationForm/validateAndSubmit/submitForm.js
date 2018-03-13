@@ -31,13 +31,15 @@ class SubmitForm{
     //console.log(this.message);
     if(this.message === ""){
       console.log("cannot submit the form!!")
-      return;
+      return false;
     }
 
     fetch(api,{
       method:'POST',
       body: this.message,
     });
+
+    return true;
   }
 
 }

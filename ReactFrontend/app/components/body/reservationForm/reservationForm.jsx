@@ -1,6 +1,6 @@
 import React from 'react';
 import ReservationFormRender from './reservationFormRender.jsx';
-import SubmitForm from './submitForm.js';
+import SubmitForm from './validateAndSubmit/submitForm.js';
 
 const mainDivStyle = {
   color: 'white',
@@ -34,18 +34,34 @@ class ReservationForm extends React.Component{
     this.handleClick  = this.handleClick.bind(this);
   }
 
+  // fired when some data in input fields changes
   handleChange(formData){
     this.setState({formData:formData});
   }
 
-  handleClick(){
+  // fired when submit button is clicked
+  handleClick(event){
     var formData = this.state.formData;
 
     // instantiate SubmitForm object
     var submitForm = new SubmitForm(formData);
 
     // submit the form date in the given api
-    submitForm.submitData("http://localhost:8080/makeReservation/");
+    var successfullySubmitted = submitForm.submitData("http://localhost:8080/makeReservation/");
+
+    // prevent the form to do any default actions
+    event.preventDefault();
+
+    // update the form
+    this.updateForm(successfullySubmitted);
+  }
+
+  // update the form after successfull submition
+  updateForm(successfullySubmitted){
+    if(successfullySubmitted){
+      alert("form Submitted successfully");
+      this.setState();
+    }
   }
 
 
