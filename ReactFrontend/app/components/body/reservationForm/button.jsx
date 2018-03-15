@@ -6,10 +6,12 @@ import React from "react";
 
 // Style object for the button
 const style = {
-  backgroundColor: "#ff9900",
+   display: 'block',
+   width: '90%',
+   backgroundColor: "#ff9900",
    border: "none",
    color: "white",
-   padding: "4% 4% 4% 4%",
+   padding: "3% 4% 3% 4%",
    textAlign: "center",
    fontSize: "40px",
    fontWeight: 'bold',
