@@ -7,6 +7,9 @@ import InputFieldMessage from './inputfields/inputFieldMessage.jsx';
 import InputFieldPartySize from './inputfields/inputFieldPartySize.jsx';
 import InputFieldDate from './inputfields/inputFieldDate.jsx';
 
+/*
+* Render all the inputfields necessary for the form
+*/
 var FormRender = (props) => {
 
   return(
@@ -21,5 +24,5 @@ var FormRender = (props) => {
   );
 };
 
-
+// export the component
 export default FormRender;

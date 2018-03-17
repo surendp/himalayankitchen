@@ -1,6 +1,11 @@
 import React from 'react';
 import FormRender from './formRender.jsx';
 
+/*
+*Render Form Render component
+*Handle change for each input field on the form
+*Store the form data in the state and uplift state to reservation form
+*/
 class Form extends React.Component{
 
   constructor(props){
@@ -17,6 +22,7 @@ class Form extends React.Component{
       }
     }
 
+    // bind all the handleChange functions
     this.handleChangeForName = this.handleChangeForName.bind(this);
     this.handleChangeForEmail = this.handleChangeForEmail.bind(this);
     this.handleChangeForPhoneNumber = this.handleChangeForPhoneNumber.bind(this);
@@ -55,6 +61,8 @@ class Form extends React.Component{
     this.setStateAndPassDataToParent(newFormData);
   }
 
+  // helper method for handleChange functions
+  // set the form data to state and call onChange function passed as props
   setStateAndPassDataToParent(newFormData){
     this.setState({formData:newFormData});
     this.props.onChange(newFormData);

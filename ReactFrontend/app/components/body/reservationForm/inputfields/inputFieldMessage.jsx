@@ -21,15 +21,37 @@ const containerStyle = {
   marginBottom: '50px'
 }
 
-var InputFieldMessage = (props) => {
-  return(
-    <div style={containerStyle}>
-      <textarea rows="5"
-             placeholder = "Message"
-             style = {style}/>
-    </div>
+/*
+*render and style textArea
+*Make textArea a controlled component
+*/
+class InputFieldMessage extends React.Component {
 
-  );
-};
+  constructor(props){
+    super(props);
+    this.state = {value:""};
+
+    // binding the handleChange function
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(e){
+    var value = e.target.value.trim();
+    this.setState({value:value});
+    this.props.onChange(value);
+  }
+
+  render(){
+    return(
+      <div style={containerStyle}>
+        <textarea rows="5"
+               placeholder = "Message"
+               value = {this.state.value}
+               onChange = {this.handleChange}
+               style = {style}/>
+      </div>
+    )
+  }
+}
 
 export default InputFieldMessage;
