@@ -34,11 +34,17 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App styleBackground">
+      <div className="App">
           <Menu visible={this.state.visible}/>
           <Header onClick = {() => this.handleClick}/>
           <Title />
           <Body />
+            <ul className="styleBackground">
+              <li><span>Burger</span></li>
+              <li><span>Dish</span></li>
+              <li><span>Momo</span></li>
+              <li><span>Rice</span></li>
+            </ul>
           <Footer />
       </div>
     );
