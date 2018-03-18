@@ -18,12 +18,12 @@ import {Route, Switch} from 'react-router-dom';
 class Body extends React.Component{
   render(){
     return (
-        <Switch >
+      <div>
           <Route exact path = '/' component = {HomePageContent} />
-          <Route path = '/lunch' component = {WeekListLunch} />
-          <Route path = '/reservation' component = {ReservationForm} />
-          <Route path = '/menu' component = {AlakartMenuList} />
-        </Switch>
+          <Route  path = '/lunch' component = {WeekListLunch} />
+          <Route  path = '/reservation' component = {ReservationForm} />
+          <Route  path = '/menu' component = {AlakartMenuList} />
+      </div>
     );
   }
 }

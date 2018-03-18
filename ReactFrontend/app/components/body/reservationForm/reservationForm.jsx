@@ -47,13 +47,14 @@ class ReservationForm extends React.Component{
     var submitForm = new SubmitForm(formData);
 
     // submit the form date in the given api
-    var successfullySubmitted = submitForm.submitData("http://localhost:8080/makeReservation/");
+    //var successfullySubmitted = submitForm.submitData("http://localhost:8080/makeReservation/");
 
     // prevent the form to do any default actions
     event.preventDefault();
 
     // update the form
-    this.updateForm(successfullySubmitted);
+    //this.updateForm(successfullySubmitted);
+    event.target.reset();
   }
 
   // update the form after successfull submition

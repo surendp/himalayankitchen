@@ -32,7 +32,7 @@ const weekDays = [<MondayLunch /> ,<TuesdayLunch />,<WednesdayLunch />,<Thursday
 
     // get the list starting from today cronologically
     getList(day){
-        if(day < 6){
+        if(day < 6 && day > 0){
           return weekDays.slice(day-1, (day+5)-1);
         }
 

@@ -21,7 +21,7 @@ export default class NavItem extends React.Component {
     return (
       <NavLink exact to={this.props.path}
                style={navItem}
-               activeStyle={{ fontSize:'50px', color: '#ff9900'}}>
+               activeStyle={{ fontSize:'50px', color: '#ff9900', fontSize: '60px'}}>
         {this.props.title}
       </NavLink>
     )
