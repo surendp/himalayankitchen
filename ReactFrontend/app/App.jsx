@@ -7,6 +7,7 @@ import Header from './components/header/appHeader.jsx';
 import Body from './components/body/body.jsx';
 import Footer from './components/footer/footer.jsx';
 import Menu from './components/body/nav/Menu.jsx';
+import SlideShow from './components/body/slideshow.jsx'
 
 
 class App extends React.Component {
@@ -39,12 +40,7 @@ class App extends React.Component {
           <Header onClick = {() => this.handleClick}/>
           <Title />
           <Body />
-            <ul className="styleBackground">
-              <li><span>Burger</span></li>
-              <li><span>Dish</span></li>
-              <li><span>Momo</span></li>
-              <li><span>Rice</span></li>
-            </ul>
+          <SlideShow />
           <Footer />
       </div>
     );
