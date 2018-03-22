@@ -16,6 +16,11 @@ import AlakartMenuList from './lunch&menu/menucomponents/alakartMenuList.jsx';
 import {Route, Switch} from 'react-router-dom';
 
 class Body extends React.Component{
+
+  componentDidMount(){
+    console.log("i am called");
+  }
+
   render(){
     return (
       <div>
