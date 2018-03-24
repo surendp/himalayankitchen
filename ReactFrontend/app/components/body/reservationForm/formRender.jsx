@@ -14,12 +14,12 @@ var FormRender = (props) => {
 
   return(
   <div>
-    <InputFieldName         onChange = {props.onChangeForName} />
-    <InputFieldEmail        onChange = {props.onChangeForEmail}/>
-    <InputFieldPhone        onChange = {props.onChangeForPhoneNumber} />
-    <InputFieldPartySize    onChange = {props.onChangeForPartySize} />
-    <InputFieldDate         onChange = {props.onChangeForDate} />
-    <InputFieldMessage      onChange = {props.onChangeForMessage} />
+    <InputFieldName         onChange = {props.onChangeForName}  formData = {props.formData}/>
+    <InputFieldEmail        onChange = {props.onChangeForEmail} formData = {props.formData}/>
+    <InputFieldPhone        onChange = {props.onChangeForPhoneNumber} formData = {props.formData}/>
+    <InputFieldPartySize    onChange = {props.onChangeForPartySize} formData = {props.formData}/>
+    <InputFieldDate         onChange = {props.onChangeForDate} formData = {props.formData}/>
+    <InputFieldMessage      onChange = {props.onChangeForMessage} formData = {props.formData}/>
   </div>
   );
 };

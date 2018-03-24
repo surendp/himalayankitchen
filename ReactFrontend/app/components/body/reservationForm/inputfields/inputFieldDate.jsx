@@ -20,6 +20,7 @@ var InputFieldDate = (props) => {
     <Input placeholder = "Date"
            inputFieldType = "date"
            onChange = {props.onChange}
+           value =    {props.formData.date}
            style = {style}/>
   );
 };

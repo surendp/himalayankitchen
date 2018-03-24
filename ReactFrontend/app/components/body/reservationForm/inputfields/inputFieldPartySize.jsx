@@ -20,6 +20,7 @@ var InputFieldPartySize = (props) => {
     <Input placeholder = "Party Size"
            inputFieldType = "number"
            onChange = {props.onChange}
+           value = {props.formData.partySize}
            style = {style}/>
   );
 };

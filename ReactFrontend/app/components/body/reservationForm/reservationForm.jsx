@@ -27,7 +27,8 @@ class ReservationForm extends React.Component{
         date:"",
         partySize:"",
         message:"",
-      }
+      },
+      notSubmitted: false,
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -36,7 +37,7 @@ class ReservationForm extends React.Component{
 
   // fired when some data in input fields changes
   handleChange(formData){
-    this.setState({formData:formData});
+    this.setState({formData:formData, notSubmitted:this.checkFormData()});
   }
 
   // fired when submit button is clicked
@@ -47,21 +48,36 @@ class ReservationForm extends React.Component{
     var submitForm = new SubmitForm(formData);
 
     // submit the form date in the given api
-    //var successfullySubmitted = submitForm.submitData("http://localhost:8080/makeReservation/");
+    var successfullySubmitted = submitForm.submitData("http://localhost:8080/makeReservation/");
 
     // prevent the form to do any default actions
     event.preventDefault();
 
     // update the form
-    //this.updateForm(successfullySubmitted);
-    event.target.reset();
+    this.updateForm(successfullySubmitted);
+
+  }
+
+  // check the form data
+  checkFormData(){
+    let data = this.state.formData;
+    let boolean = false;
+
+    for(let input in data){
+      if(input.length>0){
+        boolean = true;
+        break;
+      }
+    }
+
+    return boolean;
   }
 
   // update the form after successfull submition
   updateForm(successfullySubmitted){
     if(successfullySubmitted){
-      alert("form Submitted successfully");
-      this.setState();
+      location.reload();
+      alert("Your form has been submitted successfully!!");
     }
   }
 
@@ -72,7 +88,9 @@ class ReservationForm extends React.Component{
           style={mainDivStyle}
           onChange={this.handleChange}
           onClick = {this.handleClick}
-          name={this.state.formData.name} />
+          name={this.state.formData.name}
+          formData = {this.state.formData}
+          notSubmitted = {this.state.notSubmitted} />
     )
   }
 

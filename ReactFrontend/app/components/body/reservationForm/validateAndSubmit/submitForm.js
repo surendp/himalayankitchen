@@ -28,7 +28,7 @@ class SubmitForm{
   // and makes post request to the api with
   // message property as body of the request
   submitData(api){
-    //console.log(this.message);
+    console.log(this.message);
     if(this.message === ""){
       console.log("cannot submit the form!!")
       return false;

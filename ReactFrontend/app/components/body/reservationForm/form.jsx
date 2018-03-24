@@ -19,7 +19,7 @@ class Form extends React.Component{
         date:"",
         partySize:"",
         message:"",
-      }
+      },
     }
 
     // bind all the handleChange functions
@@ -68,6 +68,7 @@ class Form extends React.Component{
     this.props.onChange(newFormData);
   }
 
+
   render(){
     return(
       <FormRender onChangeForName={this.handleChangeForName}
@@ -76,6 +77,8 @@ class Form extends React.Component{
                   onChangeForDate = {this.handleChangeForDate}
                   onChangeForPartySize= {this.handleChangeForPartySize}
                   onChangeForMessage={this.handleChangeForMessage}
+                  formData = {this.state.formData}
+
                   />
     )
   }

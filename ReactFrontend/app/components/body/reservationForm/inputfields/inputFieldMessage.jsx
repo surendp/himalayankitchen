@@ -27,27 +27,13 @@ const containerStyle = {
 */
 class InputFieldMessage extends React.Component {
 
-  constructor(props){
-    super(props);
-    this.state = {value:""};
-
-    // binding the handleChange function
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange(e){
-    var value = e.target.value.trim();
-    this.setState({value:value});
-    this.props.onChange(value);
-  }
-
   render(){
     return(
       <div style={containerStyle}>
         <textarea rows="5"
                placeholder = "Message"
-               value = {this.state.value}
-               onChange = {this.handleChange}
+               value = {this.props.formData.message}
+               onChange = {(e) =>{this.props.onChange(e.target.value)}}
                style = {style}/>
       </div>
     )

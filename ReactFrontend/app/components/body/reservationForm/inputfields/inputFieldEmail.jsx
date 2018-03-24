@@ -19,6 +19,7 @@ var InputFieldEmail = (props) => {
     <Input placeholder="Email"
            inputFieldType = "email"
            onChange={props.onChange}
+           value =  {props.formData.email}
            style = {style}/>
   );
 };

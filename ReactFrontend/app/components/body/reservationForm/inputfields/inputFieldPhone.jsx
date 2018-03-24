@@ -20,6 +20,7 @@ var InputFieldPhone = (props) => {
     <Input placeholder = "Phone Number"
            inputFieldType = "tel"
            onChange = {props.onChange}
+           value = {props.formData.phoneNumber}
            style = {style}/>
   );
 };
