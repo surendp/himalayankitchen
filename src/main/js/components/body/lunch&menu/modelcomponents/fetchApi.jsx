@@ -32,8 +32,8 @@ class FetchAPI extends React.Component{
   //Fetch the api passed as a property of this component
   //Return an array of Dish components
   fetchAndReturn(api){
-
-    return fetch(api)
+    const uri = window.location.origin + api;
+    return fetch(uri)
       .then(result => result.json())
       .then(
         (data) => {

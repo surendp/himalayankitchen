@@ -155,7 +155,8 @@ var FetchAPI = function (_React$Component) {
     value: function fetchAndReturn(api) {
       var _this2 = this;
 
-      return fetch(api).then(function (result) {
+      var uri = window.location.origin + api;
+      return fetch(uri).then(function (result) {
         return result.json();
       }).then(function (data) {
         var dishes = data.map(function (dish) {
@@ -3486,7 +3487,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 var MondayLunch = function (_React$Component) {
   _inherits(MondayLunch, _React$Component);
@@ -28152,7 +28153,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 var TuesdayLunch = function (_React$Component) {
   _inherits(TuesdayLunch, _React$Component);
@@ -28204,7 +28205,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 var WednesdayLunch = function (_React$Component) {
   _inherits(WednesdayLunch, _React$Component);
@@ -28256,7 +28257,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 var ThursdayLunch = function (_React$Component) {
   _inherits(ThursdayLunch, _React$Component);
@@ -28308,7 +28309,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 var FridayLunch = function (_React$Component) {
   _inherits(FridayLunch, _React$Component);
@@ -28575,7 +28576,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching appetizers list
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 /*
 * Render FetchAPI component by passing appetizers api
@@ -28617,7 +28618,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching appetizers list
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 /*
 * Render FetchAPI component by passing Salads api
@@ -28659,7 +28660,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching appetizers list
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 /*
 * Render FetchAPI component by passing drinks api
@@ -28701,7 +28702,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching appetizers list
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 /*
 * Render FetchAPI component by passing Desserts api
@@ -28743,7 +28744,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching appetizers list
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 /*
 * Render FetchAPI component by passing GroupMenu api
@@ -28785,7 +28786,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching appetizers list
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 /*
 * Render FetchAPI component by passing ChildrenMenu api
@@ -28827,7 +28828,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching chicken dishes list
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 /*
 * Render FetchAPI component by passing Chicken Dishes api
@@ -28869,7 +28870,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching duck dishes list
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 /*
 * Render FetchAPI component by passing duck Dishes api
@@ -28911,7 +28912,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching lamb dishes list
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 /*
 * Render FetchAPI component by passing lamb Dishes api
@@ -28953,7 +28954,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching sea dishes list
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 /*
 * Render FetchAPI component by passing sea Dishes api
@@ -28995,7 +28996,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching tandoori dishes list
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 /*
 * Render FetchAPI component by passing tandoori Dishes api
@@ -29037,7 +29038,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching thali dishes list
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 /*
 * Render FetchAPI component by passing thali Dishes api
@@ -29079,7 +29080,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching Vegetarian dishes list
-var api = "http://localhost:8080/lunch/monday";
+var api = "/lunch/monday";
 
 /*
 * Render FetchAPI component by passing Vegetarian Dishes api
