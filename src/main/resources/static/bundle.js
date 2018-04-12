@@ -309,7 +309,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _baseDiv = __webpack_require__(137);
+var _baseDiv = __webpack_require__(131);
 
 var _baseDiv2 = _interopRequireDefault(_baseDiv);
 
@@ -1278,11 +1278,11 @@ var style = {
 };
 
 var styleTitle = {
-    fontSize: '60px'
+    fontSize: 'auto'
 };
 
 var styleContent = {
-    fontSize: '40px',
+    fontSize: 'auto',
     textAlign: 'justify'
 };
 
@@ -1343,12 +1343,12 @@ var inputFieldStyle = {
   width: '95%',
   mediumWidth: '45%',
   smallWidth: '25%',
-  fontSize: '35px',
+  fontSize: 'auto',
   fontWeight: 'bold',
   color: 'white',
-  height: '55px',
+  height: 'auto',
   border: 'none',
-  borderBottom: '5px solid white',
+  borderBottom: '2px solid white',
   background: 'inherit'
 };
 
@@ -1682,9 +1682,9 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 // style for the div inclosing the input
 var style = {
   display: 'block',
-  margin: "20px 20px 20px 20px",
-  padding: "20px 20px 20px 20px",
-  marginBottom: '50px'
+  margin: "2% 2% 2% 2%",
+  padding: "2% 2% 2% 2%",
+  marginBottom: '5%'
 
   // default class of this component
 };
@@ -3547,7 +3547,22 @@ var navItem = {
   width: '95%',
   height: 'auto',
   color: 'white',
-  fontSize: '50px',
+  fontSize: '120%',
+  fontWeight: 'bold',
+  borderBottom: 'solid 3px #000000',
+  textDecorationLine: 'none'
+  ///////////////
+};
+
+var navItemSub = {
+  display: 'block',
+  margin: '10% 1% -7% 1%',
+  textAlign: 'center',
+  padding: '1% 1% 1% 1%',
+  width: '95%',
+  height: 'auto',
+  color: 'white',
+  fontSize: '100%',
   fontWeight: 'bold',
   borderBottom: 'solid 3px #000000',
   textDecorationLine: 'none'
@@ -3569,8 +3584,8 @@ var NavItem = function (_React$Component) {
       return _react2.default.createElement(
         _reactRouterDom.NavLink,
         { exact: true, to: this.props.path,
-          style: navItem,
-          activeStyle: _defineProperty({ fontSize: '50px', color: '#ff9900' }, 'fontSize', '60px') },
+          style: this.props.category === "sub" ? navItemSub : navItem,
+          activeStyle: _defineProperty({ fontSize: '150%', color: '#ff9900' }, 'fontSize', '180%') },
         this.props.title
       );
     }
@@ -26287,7 +26302,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, ".App-header {\r\n  background-color: #ff9900;\r\n  height: 6%;\r\n  padding: 1%;\r\n  padding-top: 4%;\r\n  position: sticky;\r\n  top: 0;\r\n}\r\n\r\n#menuIcon {\r\n  position: absolute;\r\n  right: 4%;\r\n  height: 45%;\r\n  padding-bottom: 3%;\r\n}\r\n\r\n/* @keyframes App-logo-spin {\r\n  from { transform: rotate(0deg); }\r\n  to { transform: rotate(360deg); }\r\n} */\r\n", ""]);
+exports.push([module.i, ".App-header {\r\n  background-color: #ff9900;\r\n  height: 6%;\r\n  padding: 1%;\r\n  padding-top: 4%;\r\n  position: sticky;\r\n  top: 0;\r\n}\r\n\r\n#menuIcon {\r\n  position: fixed;\r\n  right: 4%;\r\n  max-height: 35px;\r\n  max-width: 35px;\r\n  padding-bottom: 3%;\r\n}\r\n\r\n/* @keyframes App-logo-spin {\r\n  from { transform: rotate(0deg); }\r\n  to { transform: rotate(360deg); }\r\n} */\r\n", ""]);
 
 // exports
 
@@ -26339,7 +26354,7 @@ var _weekListLunch = __webpack_require__(130);
 
 var _weekListLunch2 = _interopRequireDefault(_weekListLunch);
 
-var _alakartMenuList = __webpack_require__(136);
+var _alakartMenuList = __webpack_require__(137);
 
 var _alakartMenuList2 = _interopRequireDefault(_alakartMenuList);
 
@@ -27098,6 +27113,31 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+// style for the main div
+var styleDiv = {
+  margin: "2% 0% 2% 0%"
+};
+
+// styles for name
+var styleName = {
+  textSize: '3em'
+};
+
+// styles for price
+var stylePrice = {
+  textSize: '3em'
+};
+
+// styles for catagory
+var styleCategory = {
+  textSize: '3em'
+};
+
+// styles for description
+var styleDescription = {
+  textSize: '3em'
+};
+
 var Dish = function (_React$Component) {
   _inherits(Dish, _React$Component);
 
@@ -27112,25 +27152,25 @@ var Dish = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        null,
+        { styles: styleDiv },
         _react2.default.createElement(
-          'h1',
-          null,
+          'p',
+          { styles: styleName },
           this.props.name
         ),
         _react2.default.createElement(
-          'h2',
-          null,
+          'p',
+          { styles: stylePrice },
           this.props.price
         ),
         _react2.default.createElement(
-          'h3',
-          null,
+          'p',
+          { styles: styleCategory },
           this.props.catagory
         ),
         _react2.default.createElement(
-          'h4',
-          null,
+          'p',
+          { styles: styleDescription },
           this.props.description
         )
       );
@@ -27181,7 +27221,7 @@ var mainDivStyle = {
   textAlign: 'center',
   textShadow: '2px 2px black',
   background: 'rgba(0, 0, 0, 0.45)',
-  padding: '5% 5% 5% 5%',
+  padding: '2% 2% 2% 2%',
   margin: '5% 5% 5% 5%',
   minHeight: '80%'
   //overflowX:'show'
@@ -27320,7 +27360,7 @@ var ReservationFormRender = function ReservationFormRender(props) {
     'div',
     { style: props.style },
     _react2.default.createElement(
-      'h1',
+      'h5',
       null,
       'Make Reservation'
     ),
@@ -27741,9 +27781,9 @@ var style = {
 
 var containerStyle = {
   display: 'block',
-  margin: "20px 20px 20px 20px",
-  padding: "20px 20px 20px 20px",
-  marginBottom: '50px'
+  margin: "2% 2% 2% 2%",
+  padding: "2% 2% 2% 2%",
+  marginBottom: '5%'
 
   /*
   *render and style textArea
@@ -27903,11 +27943,11 @@ var style = {
   color: "white",
   padding: "3% 4% 3% 4%",
   textAlign: "center",
-  fontSize: "40px",
+  fontSize: "auto",
   fontWeight: 'bold',
   margin: "4% 4% 4% 4%",
   cursor: "pointer",
-  borderRadius: '25px'
+  borderRadius: '1em'
 };
 
 // react Button component
@@ -28013,27 +28053,31 @@ var _contentDiv = __webpack_require__(12);
 
 var _contentDiv2 = _interopRequireDefault(_contentDiv);
 
+var _divWithoutMargin = __webpack_require__(3);
+
+var _divWithoutMargin2 = _interopRequireDefault(_divWithoutMargin);
+
 var _mondayLunch = __webpack_require__(45);
 
 var _mondayLunch2 = _interopRequireDefault(_mondayLunch);
 
-var _tuesdayLunch = __webpack_require__(131);
+var _tuesdayLunch = __webpack_require__(132);
 
 var _tuesdayLunch2 = _interopRequireDefault(_tuesdayLunch);
 
-var _wednesdayLunch = __webpack_require__(132);
+var _wednesdayLunch = __webpack_require__(133);
 
 var _wednesdayLunch2 = _interopRequireDefault(_wednesdayLunch);
 
-var _thursdayLunch = __webpack_require__(133);
+var _thursdayLunch = __webpack_require__(134);
 
 var _thursdayLunch2 = _interopRequireDefault(_thursdayLunch);
 
-var _fridayLunch = __webpack_require__(134);
+var _fridayLunch = __webpack_require__(135);
 
 var _fridayLunch2 = _interopRequireDefault(_fridayLunch);
 
-var _saturdayLunch = __webpack_require__(135);
+var _saturdayLunch = __webpack_require__(136);
 
 var _saturdayLunch2 = _interopRequireDefault(_saturdayLunch);
 
@@ -28108,13 +28152,9 @@ var WeekListLunch = function (_React$Component) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'div',
+        _divWithoutMargin2.default,
         null,
-        _react2.default.createElement(
-          'ul',
-          null,
-          this.renderList()
-        )
+        this.renderList()
       );
     }
   }]);
@@ -28126,6 +28166,44 @@ exports.default = WeekListLunch;
 
 /***/ }),
 /* 131 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(5);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/*
+* implements styles to the div
+* renders all the children that are passed
+*/
+
+var BaseDiv = function BaseDiv(props) {
+  return _react2.default.createElement(
+    "div",
+    { styles: props.styles },
+    props.children
+  );
+};
+
+BaseDiv.propTypes = {};
+
+exports.default = BaseDiv;
+
+/***/ }),
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28177,7 +28255,7 @@ var TuesdayLunch = function (_React$Component) {
 exports.default = TuesdayLunch;
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28229,7 +28307,7 @@ var WednesdayLunch = function (_React$Component) {
 exports.default = WednesdayLunch;
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28281,7 +28359,7 @@ var ThursdayLunch = function (_React$Component) {
 exports.default = ThursdayLunch;
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28333,7 +28411,7 @@ var FridayLunch = function (_React$Component) {
 exports.default = FridayLunch;
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28385,7 +28463,7 @@ var SaturdayLunch = function (_React$Component) {
 exports.default = SaturdayLunch;
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28511,44 +28589,6 @@ var AlakartMenuList = function AlakartMenuList(_ref) {
 
 // export AlakartMenuList component
 exports.default = AlakartMenuList;
-
-/***/ }),
-/* 137 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(5);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/*
-* implements styles to the div
-* renders all the children that are passed
-*/
-
-var BaseDiv = function BaseDiv(props) {
-  return _react2.default.createElement(
-    "div",
-    { styles: props.styles },
-    props.children
-  );
-};
-
-BaseDiv.propTypes = {};
-
-exports.default = BaseDiv;
 
 /***/ }),
 /* 138 */
@@ -29303,7 +29343,7 @@ var externalLink = {
   width: '95%',
   height: 'auto',
   color: 'white',
-  fontSize: '50px',
+  fontSize: '120%',
   fontWeight: 'bold',
   borderBottom: 'solid 3px #000000'
 
@@ -29383,7 +29423,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, ".menuvisible {\r\ndisplay:block;\r\nposition: fixed;\r\nz-index: 1;\r\nwidth: 45%;\r\nheight:100%;\r\noverflow-y: visible;\r\ntop:0;\r\nright:0;\r\nbackground : rgba(0, 0, 0, 0.85);\r\nmargin: inherit;\r\npadding: 5%, 5%, 5%, 5%;\r\n-webkit-animation-name: show; /*safari*/\r\n-webkit-animation-duration:1s; /*safari*/\r\nanimation-name: show;\r\nanimation-duration: 0.5s;\r\n}\r\n\r\n/* Safari 4.0 - 8.0 */\r\n@-webkit-keyframes show {\r\n    0%   {right: -45%;}\r\n    100% {right: 0%;}\r\n}\r\n\r\n/* Standard syntax */\r\n@keyframes show {\r\n  0%   {right: -45%;}\r\n  100% {right: 0%;}\r\n}\r\n\r\n.menuinvisible {\r\n  display:block;\r\n  position: fixed;\r\n  z-index: 1;\r\n  width: 45%;\r\n  height:100%;\r\n  overflow-y: visible;\r\n  top:0;\r\n  right:-45%;\r\n  background : rgba(0, 0, 0, 0.85);\r\n  margin: inherit;\r\n  padding: 5%, 5%, 5%, 5%;\r\n  -webkit-animation-name: hide; /*safari*/\r\n  -webkit-animation-duration:1s; /*safari*/\r\n  animation-name: hide;\r\n  animation-duration: 0.5s;\r\n}\r\n\r\n/* Safari 4.0 - 8.0 */\r\n@-webkit-keyframes hide {\r\n    0%   {right: 0%;}\r\n    100% {right: -45%;}\r\n}\r\n\r\n/* Standard syntax */\r\n@keyframes hide {\r\n  0%   {right: 0%;}\r\n  100% {right: -45%;}\r\n}\r\n", ""]);
+exports.push([module.i, ".menuvisible {\r\ndisplay:block;\r\nposition: fixed;\r\nz-index: 1;\r\nwidth: 45%;\r\nheight:100%;\r\noverflow-y: scroll;\r\ntop:0;\r\nright:0;\r\nbackground : rgba(0, 0, 0, 0.85);\r\nmargin: inherit;\r\npadding: 5%, 5%, 5%, 5%;\r\n-webkit-animation-name: show; /*safari*/\r\n-webkit-animation-duration:1s; /*safari*/\r\nanimation-name: show;\r\nanimation-duration: 0.5s;\r\n}\r\n\r\n/* Safari 4.0 - 8.0 */\r\n@-webkit-keyframes show {\r\n    0%   {right: -45%;}\r\n    100% {right: 0%;}\r\n}\r\n\r\n/* Standard syntax */\r\n@keyframes show {\r\n  0%   {right: -45%;}\r\n  100% {right: 0%;}\r\n}\r\n\r\n.menuinvisible {\r\n  display:block;\r\n  position: fixed;\r\n  z-index: 1;\r\n  width: 45%;\r\n  height:100%;\r\n  overflow-y: visible;\r\n  top:0;\r\n  right:-45%;\r\n  background : rgba(0, 0, 0, 0.85);\r\n  margin: inherit;\r\n  padding: 5%, 5%, 5%, 5%;\r\n  -webkit-animation-name: hide; /*safari*/\r\n  -webkit-animation-duration:1s; /*safari*/\r\n  animation-name: hide;\r\n  animation-duration: 0.5s;\r\n}\r\n\r\n/* Safari 4.0 - 8.0 */\r\n@-webkit-keyframes hide {\r\n    0%   {right: 0%;}\r\n    100% {right: -45%;}\r\n}\r\n\r\n/* Standard syntax */\r\n@keyframes hide {\r\n  0%   {right: 0%;}\r\n  100% {right: -45%;}\r\n}\r\n", ""]);
 
 // exports
 
@@ -29421,21 +29461,19 @@ var NestedNavLinkForMenu = function NestedNavLinkForMenu(_ref) {
                     'div',
                     null,
                     _react2.default.createElement('br', null),
-                    _react2.default.createElement('br', null),
-                    _react2.default.createElement('br', null),
-                    _react2.default.createElement(_navItem2.default, { title: 'Appetizers', path: match.url + '/appetizers' }),
-                    _react2.default.createElement(_navItem2.default, { title: 'Salads', path: match.url + '/salads' }),
-                    _react2.default.createElement(_navItem2.default, { title: 'Children Menu', path: match.url + '/childrenmenu' }),
-                    _react2.default.createElement(_navItem2.default, { title: 'Desserts', path: match.url + '/desserts' }),
-                    _react2.default.createElement(_navItem2.default, { title: 'Drinks', path: match.url + '/drinks' }),
-                    _react2.default.createElement(_navItem2.default, { title: 'Group Menu', path: match.url + '/groupmenu' }),
-                    _react2.default.createElement(_navItem2.default, { title: 'Chicken Dishes', path: match.url + '/chickendishes' }),
-                    _react2.default.createElement(_navItem2.default, { title: 'Duck Dishes', path: match.url + '/duckdishes' }),
-                    _react2.default.createElement(_navItem2.default, { title: 'Lamb Dishes', path: match.url + '/lambdishes' }),
-                    _react2.default.createElement(_navItem2.default, { title: 'Sea Food', path: match.url + '/seafood' }),
-                    _react2.default.createElement(_navItem2.default, { title: 'Tandoori Dishes', path: match.url + '/tandooridishes' }),
-                    _react2.default.createElement(_navItem2.default, { title: 'Thali Dishes', path: match.url + '/thalidishes' }),
-                    _react2.default.createElement(_navItem2.default, { title: 'Vegetarian Dishes', path: match.url + '/vegetariandishes' })
+                    _react2.default.createElement(_navItem2.default, { title: 'Appetizers', path: match.url + '/appetizers', category: 'sub' }),
+                    _react2.default.createElement(_navItem2.default, { title: 'Salads', path: match.url + '/salads', category: 'sub' }),
+                    _react2.default.createElement(_navItem2.default, { title: 'Children Menu', path: match.url + '/childrenmenu', category: 'sub' }),
+                    _react2.default.createElement(_navItem2.default, { title: 'Desserts', path: match.url + '/desserts', category: 'sub' }),
+                    _react2.default.createElement(_navItem2.default, { title: 'Drinks', path: match.url + '/drinks', category: 'sub' }),
+                    _react2.default.createElement(_navItem2.default, { title: 'Group Menu', path: match.url + '/groupmenu', category: 'sub' }),
+                    _react2.default.createElement(_navItem2.default, { title: 'Chicken Dishes', path: match.url + '/chickendishes', category: 'sub' }),
+                    _react2.default.createElement(_navItem2.default, { title: 'Duck Dishes', path: match.url + '/duckdishes', category: 'sub' }),
+                    _react2.default.createElement(_navItem2.default, { title: 'Lamb Dishes', path: match.url + '/lambdishes', category: 'sub' }),
+                    _react2.default.createElement(_navItem2.default, { title: 'Sea Food', path: match.url + '/seafood', category: 'sub' }),
+                    _react2.default.createElement(_navItem2.default, { title: 'Tandoori Dishes', path: match.url + '/tandooridishes', category: 'sub' }),
+                    _react2.default.createElement(_navItem2.default, { title: 'Thali Dishes', path: match.url + '/thalidishes', category: 'sub' }),
+                    _react2.default.createElement(_navItem2.default, { title: 'Vegetarian Dishes', path: match.url + '/vegetariandishes', category: 'sub' })
           );
 };
 
@@ -29575,7 +29613,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, ".styleBackground li span {\r\n  width: 100%;\r\n  height: 90%;\r\n  position: absolute;\r\n  top: 10%;\r\n  left: 0px;\r\n  color: transparent;\r\n  background-size: cover;\r\n  background-position: 50% 50%;\r\n  background-repeat: none;\r\n  opacity: 0;\r\n  z-index:-1;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  -webkit-animation: imageAnimation 36s linear infinite 0s;\r\n  -moz-animation: imageAnimation 36s linear infinite 0s;\r\n  animation: imageAnimation 36s linear infinite 0s;\r\n}\r\n\r\n.styleBackground li:nth-child(1) span {\r\n  background-image: url(" + escape(__webpack_require__(166)) + ");\r\n}\r\n\r\n.styleBackground li:nth-child(2) span {\r\n  background-image: url(" + escape(__webpack_require__(167)) + ");\r\n  -webkit-animation-delay: 9s;\r\n  -moz-animation-delay: 9s;\r\n  animation-delay: 9s;\r\n}\r\n\r\n.styleBackground li:nth-child(3) span {\r\n  background-image: url(" + escape(__webpack_require__(168)) + ");\r\n  -webkit-animation-delay: 18s;\r\n  -moz-animation-delay: 18s;\r\n  animation-delay: 18s;\r\n}\r\n\r\n.styleBackground li:nth-child(4) span {\r\n  background-image: url(" + escape(__webpack_require__(169)) + ");\r\n  -webkit-animation-delay: 27s;\r\n  -moz-animation-delay: 27s;\r\n  animation-delay: 27s;\r\n}\r\n\r\n@-webkit-keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n  }\r\n  5% {\r\n    opacity: 1;\r\n    -webkit-animation-timing-function: ease-out;\r\n  }\r\n  25% {\r\n    opacity: 1;\r\n  }\r\n  37.5% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n@-moz-keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -moz-animation-timing-function: ease-in;\r\n  }\r\n  5% {\r\n    opacity: 1;\r\n    -moz-animation-timing-function: ease-out;\r\n  }\r\n  25% {\r\n    opacity: 1;\r\n  }\r\n  37.5% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n@keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n    -moz-animation-timing-function: ease-in;\r\n    animation-timing-function: ease-in;\r\n  }\r\n  5% {\r\n    opacity: 1;\r\n    -webkit-animation-timing-function: ease-out;\r\n    -moz-animation-timing-function: ease-out;\r\n    animation-timing-function: ease-out;\r\n  }\r\n  25% {\r\n    opacity: 1;\r\n  }\r\n  37.5% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.no-cssanimations .slideshow li span {\r\n  opacity: 1;\r\n}\r\n", ""]);
+exports.push([module.i, "\r\nul{\r\n  list-style-type: none;\r\n}\r\n\r\n.styleBackground li span {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: absolute;\r\n  top: 1%;\r\n  left: 0px;\r\n  color: transparent;\r\n  background-size: cover;\r\n  background-position: center;\r\n  background-repeat: none;\r\n  opacity: 0;\r\n  z-index:-1;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  -webkit-animation: imageAnimation 36s linear infinite 0s;\r\n  -moz-animation: imageAnimation 36s linear infinite 0s;\r\n  animation: imageAnimation 36s linear infinite 0s;\r\n}\r\n\r\n.styleBackground li:nth-child(1) span {\r\n  background-image: url(" + escape(__webpack_require__(166)) + ");\r\n}\r\n\r\n.styleBackground li:nth-child(2) span {\r\n  background-image: url(" + escape(__webpack_require__(167)) + ");\r\n  -webkit-animation-delay: 9s;\r\n  -moz-animation-delay: 9s;\r\n  animation-delay: 9s;\r\n}\r\n\r\n.styleBackground li:nth-child(3) span {\r\n  background-image: url(" + escape(__webpack_require__(168)) + ");\r\n  -webkit-animation-delay: 18s;\r\n  -moz-animation-delay: 18s;\r\n  animation-delay: 18s;\r\n}\r\n\r\n.styleBackground li:nth-child(4) span {\r\n  background-image: url(" + escape(__webpack_require__(169)) + ");\r\n  -webkit-animation-delay: 27s;\r\n  -moz-animation-delay: 27s;\r\n  animation-delay: 27s;\r\n}\r\n\r\n@-webkit-keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n  }\r\n  5% {\r\n    opacity: 1;\r\n    -webkit-animation-timing-function: ease-out;\r\n  }\r\n  25% {\r\n    opacity: 1;\r\n  }\r\n  37.5% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n@-moz-keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -moz-animation-timing-function: ease-in;\r\n  }\r\n  5% {\r\n    opacity: 1;\r\n    -moz-animation-timing-function: ease-out;\r\n  }\r\n  25% {\r\n    opacity: 1;\r\n  }\r\n  37.5% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n@keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n    -moz-animation-timing-function: ease-in;\r\n    animation-timing-function: ease-in;\r\n  }\r\n  5% {\r\n    opacity: 1;\r\n    -webkit-animation-timing-function: ease-out;\r\n    -moz-animation-timing-function: ease-out;\r\n    animation-timing-function: ease-out;\r\n  }\r\n  25% {\r\n    opacity: 1;\r\n  }\r\n  37.5% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.no-cssanimations .slideshow li span {\r\n  opacity: 1;\r\n}\r\n", ""]);
 
 // exports
 

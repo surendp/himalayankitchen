@@ -16,7 +16,7 @@ const externalLink = {
   width:'95%',
   height:'auto',
   color: 'white',
-  fontSize: '50px',
+  fontSize: '120%',
   fontWeight: 'bold',
   borderBottom: 'solid 3px #000000',
 

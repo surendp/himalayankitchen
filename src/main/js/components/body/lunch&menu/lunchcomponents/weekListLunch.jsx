@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ContentDiv from '../../content/contentDiv.jsx';
+import DivWithoutMargin from '../modelcomponents/divWithoutMargin.jsx';
 
 import MondayLunch from './mondayLunch.jsx';
 import TuesdayLunch from './tuesdayLunch.jsx';
@@ -52,11 +53,9 @@ const weekDays = [<MondayLunch /> ,<TuesdayLunch />,<WednesdayLunch />,<Thursday
 
     render(){
       return(
-        <div>
-          <ul>
+        <DivWithoutMargin>
             {this.renderList()}
-          </ul>
-        </div>
+        </DivWithoutMargin>
       )
     }
 }

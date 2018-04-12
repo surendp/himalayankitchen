@@ -16,9 +16,9 @@ const style = {
 
 const containerStyle = {
   display: 'block',
-  margin:"20px 20px 20px 20px",
-  padding:"20px 20px 20px 20px",
-  marginBottom: '50px'
+  margin:"2% 2% 2% 2%",
+  padding:"2% 2% 2% 2%",
+  marginBottom: '5%'
 }
 
 /*

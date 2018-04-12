@@ -11,11 +11,11 @@ const style = {
 };
 
 const styleTitle = {
-    fontSize: '60px'
+    fontSize: 'auto'
 };
 
 const styleContent = {
-    fontSize: '40px',
+    fontSize: 'auto',
     textAlign:'justify'
 };
 

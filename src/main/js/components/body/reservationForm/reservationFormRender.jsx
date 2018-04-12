@@ -7,7 +7,7 @@ const ReservationFormRender = (props) =>{
 
   return(
     <div style={props.style}>
-      <h1>Make Reservation</h1>
+      <h5>Make Reservation</h5>
       <form onSubmit = {props.onClick}>
         <Form onChange={props.onChange}
               formData = {props.formData}/>

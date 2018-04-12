@@ -8,7 +8,7 @@ const mainDivStyle = {
   textAlign:'center',
   textShadow:'2px 2px black',
   background: 'rgba(0, 0, 0, 0.45)',
-  padding: '5% 5% 5% 5%',
+  padding: '2% 2% 2% 2%',
   margin: '5% 5% 5% 5%',
   minHeight:'80%',
   //overflowX:'show'

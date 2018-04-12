@@ -9,9 +9,9 @@ import {Prompt} from 'react-router-dom';
 // style for the div inclosing the input
 const style = {
   display: 'block',
-  margin:"20px 20px 20px 20px",
-  padding:"20px 20px 20px 20px",
-  marginBottom: '50px'
+  margin:"2% 2% 2% 2%",
+  padding:"2% 2% 2% 2%",
+  marginBottom: '5%'
 }
 
 

@@ -8,9 +8,10 @@
 }
 
 #menuIcon {
-  position: absolute;
+  position: fixed;
   right: 4%;
-  height: 45%;
+  max-height: 35px;
+  max-width: 35px;
   padding-bottom: 3%;
 }
 

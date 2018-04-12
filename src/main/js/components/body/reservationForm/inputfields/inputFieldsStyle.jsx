@@ -5,12 +5,12 @@ const inputFieldStyle = {
   width:'95%',
   mediumWidth:'45%',
   smallWidth: '25%',
-  fontSize:'35px',
+  fontSize:'auto',
   fontWeight: 'bold',
   color: 'white',
-  height:'55px',
+  height:'auto',
   border: 'none',
-  borderBottom: '5px solid white',
+  borderBottom: '2px solid white',
   background: 'inherit'
 }
 

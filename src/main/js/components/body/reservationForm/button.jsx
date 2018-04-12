@@ -13,11 +13,11 @@ const style = {
    color: "white",
    padding: "3% 4% 3% 4%",
    textAlign: "center",
-   fontSize: "40px",
+   fontSize: "auto",
    fontWeight: 'bold',
    margin: "4% 4% 4% 4%",
    cursor: "pointer",
-   borderRadius: '25px'
+   borderRadius: '1em'
 };
 
 // react Button component
