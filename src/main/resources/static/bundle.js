@@ -25986,7 +25986,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, ".App{\r\n\theight: inherit;\r\n\twidth: inherit;\r\n\tcolor: green;\r\n\toverflow-x: hidden;\r\n}\r\n\r\n/*.styleBackground{\r\n  background-image: url(\"../media/bg2.jpeg\");\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-position: center;\r\n  background-attachment: fixed;\r\n\toverflow-y: scroll;\r\n}*/\r\n", ""]);
+exports.push([module.i, ".App{\r\n\theight: inherit;\r\n\twidth: inherit;\r\n\tcolor: green;\r\n\toverflow-x: hidden;\r\n\toverflow-y: scroll;\r\n\t-webkit-overflow-scrolling:touch;\r\n}\r\n\r\n/*.styleBackground{\r\n  background-image: url(\"../media/bg2.jpeg\");\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-position: center;\r\n  background-attachment: fixed;\r\n\toverflow-y: scroll;\r\n}*/\r\n", ""]);
 
 // exports
 
@@ -26188,7 +26188,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, ".App-title {\r\n  background-color: #ffffff;\r\n\r\n}\r\n\r\n.App-logo {\r\n  width: 99%;\r\n}\r\n", ""]);
+exports.push([module.i, ".App-title {\r\n  background-color: #ffffff;\r\n  margin-top: 35px;\r\n}\r\n\r\n.App-logo {\r\n  width: 100%;\r\n}\r\n", ""]);
 
 // exports
 
@@ -26302,7 +26302,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, ".App-header {\r\n  background-color: #ff9900;\r\n  height: 6%;\r\n  padding: 1%;\r\n  padding-top: 4%;\r\n  position: sticky;\r\n  top: 0;\r\n}\r\n\r\n#menuIcon {\r\n  position: fixed;\r\n  right: 4%;\r\n  max-height: 35px;\r\n  max-width: 35px;\r\n  padding-bottom: 3%;\r\n}\r\n\r\n/* @keyframes App-logo-spin {\r\n  from { transform: rotate(0deg); }\r\n  to { transform: rotate(360deg); }\r\n} */\r\n", ""]);
+exports.push([module.i, ".App-header {\r\n  background-color: #ff9900;\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  align-items: center;\r\n  position: fixed;\r\n  width: 100%;\r\n}\r\n\r\n#menuIcon {\r\n  max-height: 35px;\r\n  max-width: 35px;\r\n  margin: 1% 1% 1% 0%;\r\n}\r\n\r\n/* @keyframes App-logo-spin {\r\n  from { transform: rotate(0deg); }\r\n  to { transform: rotate(360deg); }\r\n} */\r\n", ""]);
 
 // exports
 
@@ -27115,7 +27115,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 // style for the main div
 var styleDiv = {
-  margin: "2% 0% 2% 0%"
+  marginTop: "2%"
 };
 
 // styles for name

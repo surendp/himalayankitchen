@@ -1,18 +1,16 @@
 .App-header {
   background-color: #ff9900;
-  height: 6%;
-  padding: 1%;
-  padding-top: 4%;
-  position: sticky;
-  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 #menuIcon {
-  position: fixed;
-  right: 4%;
   max-height: 35px;
   max-width: 35px;
-  padding-bottom: 3%;
+  margin: 1% 1% 1% 0%;
 }
 
 /* @keyframes App-logo-spin {
