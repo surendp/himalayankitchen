@@ -3,11 +3,7 @@ import ContentDiv from './contentDiv.jsx';
 
 const title   = <span>Home Delivery</span>;
 
-const content = <span>  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-  It has survived not only five centuries, but also the leap into electronic typesetting,
-  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-  sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-  software like Aldus PageMaker including versions of Lorem Ipsum.</span>;
+const content = <span>We are using Foodora service to deliver the best quality desired food to our customers quickly and carefully. You can order our food online to get them delivered to you <a href="https://www.foodora.fi/en/restaurant/s2mj/himalayan-kitchen-vendor?r=1" target="_blank">here</a>.</span>;
 
 
 class HomeDelivery extends React.Component{
