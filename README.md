@@ -1,13 +1,37 @@
 # himalayankitchen
 
-This is a website project for a restaurant named Himalayan Kitchen which is in Turku, Finland. This project is a Spring Boot project using React.js as its frontend development framework.
+This is a website project for a restaurant named Himalayan Kitchen which is in Turku, Finland.
 
-### Functionalities on the backend:
--	API to deliver lunch and alakart food list.
--	API to send reservation message through email.
+## Requirements
+- Display the lunch and Ala kart menu list
+- Functionality to make reservation through email
+- Display information about the restaurant.
 
-### Functionalities on the front end:
--	Make reservation using a form
--	Display Lunch and Alakart menu list
-- Links to social media (Facebook and Instagram), Foodora (To order Food) and Google Map
-- Burger menu to navigate on the website from mobile devices.
+## Tools and Technologies
+
+- React, Spring Boot
+- JavaScript, Java
+- Webpack, Babel, maven, npm
+
+## Achievements
+
+## Work Flow
+
+As a whole, the project is a maven project and it uses the concept of Restful webservices to develop the backend. Lunch and Ala kart menu lists are delivered through the Rest APIs created by using Spring-Boot.
+
+Also, reservation form data is delivered to an API which further sends the message to restaurant email using Java.
+
+The User Interface of the website is managed/developed using React.js.
+
+#### Display the lunch and Ala kart menu list
+
+This functionality is implemented in the following way:
+- Create Rest API using Spring-Boot.
+- Fetch and deliver content from txt files using Java through APIs.
+
+- Make AJAX request to the APIs.
+- Render the Content to DOM using React.
+
+#### Functionality to make reservation through email
+
+#### Display information about the restaurant

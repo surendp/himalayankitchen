@@ -5,6 +5,7 @@ import logo from "../../../resources/static/images/logo.jpg";
 import {Link} from 'react-router-dom';
 
 class Title extends React.Component {
+
   render() {
     return (
       <div className="App-title">
@@ -14,6 +15,12 @@ class Title extends React.Component {
       </div>
     )
   }
+
+  componentDidMount(){
+    const headerHeight = document.querySelector("header").offsetHeight;
+    document.querySelector(".App-title").style.paddingTop = headerHeight;
+  }
+  
 }
 
 export default Title;

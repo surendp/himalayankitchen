@@ -35,7 +35,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App" id = "app">
+      <div className="App container" id = "app">
           <Menu visible={this.state.visible}/>
           <Header onClick = {() => this.handleClick}/>
           <Title />

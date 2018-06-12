@@ -23,7 +23,7 @@ class Body extends React.Component{
 
   render(){
     return (
-      <div>
+      <div className = "body">
           <Route exact path = '/' component = {HomePageContent} />
           <Route  path = '/lunch' component = {WeekListLunch} />
           <Route  path = '/reservation' component = {ReservationForm} />

@@ -25928,7 +25928,7 @@ var App = function (_React$Component) {
 
       return React.createElement(
         'div',
-        { className: 'App', id: 'app' },
+        { className: 'App container', id: 'app' },
         React.createElement(_Menu2.default, { visible: this.state.visible }),
         React.createElement(_appHeader2.default, { onClick: function onClick() {
             return _this2.handleClick;
@@ -25986,7 +25986,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, ".App{\r\n\theight: inherit;\r\n\twidth: inherit;\r\n\tcolor: green;\r\n\toverflow-x: hidden;\r\n\toverflow-y: scroll;\r\n\t-webkit-overflow-scrolling:touch;\r\n}\r\n\r\n/*.styleBackground{\r\n  background-image: url(\"../media/bg2.jpeg\");\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-position: center;\r\n  background-attachment: fixed;\r\n\toverflow-y: scroll;\r\n}*/\r\n", ""]);
+exports.push([module.i, ".App{\r\n\theight: inherit;\r\n\twidth: inherit;\r\n\tcolor: green;\r\n\toverflow-x: hidden;\r\n\t-webkit-overflow-scrolling:touch;\r\n}\r\n\r\n.container{\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n}\r\n\r\n/*.styleBackground{\r\n  background-image: url(\"../media/bg2.jpeg\");\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-position: center;\r\n  background-attachment: fixed;\r\n\toverflow-y: scroll;\r\n}*/\r\n", ""]);
 
 // exports
 
@@ -26140,6 +26140,12 @@ var Title = function (_React$Component) {
           _react2.default.createElement("img", { src: _logo2.default, className: "App-logo", alt: "logo" })
         )
       );
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var headerHeight = document.querySelector("header").offsetHeight;
+      document.querySelector(".App-title").style.paddingTop = headerHeight;
     }
   }]);
 
@@ -26387,7 +26393,7 @@ var Body = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        null,
+        { className: 'body' },
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _homePageContent2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { path: '/lunch', component: _weekListLunch2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { path: '/reservation', component: _reservationForm2.default }),
@@ -26441,7 +26447,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, ".styleMainBodyDiv{\r\n  height: inherit;\r\n  width: inherit;\r\n  padding: 5% 0% 5% 0%;\r\n}\r\n", ""]);
+exports.push([module.i, ".styleMainBodyDiv{\r\n  height: inherit;\r\n  width: inherit;\r\n  padding: 5% 0% 5% 0%;\r\n}\r\n\r\n.body{\r\n  flex: auto;\r\n}\r\n", ""]);
 
 // exports
 
@@ -28616,7 +28622,7 @@ var _fetchApi2 = _interopRequireDefault(_fetchApi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // api for fetching appetizers list
-var api = "/lunch/monday";
+var api = "/lunch/tuesday";
 
 /*
 * Render FetchAPI component by passing appetizers api
