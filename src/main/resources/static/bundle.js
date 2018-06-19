@@ -159,9 +159,9 @@ var FetchAPI = function (_React$Component) {
       return fetch(uri).then(function (result) {
         return result.json();
       }).then(function (data) {
-        var dishes = data.map(function (dish) {
+        var dishes = data.map(function (dish, index) {
           // using returnDishComponent method
-          return _this2.returnDishComponent(dish);
+          return _this2.returnDishComponent(dish, index);
         });
         // save the dishes to the state of this component
         _this2.setState({ dishes: dishes });
@@ -173,7 +173,7 @@ var FetchAPI = function (_React$Component) {
 
   }, {
     key: 'returnDishComponent',
-    value: function returnDishComponent(dish) {
+    value: function returnDishComponent(dish, index) {
       return _react2.default.createElement(_dish2.default, {
         name: dish.name,
         catagory: dish.catagory,
@@ -189,7 +189,7 @@ var FetchAPI = function (_React$Component) {
     value: function renderDishes() {
       var dishes = this.state.dishes.map(function (dish, index) {
         return _react2.default.createElement(
-          'li',
+          'div',
           { key: index },
           dish
         );
@@ -206,11 +206,7 @@ var FetchAPI = function (_React$Component) {
       var dishList = _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(
-          'ul',
-          null,
-          this.renderDishes()
-        )
+        this.renderDishes()
       );
 
       return _react2.default.createElement(_contentDiv2.default, {
@@ -28147,7 +28143,7 @@ var WeekListLunch = function (_React$Component) {
         // convert array into list
         lunch.map(function (lunchList, index) {
           return _react2.default.createElement(
-            'li',
+            'div',
             { key: index },
             lunchList
           );
@@ -29831,7 +29827,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, "html{\r\n  height: 100%;\r\n  width: 100%;\r\n  overflow-x: hidden;\r\n}\r\n\r\nbody{\r\n  height: 100%;\r\n  width: inherit;\r\n  margin: inherit;\r\n}\r\n\r\n#root{\r\n  height: 100%;\r\n  width: 100%;\r\n  margin: inherit;\r\n}\r\n", ""]);
+exports.push([module.i, "html{\r\n  height: 100%;\r\n  width: 100%;\r\n  overflow-x: hidden;\r\n  overflow-y: hidden;\r\n}\r\n\r\nbody{\r\n  height: 100%;\r\n  width: inherit;\r\n  margin: inherit;\r\n}\r\n\r\n#root{\r\n  height: 100%;\r\n  width: 100%;\r\n  margin: inherit;\r\n}\r\n", ""]);
 
 // exports
 

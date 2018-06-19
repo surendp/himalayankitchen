@@ -37,9 +37,9 @@ class FetchAPI extends React.Component{
       .then(result => result.json())
       .then(
         (data) => {
-          let dishes = data.map((dish) => {
+          let dishes = data.map((dish, index) => {
             // using returnDishComponent method
-            return this.returnDishComponent(dish);
+            return this.returnDishComponent(dish, index);
           })
           // save the dishes to the state of this component
           this.setState({dishes:dishes});
@@ -49,7 +49,7 @@ class FetchAPI extends React.Component{
   }
 
   // return a Dish component
-  returnDishComponent(dish){
+  returnDishComponent(dish, index){
     return <Dish
                 name = {dish.name}
                 catagory = {dish.catagory}
@@ -61,10 +61,10 @@ class FetchAPI extends React.Component{
   // returns a list of dishes from an array
   renderDishes(){
     const dishes = this.state.dishes.map((dish, index) => {
-      return( <li key={index}>
-                {dish}
-              </li>)
-            });
+      return(
+        <div  key = {index}>{dish}</div>
+      )
+    });
 
     return dishes;
   }
@@ -72,7 +72,7 @@ class FetchAPI extends React.Component{
   // creates unordered list and renders the data
   render(){
     let dishList = <div>
-                      <ul>{this.renderDishes()}</ul>
+                      {this.renderDishes()}
                    </div>;
 
     return(

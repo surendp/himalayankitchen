@@ -46,7 +46,7 @@ const weekDays = [<MondayLunch /> ,<TuesdayLunch />,<WednesdayLunch />,<Thursday
       return(
         // convert array into list
         lunch.map((lunchList, index) => {
-          return <li key = {index}>{lunchList}</li>
+          return <div key={index}>{lunchList}</div>
         })
       )
     }
