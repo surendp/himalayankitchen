@@ -24,6 +24,12 @@ class Footer extends React.Component{
         <a href="https://goo.gl/maps/uHLGKERZp9p" target="_blank">
           <img src={mapIcon} className="socialMediaIcon" alt="Google Maps" />
         </a>
+
+        <div className ="contents">
+          Developers: <a href="https://www.linkedin.com/in/surendra-pandey-7a276a118/" target="_blank">Surendra</a>
+          <a href="https://www.linkedin.com/in/lordsubro/" target="_blank"> Subodh</a>
+        </div>
+
       </footer>
     );
   }

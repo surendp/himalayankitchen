@@ -4,13 +4,10 @@ import HomeDelivery from './homeDelivery.jsx';
 
 const title   = <span>About US</span>;
 
-const content = <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the leap into electronic typesetting,
-                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                    software like Aldus PageMaker including versions of Lorem Ipsum.</span>;
+const content = <span>With an aim to deliver true Nepalese Cuisine to the heart of historically important old city, we have now opened Himalayan Kitchen in Turku. Everyone are welcome to experience the original flavours and hospitality of Nepal at the Himalayan Kitchen. We are open everyday throughout the week to serve you with many different menu items. 
+Come, experience and enjoy your moments, which is our high priority.
+
+<h4>Come, experience and enjoy your moments, which is our high priority.</h4></span>;
 
 
 
