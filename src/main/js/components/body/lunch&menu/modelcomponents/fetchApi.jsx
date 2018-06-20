@@ -33,6 +33,7 @@ class FetchAPI extends React.Component{
   //Return an array of Dish components
   fetchAndReturn(api){
     const uri = window.location.origin + api;
+    //const uri = 'http://localhost:8080/lunch/monday';
     return fetch(uri)
       .then(result => result.json())
       .then(

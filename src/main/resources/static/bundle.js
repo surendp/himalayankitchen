@@ -156,6 +156,7 @@ var FetchAPI = function (_React$Component) {
       var _this2 = this;
 
       var uri = window.location.origin + api;
+      //const uri = 'http://localhost:8080/lunch/monday';
       return fetch(uri).then(function (result) {
         return result.json();
       }).then(function (data) {
@@ -305,7 +306,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _baseDiv = __webpack_require__(131);
+var _baseDiv = __webpack_require__(133);
 
 var _baseDiv2 = _interopRequireDefault(_baseDiv);
 
@@ -2570,7 +2571,13 @@ var title = _react2.default.createElement(
 var content = _react2.default.createElement(
   'span',
   null,
-  '  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+  'We are using Foodora service to deliver the best quality desired food to our customers quickly and carefully. You can order our food online to get them delivered to you ',
+  _react2.default.createElement(
+    'a',
+    { href: 'https://www.foodora.fi/en/restaurant/s2mj/himalayan-kitchen-vendor?r=1', target: '_blank' },
+    'here'
+  ),
+  '.'
 );
 
 var HomeDelivery = function (_React$Component) {
@@ -3350,7 +3357,12 @@ var title = _react2.default.createElement(
 var content = _react2.default.createElement(
     'span',
     null,
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+    'With an aim to deliver true Nepalese Cuisine to the heart of historically important old city, we have now opened Himalayan Kitchen in Turku. Everyone are welcome to experience the original flavours and hospitality of Nepal at the Himalayan Kitchen. We are open everyday throughout the week to serve you with many different menu items. Come, experience and enjoy your moments, which is our high priority.',
+    _react2.default.createElement(
+        'h4',
+        null,
+        'Come, experience and enjoy your moments, which is our high priority.'
+    )
 );
 
 var AboutUs = function (_React$Component) {
@@ -3613,11 +3625,11 @@ var _App = __webpack_require__(86);
 
 var _App2 = _interopRequireDefault(_App);
 
-var _scrollToTop = __webpack_require__(170);
+var _scrollToTop = __webpack_require__(172);
 
 var _scrollToTop2 = _interopRequireDefault(_scrollToTop);
 
-__webpack_require__(171);
+__webpack_require__(173);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -25865,15 +25877,15 @@ var _body = __webpack_require__(98);
 
 var _body2 = _interopRequireDefault(_body);
 
-var _footer = __webpack_require__(151);
+var _footer = __webpack_require__(153);
 
 var _footer2 = _interopRequireDefault(_footer);
 
-var _Menu = __webpack_require__(158);
+var _Menu = __webpack_require__(160);
 
 var _Menu2 = _interopRequireDefault(_Menu);
 
-var _slideShow = __webpack_require__(162);
+var _slideShow = __webpack_require__(164);
 
 var _slideShow2 = _interopRequireDefault(_slideShow);
 
@@ -26348,15 +26360,15 @@ var _homePageContent = __webpack_require__(111);
 
 var _homePageContent2 = _interopRequireDefault(_homePageContent);
 
-var _reservationForm = __webpack_require__(118);
+var _reservationForm = __webpack_require__(120);
 
 var _reservationForm2 = _interopRequireDefault(_reservationForm);
 
-var _weekListLunch = __webpack_require__(130);
+var _weekListLunch = __webpack_require__(132);
 
 var _weekListLunch2 = _interopRequireDefault(_weekListLunch);
 
-var _alakartMenuList = __webpack_require__(137);
+var _alakartMenuList = __webpack_require__(139);
 
 var _alakartMenuList2 = _interopRequireDefault(_alakartMenuList);
 
@@ -26950,7 +26962,49 @@ var title = _react2.default.createElement(
 var content = _react2.default.createElement(
   'span',
   null,
-  '  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+  _react2.default.createElement(
+    'h3',
+    null,
+    'Opening Hours'
+  ),
+  _react2.default.createElement(
+    'h4',
+    null,
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'MON- THU 11:00 - 22:00'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'FRI 11:00 - 23:00'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'SAT 12:00 - 23:00'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'SUN 12:00 - 22:00'
+      )
+    )
+  ),
+  _react2.default.createElement(
+    'h4',
+    null,
+    'Email: kamalbanjade@yahoo.com'
+  ),
+  _react2.default.createElement(
+    'h4',
+    null,
+    'Phone: (+358) 405432055 , (+358) 440712555'
+  )
 );
 
 var Info = function (_React$Component) {
@@ -27012,7 +27066,7 @@ var title = _react2.default.createElement(
 var content = _react2.default.createElement(
   'span',
   null,
-  '  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+  '  We are located in Eerikinkatu 5, 20100 Turku, Finland.'
 );
 
 var Location = function (_React$Component) {
@@ -27107,6 +27161,8 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+__webpack_require__(118);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27114,31 +27170,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-// style for the main div
-var styleDiv = {
-  marginTop: "2%"
-};
-
-// styles for name
-var styleName = {
-  textSize: '3em'
-};
-
-// styles for price
-var stylePrice = {
-  textSize: '3em'
-};
-
-// styles for catagory
-var styleCategory = {
-  textSize: '3em'
-};
-
-// styles for description
-var styleDescription = {
-  textSize: '3em'
-};
 
 var Dish = function (_React$Component) {
   _inherits(Dish, _React$Component);
@@ -27150,29 +27181,33 @@ var Dish = function (_React$Component) {
   }
 
   _createClass(Dish, [{
-    key: 'render',
+    key: "render",
     value: function render() {
       return _react2.default.createElement(
-        'div',
-        { styles: styleDiv },
+        "div",
+        { className: "dish" },
         _react2.default.createElement(
-          'p',
-          { styles: styleName },
-          this.props.name
+          "div",
+          { className: "dish-name-price" },
+          _react2.default.createElement(
+            "p",
+            { className: "dish-name" },
+            this.props.name
+          ),
+          _react2.default.createElement(
+            "p",
+            { className: "dish-price" },
+            this.props.price
+          )
         ),
         _react2.default.createElement(
-          'p',
-          { styles: stylePrice },
-          this.props.price
-        ),
-        _react2.default.createElement(
-          'p',
-          { styles: styleCategory },
+          "p",
+          { className: "dish-catagory" },
           this.props.catagory
         ),
         _react2.default.createElement(
-          'p',
-          { styles: styleDescription },
+          "p",
+          { className: "dish-description" },
           this.props.description
         )
       );
@@ -27188,6 +27223,51 @@ exports.default = Dish;
 /* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(119);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(9)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./dish.css", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!./dish.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 119 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(8)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\r\n\r\n.dish {\r\n  padding-bottom: 20%;\r\n  font-family: cursive;\r\n}\r\n\r\n.dish-name-price {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: space-between;\r\n\r\n    font-size: 150%;\r\n    padding: 0;\r\n}\r\n\r\n.dish-name {\r\n  font-weight: bold;\r\n}\r\n\r\n.dish-price {\r\n  font-family: cursive;\r\n  font-style: italic;\r\n  color: white;\r\n}\r\n\r\n.dish-catagory{\r\n  font-size: 150%;\r\n  margin: 0;\r\n}\r\n\r\n.dish-description{\r\n  font-size: 130%;\r\n  margin: 0;\r\n  padding-top: 0.5em;\r\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 120 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 
@@ -27201,11 +27281,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reservationFormRender = __webpack_require__(119);
+var _reservationFormRender = __webpack_require__(121);
 
 var _reservationFormRender2 = _interopRequireDefault(_reservationFormRender);
 
-var _submitForm = __webpack_require__(129);
+var _submitForm = __webpack_require__(131);
 
 var _submitForm2 = _interopRequireDefault(_submitForm);
 
@@ -27330,7 +27410,7 @@ var ReservationForm = function (_React$Component) {
 exports.default = ReservationForm;
 
 /***/ }),
-/* 119 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27344,11 +27424,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _form = __webpack_require__(120);
+var _form = __webpack_require__(122);
 
 var _form2 = _interopRequireDefault(_form);
 
-var _button = __webpack_require__(128);
+var _button = __webpack_require__(130);
 
 var _button2 = _interopRequireDefault(_button);
 
@@ -27387,7 +27467,7 @@ ReservationFormRender.propTypes = {};
 exports.default = ReservationFormRender;
 
 /***/ }),
-/* 120 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27403,7 +27483,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _formRender = __webpack_require__(121);
+var _formRender = __webpack_require__(123);
 
 var _formRender2 = _interopRequireDefault(_formRender);
 
@@ -27517,7 +27597,7 @@ Form.propTypes = {};
 exports.default = Form;
 
 /***/ }),
-/* 121 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27531,27 +27611,27 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _inputFieldName = __webpack_require__(122);
+var _inputFieldName = __webpack_require__(124);
 
 var _inputFieldName2 = _interopRequireDefault(_inputFieldName);
 
-var _inputFieldEmail = __webpack_require__(123);
+var _inputFieldEmail = __webpack_require__(125);
 
 var _inputFieldEmail2 = _interopRequireDefault(_inputFieldEmail);
 
-var _inputFieldPhone = __webpack_require__(124);
+var _inputFieldPhone = __webpack_require__(126);
 
 var _inputFieldPhone2 = _interopRequireDefault(_inputFieldPhone);
 
-var _inputFieldMessage = __webpack_require__(125);
+var _inputFieldMessage = __webpack_require__(127);
 
 var _inputFieldMessage2 = _interopRequireDefault(_inputFieldMessage);
 
-var _inputFieldPartySize = __webpack_require__(126);
+var _inputFieldPartySize = __webpack_require__(128);
 
 var _inputFieldPartySize2 = _interopRequireDefault(_inputFieldPartySize);
 
-var _inputFieldDate = __webpack_require__(127);
+var _inputFieldDate = __webpack_require__(129);
 
 var _inputFieldDate2 = _interopRequireDefault(_inputFieldDate);
 
@@ -27578,7 +27658,7 @@ var FormRender = function FormRender(props) {
 exports.default = FormRender;
 
 /***/ }),
-/* 122 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27652,7 +27732,7 @@ var InputFieldName = function (_React$Component) {
 exports.default = InputFieldName;
 
 /***/ }),
-/* 123 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27697,7 +27777,7 @@ var InputFieldEmail = function InputFieldEmail(props) {
 exports.default = InputFieldEmail;
 
 /***/ }),
-/* 124 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27742,7 +27822,7 @@ var InputFieldPhone = function InputFieldPhone(props) {
 exports.default = InputFieldPhone;
 
 /***/ }),
-/* 125 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27826,7 +27906,7 @@ var InputFieldMessage = function (_React$Component) {
 exports.default = InputFieldMessage;
 
 /***/ }),
-/* 126 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27871,7 +27951,7 @@ var InputFieldPartySize = function InputFieldPartySize(props) {
 exports.default = InputFieldPartySize;
 
 /***/ }),
-/* 127 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27916,7 +27996,7 @@ var InputFieldDate = function InputFieldDate(props) {
 exports.default = InputFieldDate;
 
 /***/ }),
-/* 128 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27967,7 +28047,7 @@ var Button = function Button(props) {
 exports.default = Button;
 
 /***/ }),
-/* 129 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28035,7 +28115,7 @@ var SubmitForm = function () {
 exports.default = SubmitForm;
 
 /***/ }),
-/* 130 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28063,23 +28143,23 @@ var _mondayLunch = __webpack_require__(45);
 
 var _mondayLunch2 = _interopRequireDefault(_mondayLunch);
 
-var _tuesdayLunch = __webpack_require__(132);
+var _tuesdayLunch = __webpack_require__(134);
 
 var _tuesdayLunch2 = _interopRequireDefault(_tuesdayLunch);
 
-var _wednesdayLunch = __webpack_require__(133);
+var _wednesdayLunch = __webpack_require__(135);
 
 var _wednesdayLunch2 = _interopRequireDefault(_wednesdayLunch);
 
-var _thursdayLunch = __webpack_require__(134);
+var _thursdayLunch = __webpack_require__(136);
 
 var _thursdayLunch2 = _interopRequireDefault(_thursdayLunch);
 
-var _fridayLunch = __webpack_require__(135);
+var _fridayLunch = __webpack_require__(137);
 
 var _fridayLunch2 = _interopRequireDefault(_fridayLunch);
 
-var _saturdayLunch = __webpack_require__(136);
+var _saturdayLunch = __webpack_require__(138);
 
 var _saturdayLunch2 = _interopRequireDefault(_saturdayLunch);
 
@@ -28167,7 +28247,7 @@ var WeekListLunch = function (_React$Component) {
 exports.default = WeekListLunch;
 
 /***/ }),
-/* 131 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28205,7 +28285,7 @@ BaseDiv.propTypes = {};
 exports.default = BaseDiv;
 
 /***/ }),
-/* 132 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28257,7 +28337,7 @@ var TuesdayLunch = function (_React$Component) {
 exports.default = TuesdayLunch;
 
 /***/ }),
-/* 133 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28309,7 +28389,7 @@ var WednesdayLunch = function (_React$Component) {
 exports.default = WednesdayLunch;
 
 /***/ }),
-/* 134 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28361,7 +28441,7 @@ var ThursdayLunch = function (_React$Component) {
 exports.default = ThursdayLunch;
 
 /***/ }),
-/* 135 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28413,7 +28493,7 @@ var FridayLunch = function (_React$Component) {
 exports.default = FridayLunch;
 
 /***/ }),
-/* 136 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28465,7 +28545,7 @@ var SaturdayLunch = function (_React$Component) {
 exports.default = SaturdayLunch;
 
 /***/ }),
-/* 137 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28485,55 +28565,55 @@ var _divWithoutMargin = __webpack_require__(3);
 
 var _divWithoutMargin2 = _interopRequireDefault(_divWithoutMargin);
 
-var _appetizers = __webpack_require__(138);
+var _appetizers = __webpack_require__(140);
 
 var _appetizers2 = _interopRequireDefault(_appetizers);
 
-var _salads = __webpack_require__(139);
+var _salads = __webpack_require__(141);
 
 var _salads2 = _interopRequireDefault(_salads);
 
-var _drinks = __webpack_require__(140);
+var _drinks = __webpack_require__(142);
 
 var _drinks2 = _interopRequireDefault(_drinks);
 
-var _desserts = __webpack_require__(141);
+var _desserts = __webpack_require__(143);
 
 var _desserts2 = _interopRequireDefault(_desserts);
 
-var _groupMenu = __webpack_require__(142);
+var _groupMenu = __webpack_require__(144);
 
 var _groupMenu2 = _interopRequireDefault(_groupMenu);
 
-var _childrenMenu = __webpack_require__(143);
+var _childrenMenu = __webpack_require__(145);
 
 var _childrenMenu2 = _interopRequireDefault(_childrenMenu);
 
-var _chickenDishes = __webpack_require__(144);
+var _chickenDishes = __webpack_require__(146);
 
 var _chickenDishes2 = _interopRequireDefault(_chickenDishes);
 
-var _duckDishes = __webpack_require__(145);
+var _duckDishes = __webpack_require__(147);
 
 var _duckDishes2 = _interopRequireDefault(_duckDishes);
 
-var _lambDishes = __webpack_require__(146);
+var _lambDishes = __webpack_require__(148);
 
 var _lambDishes2 = _interopRequireDefault(_lambDishes);
 
-var _seaFood = __webpack_require__(147);
+var _seaFood = __webpack_require__(149);
 
 var _seaFood2 = _interopRequireDefault(_seaFood);
 
-var _tandooriDishes = __webpack_require__(148);
+var _tandooriDishes = __webpack_require__(150);
 
 var _tandooriDishes2 = _interopRequireDefault(_tandooriDishes);
 
-var _thaliDishes = __webpack_require__(149);
+var _thaliDishes = __webpack_require__(151);
 
 var _thaliDishes2 = _interopRequireDefault(_thaliDishes);
 
-var _vegetarianDishes = __webpack_require__(150);
+var _vegetarianDishes = __webpack_require__(152);
 
 var _vegetarianDishes2 = _interopRequireDefault(_vegetarianDishes);
 
@@ -28593,7 +28673,7 @@ var AlakartMenuList = function AlakartMenuList(_ref) {
 exports.default = AlakartMenuList;
 
 /***/ }),
-/* 138 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28635,7 +28715,7 @@ var Appetizers = function Appetizers(props) {
 exports.default = Appetizers;
 
 /***/ }),
-/* 139 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28677,7 +28757,7 @@ var Salads = function Salads(props) {
 exports.default = Salads;
 
 /***/ }),
-/* 140 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28719,7 +28799,7 @@ var Drinks = function Drinks(props) {
 exports.default = Drinks;
 
 /***/ }),
-/* 141 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28761,7 +28841,7 @@ var Desserts = function Desserts(props) {
 exports.default = Desserts;
 
 /***/ }),
-/* 142 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28803,7 +28883,7 @@ var GroupMenu = function GroupMenu(props) {
 exports.default = GroupMenu;
 
 /***/ }),
-/* 143 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28845,7 +28925,7 @@ var ChildrenMenu = function ChildrenMenu(props) {
 exports.default = ChildrenMenu;
 
 /***/ }),
-/* 144 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28887,7 +28967,7 @@ var ChickenDishes = function ChickenDishes(props) {
 exports.default = ChickenDishes;
 
 /***/ }),
-/* 145 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28929,7 +29009,7 @@ var DuckDishes = function DuckDishes(props) {
 exports.default = DuckDishes;
 
 /***/ }),
-/* 146 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28971,7 +29051,7 @@ var LambDishes = function LambDishes(props) {
 exports.default = LambDishes;
 
 /***/ }),
-/* 147 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29013,7 +29093,7 @@ var SeaFood = function SeaFood(props) {
 exports.default = SeaFood;
 
 /***/ }),
-/* 148 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29055,7 +29135,7 @@ var TandooriDishes = function TandooriDishes(props) {
 exports.default = TandooriDishes;
 
 /***/ }),
-/* 149 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29097,7 +29177,7 @@ var ThaliDishes = function ThaliDishes(props) {
 exports.default = ThaliDishes;
 
 /***/ }),
-/* 150 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29139,7 +29219,7 @@ var VegetarianDishes = function VegetarianDishes(props) {
 exports.default = VegetarianDishes;
 
 /***/ }),
-/* 151 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29159,21 +29239,21 @@ var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-__webpack_require__(152);
+__webpack_require__(154);
 
-var _facebookIcon = __webpack_require__(154);
+var _facebookIcon = __webpack_require__(156);
 
 var _facebookIcon2 = _interopRequireDefault(_facebookIcon);
 
-var _instagramIcon = __webpack_require__(155);
+var _instagramIcon = __webpack_require__(157);
 
 var _instagramIcon2 = _interopRequireDefault(_instagramIcon);
 
-var _callIcon = __webpack_require__(156);
+var _callIcon = __webpack_require__(158);
 
 var _callIcon2 = _interopRequireDefault(_callIcon);
 
-var _mapIcon = __webpack_require__(157);
+var _mapIcon = __webpack_require__(159);
 
 var _mapIcon2 = _interopRequireDefault(_mapIcon);
 
@@ -29221,6 +29301,21 @@ var Footer = function (_React$Component) {
           'a',
           { href: 'https://goo.gl/maps/uHLGKERZp9p', target: '_blank' },
           _react2.default.createElement('img', { src: _mapIcon2.default, className: 'socialMediaIcon', alt: 'Google Maps' })
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'contents' },
+          'Developers: ',
+          _react2.default.createElement(
+            'a',
+            { href: 'https://www.linkedin.com/in/surendra-pandey-7a276a118/', target: '_blank' },
+            'Surendra'
+          ),
+          _react2.default.createElement(
+            'a',
+            { href: 'https://www.linkedin.com/in/lordsubro/', target: '_blank' },
+            ' Subodh'
+          )
         )
       );
     }
@@ -29232,13 +29327,13 @@ var Footer = function (_React$Component) {
 exports.default = Footer;
 
 /***/ }),
-/* 152 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(153);
+var content = __webpack_require__(155);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -29263,7 +29358,7 @@ if(false) {
 }
 
 /***/ }),
-/* 153 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(8)(false);
@@ -29271,37 +29366,37 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, ".App-footer {\r\n  background-color: #ff9900;\r\n  height: 6%;\r\n  padding: 1%;\r\n  padding-top: 4%;\r\n  position: relative;\r\n  padding-left: 3%;\r\n}\r\n\r\n\r\n.socialMediaIcon {\r\n  height: 70%;\r\n  margin: 0% 1% 0% 1%;\r\n}\r\n", ""]);
+exports.push([module.i, ".App-footer {\r\n  background-color: #ff9900;\r\n  height: 6%;\r\n  padding: 1%;\r\n  padding-top: 4%;\r\n  position: relative;\r\n  bottom: 0px;\r\n  padding-left: 3%;\r\n}\r\n\r\n\r\n.socialMediaIcon {\r\n  height: 70%;\r\n  margin: 0% 1% 0% 0%;\r\n}\r\n\r\n.contents {\r\n  position: absolute;\r\n  right: 2%;\r\n  bottom: 35%;\r\n  font-size: 85%;\r\n  color: white;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n  color: white;\r\n}", ""]);
 
 // exports
 
 
 /***/ }),
-/* 154 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "92a6cf67bedfa14ee1445accb0114812.png";
 
 /***/ }),
-/* 155 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "7dbd0b51c20a695901a84c4c083500f6.png";
 
 /***/ }),
-/* 156 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "9e9419894fd0b03c700c89e8f0cb3d01.png";
 
 /***/ }),
-/* 157 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "092a687900825aee34490e4d0c700105.png";
 
 /***/ }),
-/* 158 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29315,13 +29410,13 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _reactRouterDom = __webpack_require__(4);
 
-__webpack_require__(159);
+__webpack_require__(161);
 
 var _navItem = __webpack_require__(46);
 
 var _navItem2 = _interopRequireDefault(_navItem);
 
-var _nestedNavLinkForMenu = __webpack_require__(161);
+var _nestedNavLinkForMenu = __webpack_require__(163);
 
 var _nestedNavLinkForMenu2 = _interopRequireDefault(_nestedNavLinkForMenu);
 
@@ -29386,13 +29481,13 @@ var Menu = function (_React$Component) {
 exports.default = Menu;
 
 /***/ }),
-/* 159 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(160);
+var content = __webpack_require__(162);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -29417,7 +29512,7 @@ if(false) {
 }
 
 /***/ }),
-/* 160 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(8)(false);
@@ -29431,7 +29526,7 @@ exports.push([module.i, ".menuvisible {\r\ndisplay:block;\r\nposition: fixed;\r\
 
 
 /***/ }),
-/* 161 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29488,7 +29583,7 @@ var NestedNavLinkForMenu = function NestedNavLinkForMenu(_ref) {
 exports.default = NestedNavLinkForMenu;
 
 /***/ }),
-/* 162 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29504,7 +29599,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(163);
+__webpack_require__(165);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29575,13 +29670,13 @@ var SlideShow = function (_React$Component) {
 exports.default = SlideShow;
 
 /***/ }),
-/* 163 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(164);
+var content = __webpack_require__(166);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -29606,22 +29701,22 @@ if(false) {
 }
 
 /***/ }),
-/* 164 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(165);
+var escape = __webpack_require__(167);
 exports = module.exports = __webpack_require__(8)(false);
 // imports
 
 
 // module
-exports.push([module.i, "\r\nul{\r\n  list-style-type: none;\r\n}\r\n\r\n.styleBackground li span {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: absolute;\r\n  top: 1%;\r\n  left: 0px;\r\n  color: transparent;\r\n  background-size: cover;\r\n  background-position: center;\r\n  background-repeat: none;\r\n  opacity: 0;\r\n  z-index:-1;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  -webkit-animation: imageAnimation 36s linear infinite 0s;\r\n  -moz-animation: imageAnimation 36s linear infinite 0s;\r\n  animation: imageAnimation 36s linear infinite 0s;\r\n}\r\n\r\n.styleBackground li:nth-child(1) span {\r\n  background-image: url(" + escape(__webpack_require__(166)) + ");\r\n}\r\n\r\n.styleBackground li:nth-child(2) span {\r\n  background-image: url(" + escape(__webpack_require__(167)) + ");\r\n  -webkit-animation-delay: 9s;\r\n  -moz-animation-delay: 9s;\r\n  animation-delay: 9s;\r\n}\r\n\r\n.styleBackground li:nth-child(3) span {\r\n  background-image: url(" + escape(__webpack_require__(168)) + ");\r\n  -webkit-animation-delay: 18s;\r\n  -moz-animation-delay: 18s;\r\n  animation-delay: 18s;\r\n}\r\n\r\n.styleBackground li:nth-child(4) span {\r\n  background-image: url(" + escape(__webpack_require__(169)) + ");\r\n  -webkit-animation-delay: 27s;\r\n  -moz-animation-delay: 27s;\r\n  animation-delay: 27s;\r\n}\r\n\r\n@-webkit-keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n  }\r\n  5% {\r\n    opacity: 1;\r\n    -webkit-animation-timing-function: ease-out;\r\n  }\r\n  25% {\r\n    opacity: 1;\r\n  }\r\n  37.5% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n@-moz-keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -moz-animation-timing-function: ease-in;\r\n  }\r\n  5% {\r\n    opacity: 1;\r\n    -moz-animation-timing-function: ease-out;\r\n  }\r\n  25% {\r\n    opacity: 1;\r\n  }\r\n  37.5% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n@keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n    -moz-animation-timing-function: ease-in;\r\n    animation-timing-function: ease-in;\r\n  }\r\n  5% {\r\n    opacity: 1;\r\n    -webkit-animation-timing-function: ease-out;\r\n    -moz-animation-timing-function: ease-out;\r\n    animation-timing-function: ease-out;\r\n  }\r\n  25% {\r\n    opacity: 1;\r\n  }\r\n  37.5% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.no-cssanimations .slideshow li span {\r\n  opacity: 1;\r\n}\r\n", ""]);
+exports.push([module.i, "\r\nul{\r\n  list-style-type: none;\r\n}\r\n\r\n.styleBackground li span {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: absolute;\r\n  top: 0%;\r\n  left: 0px;\r\n  color: transparent;\r\n  background-size: cover;\r\n  background-position: center;\r\n  background-repeat: none;\r\n  opacity: 0;\r\n  z-index:-1;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  -webkit-animation: imageAnimation 36s linear infinite 0s;\r\n  -moz-animation: imageAnimation 36s linear infinite 0s;\r\n  animation: imageAnimation 36s linear infinite 0s;\r\n}\r\n\r\n.styleBackground li:nth-child(1) span {\r\n  background-image: url(" + escape(__webpack_require__(168)) + ");\r\n}\r\n\r\n.styleBackground li:nth-child(2) span {\r\n  background-image: url(" + escape(__webpack_require__(169)) + ");\r\n  -webkit-animation-delay: 9s;\r\n  -moz-animation-delay: 9s;\r\n  animation-delay: 9s;\r\n}\r\n\r\n.styleBackground li:nth-child(3) span {\r\n  background-image: url(" + escape(__webpack_require__(170)) + ");\r\n  -webkit-animation-delay: 18s;\r\n  -moz-animation-delay: 18s;\r\n  animation-delay: 18s;\r\n}\r\n\r\n.styleBackground li:nth-child(4) span {\r\n  background-image: url(" + escape(__webpack_require__(171)) + ");\r\n  -webkit-animation-delay: 27s;\r\n  -moz-animation-delay: 27s;\r\n  animation-delay: 27s;\r\n}\r\n\r\n@-webkit-keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n  }\r\n  5% {\r\n    opacity: 1;\r\n    -webkit-animation-timing-function: ease-out;\r\n  }\r\n  25% {\r\n    opacity: 1;\r\n  }\r\n  37.5% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n@-moz-keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -moz-animation-timing-function: ease-in;\r\n  }\r\n  5% {\r\n    opacity: 1;\r\n    -moz-animation-timing-function: ease-out;\r\n  }\r\n  25% {\r\n    opacity: 1;\r\n  }\r\n  37.5% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n@keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n    -moz-animation-timing-function: ease-in;\r\n    animation-timing-function: ease-in;\r\n  }\r\n  5% {\r\n    opacity: 1;\r\n    -webkit-animation-timing-function: ease-out;\r\n    -moz-animation-timing-function: ease-out;\r\n    animation-timing-function: ease-out;\r\n  }\r\n  25% {\r\n    opacity: 1;\r\n  }\r\n  37.5% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.no-cssanimations .slideshow li span {\r\n  opacity: 1;\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 165 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = function escape(url) {
@@ -29643,31 +29738,31 @@ module.exports = function escape(url) {
 
 
 /***/ }),
-/* 166 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "9d3b24e56b4e1776714a344282d5d64b.jpg";
 
 /***/ }),
-/* 167 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "027fe2df5a0ddb07374ff3d7d80cd391.jpeg";
 
 /***/ }),
-/* 168 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "9b5a7db5313aba445cdd95a7a0d9136a.jpg";
 
 /***/ }),
-/* 169 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "f95d328fd506c49e4e788b0556fbbaff.jpg";
 
 /***/ }),
-/* 170 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29788,13 +29883,13 @@ var ScrollToTop = function (_React$Component) {
 exports.default = (0, _reactRouterDom.withRouter)(ScrollToTop);
 
 /***/ }),
-/* 171 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(172);
+var content = __webpack_require__(174);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -29819,7 +29914,7 @@ if(false) {
 }
 
 /***/ }),
-/* 172 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(8)(false);
