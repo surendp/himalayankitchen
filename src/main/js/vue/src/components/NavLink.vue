@@ -6,9 +6,9 @@
 
 <style scoped>
   .nav-link {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: 300;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     color: #fee;
   }
 </style>
