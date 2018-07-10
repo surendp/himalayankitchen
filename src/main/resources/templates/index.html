@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8" name = "viewport" content="width=device-width, initial-scale=1.0"/>
-<title>App</title>
+  <meta charset="UTF-8" name = "viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>App</title>
+  <style>
+    @media (min-width: 574px) {
+      #root {
+        display: none;
+      }
+    }
+    body {
+      position: relative;
+    }
+    #root, #vue {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  </style>
 </head>
 <body>
-<div id = "root"></div>
+  <div id = "root"></div>
+  <div id= "vue"></div>
 
-<script src="bundle.js"></script>
+  <script src="bundle.js"></script>
 </body>
 </html>
