@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+@media (min-width: 650px) {
+  #root {
+    display: none;
+  }
+}
+
+@media (max-width: 649px) {
+  #vue {
+    display: none;
+  }
+}
+
+#root, #vue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

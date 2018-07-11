@@ -5,6 +5,7 @@ import App from './App'
 import VueRouter from 'vue-router'
 import Icon from 'vue-awesome/components/Icon'
 import routes from './routes'
+import './assets/styles/_general.scss'
 
 import 'vue-awesome/icons/facebook-square'
 import 'vue-awesome/icons/instagram'

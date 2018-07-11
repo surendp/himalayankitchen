@@ -1,16 +1,16 @@
 <template>
-  <div class="social">
-    <div class="social-icons social-icons__facebook">
+  <div class="page-header">
+    <div class="page-header__icon page-header__icon_facebook">
       <icon name="facebook-square" scale="2"> </icon>
     </div>
-    <div class="social-icons social-icons__insta">
+    <div class="page-header__icon page-header__icon_insta">
       <icon name="instagram" scale="2"></icon>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-  .social {
+  .page-header {
     width: 100vw;
     height: 3.2rem;
     background-color: rgba(194, 255, 0, 0.7);
@@ -19,10 +19,10 @@
     align-items: center;
     padding-left: 1.6rem;
 
-    &-icons {
+    &__icon {
       margin-left: 0.8rem;
 
-      &__facebook {
+      &_facebook {
         color: rgba(255, 245, 245, 1);
       }
     }
