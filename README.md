@@ -4,17 +4,22 @@ This is a website project for a restaurant named Himalayan Kitchen which is in T
 
 ## Install dependencies
 
-``` npm install 
+```
+  npm install 
+
 ```
 
 ## Start Dev Server 
 
 ``` 
   npm run dev
+
 ```
 ## Build 
 
-``` npm run build 
+``` 
+  npm run build 
+  
 ```
 
 ## Requirements
