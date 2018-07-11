@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <nav-link v-for="linkItem in linkItems" :key="linkItem">
+    <nav-link v-for="linkItem in linkItems" :key="linkItem.label">
       <router-link slot="link" :to="linkItem.route" >{{ linkItem.label }}</router-link>
     </nav-link>
   </div>

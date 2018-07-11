@@ -1,17 +1,17 @@
 <template>
   <div id="vue">
     <social-links></social-links>
-    <nav-bar></nav-bar>
+    <navbar></navbar>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 import socialLinks from './components/SocialLinks'
-import NavBar from './components/Navbar'
+import Navbar from './components/Navbar'
 export default {
   name: 'App',
-  components: { socialLinks, NavBar }
+  components: { socialLinks, Navbar }
 }
 </script>
 

@@ -9,7 +9,10 @@ const PATHS = {
 };
 
 module.exports = {
-  entry: ['./src/main/js/react/index.js', './src/main/js/vue/src/main.js'],
+  entry: [
+    './src/main/js/react/index.js',
+    './src/main/js/vue/src/main.js'
+  ],
 
   output: {
     path: PATHS.build,
@@ -31,10 +34,6 @@ module.exports = {
         loader: 'vue-loader',
       },
       {
-        test: /\.css?$/,
-        loader: 'style-loader!css-loader'
-      },
-      {
         test: /\.(png|jpg|gif|jpeg)$/,
         loader: 'file-loader'
       },
@@ -45,6 +44,13 @@ module.exports = {
           'css-loader',
           'sass-loader'
         ]
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader',
+        ]
       }
     ]
   },
@@ -54,14 +60,16 @@ module.exports = {
     watchOptions: {
       poll: true
     },
-    open: true
+    open: true,
+    hot: true
   },
 
   plugins: [
     new HtmlWebpackPlugin({
       template: 'src/main/resources/templates/index.html'
     }),
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
+    new webpack.HotModuleReplacementPlugin()
   ],
 
   resolve: {

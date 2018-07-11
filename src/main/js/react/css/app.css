@@ -1,4 +1,4 @@
-.App{
+.App {
 	height: inherit;
 	width: inherit;
 	color: green;
@@ -6,7 +6,7 @@
 	-webkit-overflow-scrolling:touch;
 }
 
-.container{
+.container {
 	display: flex;
 	flex-direction: column;
 }
