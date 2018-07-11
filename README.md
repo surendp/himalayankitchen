@@ -8,6 +8,12 @@ This is a website project for a restaurant named Himalayan Kitchen which is in T
   npm install 
 
 ```
+## Start spring boot server 
+
+``` 
+  mvn spring-boot:run
+
+```
 
 ## Start Dev Server 
 
@@ -15,6 +21,7 @@ This is a website project for a restaurant named Himalayan Kitchen which is in T
   npm run dev
 
 ```
+
 ## Build 
 
 ``` 
