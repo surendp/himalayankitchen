@@ -2,6 +2,33 @@
 
 This is a website project for a restaurant named Himalayan Kitchen which is in Turku, Finland.
 
+## Install dependencies
+
+```
+  npm install 
+
+```
+## Start spring boot server 
+
+``` 
+  mvn spring-boot:run
+
+```
+
+## Start Dev Server 
+
+``` 
+  npm run dev
+
+```
+
+## Build 
+
+``` 
+  npm run build 
+  
+```
+
 ## Requirements
 - Display the lunch and Ala kart menu list
 - Functionality to make reservation through email

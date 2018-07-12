@@ -1,0 +1,36 @@
+
+
+.dish {
+  padding-bottom: 20%;
+  font-family: cursive;
+}
+
+.dish-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 150%;
+    padding: 0;
+}
+
+.dish-name {
+  font-weight: bold;
+}
+
+.dish-price {
+  font-family: cursive;
+  font-style: italic;
+  color: white;
+}
+
+.dish-catagory{
+  font-size: 150%;
+  margin: 0;
+}
+
+.dish-description{
+  font-size: 130%;
+  margin: 0;
+  padding-top: 0.5em;
+}
