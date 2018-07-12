@@ -11,7 +11,7 @@
 
 <style lang="scss" scoped>
   .page-header {
-    width: 100vw;
+    width: 100%;
     height: 3.2rem;
     background-color: rgba(194, 255, 0, 0.7);
     display: flex;

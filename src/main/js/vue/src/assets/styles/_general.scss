@@ -1,22 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   position: relative;
-}
-
-@media (min-width: 650px) {
-  #root {
-    display: none;
-  }
-}
-
-@media (max-width: 649px) {
-  #vue {
-    display: none;
-  }
+  min-height: 100%;
 }
 
 #root, #vue {
