@@ -1,0 +1,62 @@
+#
+TOMATO SOUP
+4,90e
+Appetizer
+Tomaattikeitto himalayan tapaan. Tomato soup, himalayan style.
+#
+
+#
+HOT AND SOUR CHICHEN SOUP (M,G)  (Spicy)
+5,20e
+Appetizer
+Tulinen ja mausteinen sitruunanmakuinen kanakeitto. Hot and spicy, lemon-  flavoured chicken soup.
+#
+
+#
+MACHHA KO SOUP (L,G)
+5,50e
+Appetizer
+Kermainen lohikeitto. Creamy Salmon soup.
+#
+
+#
+VEG  PAKAUDA (M,G)
+4,90e
+Appetizer
+Linssijauholla kuorrutettua friteerattua kukkakaalia, perunaa ja sipulia, tarjoillaan tomaattichutneyn ja salaatin kera. Potatoes, cauliflower and onions dipped in       chickpea batter and deep fried, served with tomato chutney and salad.
+#
+
+#
+CHICKEN  PAKAUDA (M,G)
+5,20e
+Appetizer
+Linssijauholla kuorrutettua friteerattua kana rintafile paloja, tarjoillaan tomaattichutneyn ja salaatin kera. Chicken breast pieces dipped in chickpea batter and deep fried, served with tomato chutney and salad.
+#
+
+#
+VEG SAMOSA(M)
+5,50e
+Appetizer
+Maustettuna kasvikset kääritty ohuella rapea leivonnaiset,   tarjoillaan  tomaattichutneyn ja salaatin kera. Spiced vegetables wrapped with thin crispy pastry, served with tomato chutney and salad.
+#
+
+#
+CHICKEN FINGER
+5,20e
+Appetizer
+Korppujauholla kuorrutettuja ja friteerattuja kanarintafileesuikaleita,Tarjoillaan    minttuchutneyn ja salaatin kera. Deep fried breadcrumbs coated chicken breast fillet strips. Served with mint chutney and salad.
+#
+
+#
+BHENDO SADEKO (G)   (Spicy)
+7,90e
+Appetizer
+Yrtti-jogurttimarinoituja tandoori-uunissa grillattuja jasitruunalla maustettuja lampaan  sisäfileepaloja, kurkun, tomaatin ja sipulin kanssa.Tarjoillaan tomattichutneyn ja salaatin kera. Tandoori-grilled yoghurt-herb marinated lamb tenderloin pieces, cucumber, tomato  and onion, flavoured with lemon. Served with tomato chutney and salad.
+#
+
+#
+HASKO CHOYLA (G) (Spicy)
+7,90e
+Appetizer
+Szechwan pippurilla ja hieman sitruunalla maustettuja, paistettua    ankanrintaafileepaloja, tomaatin, sipulin ja inkivarin kanssa.Tarjoillaan tomattichutneyn ja salaatin kera. Szechwan pepper and  lemon, flavoured fried duck      breast fillet pieces, tomato,  onion and ginger. Served with tomato chutney and salad
+#

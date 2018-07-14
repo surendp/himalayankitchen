@@ -23,25 +23,25 @@ ul{
 }
 
 .styleBackground li:nth-child(1) span {
-  background-image: url("../media/bg1.jpg");
+  background-image: url("../../resources/static/images/bg1.jpg");
 }
 
 .styleBackground li:nth-child(2) span {
-  background-image: url("../media/bg2.jpeg");
+  background-image: url("../../resources/static/images/bg2.jpeg");
   -webkit-animation-delay: 9s;
   -moz-animation-delay: 9s;
   animation-delay: 9s;
 }
 
 .styleBackground li:nth-child(3) span {
-  background-image: url('../media/chickenCurry.jpg');
+  background-image: url('../../resources/static/images/chickenCurry.jpg');
   -webkit-animation-delay: 18s;
   -moz-animation-delay: 18s;
   animation-delay: 18s;
 }
 
 .styleBackground li:nth-child(4) span {
-  background-image: url('../media/momo.jpg');
+  background-image: url('../../resources/static/images/momo.jpg');
   -webkit-animation-delay: 27s;
   -moz-animation-delay: 27s;
   animation-delay: 27s;

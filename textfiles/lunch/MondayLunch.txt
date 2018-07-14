@@ -1,35 +1,42 @@
 
 #
-Lammas ruoka
-10.5 euros
+LAMB VINDALU (M,G)
+ 9,20€
 Main Dish
-It is the most favourite food of customers in our restaurant
+Pitkään haudutettuja lampaan fileepaloja ja peruna, tulisessa mausteisessa mintu- masala kastikkeessa. Slowly simmered lamb fillet pieces and potatoes in spicy mint  masala sauce.
 #
 
 #
-Butter Chicken
-9.5
+BUTTER CHICKEN (G)
+8,80€
 Main Dish
-very much spices
+Yrtti-jogurttimarinoituja ja tandoori-uunissa grillattuja kanarintafileepaloja tomaatti-hunaja-voi-kermakastikkeessa. Herb- yogurt marinated and tandoori oven grilled chicken fillet pieces in tomato- honey- butter-cream sauce.
 #
 
 #
-fish
-9.5
+FISH PALAK (G)
+9,20€
 Main Dish
-very much spices
+Paistettuja kuhafileepaloja  pinaatti-kastikkeessa. Fried pike-perch fillet pieces in spinach sauce.
 #
 
 #
-vegetarian Dish
-9.5
+CHANA MASALA (M,G, VE)
+8,40€
 Main Dish
-Vegetarian dish very delicious
+Kikherneet ja peruna masalakastikkeessa. Chickpeas and potatoes in masalasauce.
 #
 
 #
-Coca cola
-2.5
-Drinks
-Soft Drink
+SHAHI  PANEER (G)
+8,40€
+Main Dish
+Leipäjuustoa tomaatti-hunaja-voi-kermakastikkeessa. Finnish cottage cheese in  tomato-honey-butter-cream sauce.
+#
+
+#
+LUNCH MIX
+9,80€
+Main Dish
+Kaksi vapaavalintaista annosta ylläolevalta listalta samaan annokseen. Two dishes  from the list above on same plate.
 #

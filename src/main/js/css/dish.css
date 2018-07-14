@@ -1,8 +1,7 @@
 
-
 .dish {
   padding-bottom: 20%;
-  font-family: cursive;
+  font-family: 'comic Sans MS';
 }
 
 .dish-name-price {
@@ -19,7 +18,7 @@
 }
 
 .dish-price {
-  font-family: cursive;
+  font-family: 'comic Sans MS';
   font-style: italic;
   color: white;
 }

@@ -1,13 +1,17 @@
 ﻿const React = require('react');
 const ReactDOM = require('react-dom');
+
+import {withRouter} from 'react-router-dom';
+
 import './css/app.css';
 
-import Title from './components/header/title.jsx';
-import Header from './components/header/appHeader.jsx';
-import Body from './components/body/body.jsx';
-import Footer from './components/footer/footer.jsx';
-import Menu from './components/body/nav/Menu.jsx';
-import SlideShow from './components/body/slideShow.jsx'
+import Title from './header/title.jsx';
+import Header from './header/appHeader.jsx';
+import Body from './showcase/body.jsx';
+import Footer from './footer/footer.jsx';
+
+import Menu from './navigation/Menu.jsx';
+import SlideShow from './slideShow.jsx'
 
 
 class App extends React.Component {
@@ -33,6 +37,16 @@ class App extends React.Component {
      this.setState({visible: false });
    }
 
+   //life cycle method
+   componentDidUpdate(prevProps){
+
+     // check if the route of the page changes
+     if(this.props.location !== prevProps.location){
+       // scroll to top if the route changes
+       document.getElementById("app").scrollTop = 0;
+     }
+   }
+
   render() {
     return (
       <div className="App container" id = "app">
@@ -47,4 +61,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default withRouter(App);
