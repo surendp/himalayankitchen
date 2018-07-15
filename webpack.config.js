@@ -31,7 +31,7 @@ module.exports = {
       },
       {
         test: /\.vue?$/,
-        loader: 'vue-loader',
+        loader: 'vue-loader'
       },
       {
         test: /\.(png|jpg|gif|jpeg)$/,

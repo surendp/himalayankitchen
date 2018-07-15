@@ -27,14 +27,16 @@ export default {
 
 <style lang="scss" scoped>
   .navbar {
-    height: 5.6rem;
-    width: 100%;
+    height: 5.6rem;;
+    max-width: 100%;
+    overflow: hidden;
     background-color: #b2beb5;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 0 2rem;
+    position: sticky;
+    top: 3.2rem;
   }
 </style>
 

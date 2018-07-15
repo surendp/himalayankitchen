@@ -11,19 +11,22 @@
 
 <style lang="scss" scoped>
   .page-header {
-    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
     height: 3.2rem;
-    background-color: rgba(194, 255, 0, 0.7);
+    background-color: rgba(255, 165, 0, 0.7);
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-left: 1.6rem;
+    position: sticky;
+    top: 0;
 
     &__icon {
       margin-left: 0.8rem;
 
       &_facebook {
-        color: rgba(255, 245, 245, 1);
+        color: rgb(255, 245, 245);
       }
     }
   }

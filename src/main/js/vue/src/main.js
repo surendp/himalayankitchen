@@ -5,6 +5,7 @@ import App from './App'
 import VueRouter from 'vue-router'
 import Icon from 'vue-awesome/components/Icon'
 import routes from './routes'
+import { store } from './store/store'
 import './assets/styles/app.scss'
 
 import 'vue-awesome/icons/facebook-square'
@@ -16,7 +17,7 @@ Vue.config.productionTip = false
 // Custom components registration
 Vue.component('icon', Icon)
 
-// Vue Integration
+// Vue router Integration
 Vue.use(VueRouter)
 const router = new VueRouter({
   routes
@@ -24,6 +25,7 @@ const router = new VueRouter({
 /* eslint-disable no-new */
 new Vue({
   router,
+  store,
   components: { App },
   template: '<App/>'
 }).$mount('#vue')
