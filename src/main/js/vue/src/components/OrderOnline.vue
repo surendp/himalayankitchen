@@ -20,24 +20,3 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
-  .btn-primary {
-    width: 8.8rem;
-    display: block;
-    margin: 3.2rem auto;
-    padding: 0.8rem;
-    text-align: center;
-    border: 1px solid #FFA500;
-    background: #FFA500;
-    font-family: 'NTR', 'Mallanna', sans-serif;
-    font-size: 1.2rem;
-    text-shadow: none;
-    color: #000;
-
-    &:hover {
-      opacity: 0.9;
-      background-color: #fea500;
-      color: #fff;
-    }
-  }
-</style>

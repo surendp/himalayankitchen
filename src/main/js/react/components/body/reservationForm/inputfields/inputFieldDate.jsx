@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Input from './input.jsx';
-import {inputFieldStyle} from './inputFieldsStyle.jsx';
+import { inputFieldStyle } from './inputFieldsStyle.jsx';
 
 const style = {
   display: inputFieldStyle.display,

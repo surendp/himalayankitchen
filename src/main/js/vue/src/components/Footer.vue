@@ -44,8 +44,9 @@
       text-transform: uppercase;
       margin: 0.5rem 0;
       color: #fff;
-      font-size: 1.0rem;
-      font-weight: 500;
+      font-size: 0.8rem;
+      font-family: 'Josefin Slab', serif;
+      font-weight: 600;
     }
 
     .hours-info, .address-info, .logo {
@@ -58,7 +59,9 @@
 
     p {
       color: #fff;
-      font-size: 0.8rem;
+      font-size: 1rem;
+      font-family: 'Josefin Slab', serif;
+
     }
     .logo > img {
       height: 3.6rem;

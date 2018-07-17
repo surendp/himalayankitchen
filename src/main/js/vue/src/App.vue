@@ -2,9 +2,7 @@
   <div id="vue">
     <page-header></page-header>
     <navbar></navbar>
-    <showcase>
-      <router-view slot="showcase-content"></router-view>
-    </showcase>
+    <showcase></showcase>
     <page-footer></page-footer>
   </div>
 </template>

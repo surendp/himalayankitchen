@@ -1,0 +1,37 @@
+.form {
+  padding: 1.2rem 0;
+
+  &__group {
+    padding-bottom: 0.8rem;
+
+    label {
+      display: block;
+
+      &::after{
+        content: ":";
+      }
+    } 
+
+    input {
+      line-height: 1.6rem;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #fff;
+      width: 90%;
+      color: #fff;
+      
+      &:focus {
+        outline: none;
+        background: transparent;
+      }
+    }
+  }
+
+  textarea {
+    width: 90%;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+}
+

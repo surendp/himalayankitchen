@@ -15,12 +15,11 @@ const getters = {
     if (today === 'saturday' || today === 'sunday') today = 'monday'
     const weekdays = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
     const i = weekdays.indexOf(today)
-    const l = weekdays.length
     const daysBeforeToday = weekdays.slice(0, i)
-    const daysAfterToday = weekdays.slice(i, l)
+    const daysAfterToday = weekdays.slice(i, 5)
     const sortedDayArr = [].concat(daysAfterToday, daysBeforeToday)
     return sortedDayArr.map(day => {
-      return {day:day, data: state[day] }
+      return { day: day, data: state[day] }
     })
   }
 }
