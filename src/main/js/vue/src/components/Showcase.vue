@@ -1,13 +1,25 @@
 <template>
   <div class="showcase">
-    <div class="showcase__item showcase__item_left">
-      <img src="./../../../../resources/static/images/logo1.png" class="showcase__item_left_logo">
+    <div class="showcase__logo">
+      <img src="./../../../../resources/static/images/logo1.png">
     </div>
-    <div class="showcase__item showcase__item_right">
-      <slot class="showcase-content" name="showcase-content"></slot>
+    <div class="showcase__display-area">
+        <router-view></router-view>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'Showcase',
+  mounted () {
+    const displayArea = document.querySelector('.showcase__display-area')
+    const diff = displayArea.offsetWidth - displayArea.clientWidth
+    displayArea.style.right = `-${diff}px`
+  }
+}
+</script>
+
 
 <style lang="scss" scoped>
   .showcase {
@@ -16,25 +28,33 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
     background: url('./../../../../resources/static/images/chickenCurry.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-clip: padding-box;
     opacity: 0.85;
+    overflow: hidden;
 
-    &__item_left {
-      flex: 0 1 33%;
 
-      &_logo {
-        width: 200px;
-        height: 200px;
+    &__logo {
+      flex: 0 1 30%;
+      text-align: center;
+
+      & > img {
+        width: 250px;
+        height: 250px;
       }
     }
 
-    &__item_right {
-      flex: 0 1 66%;
+    &__display-area {
+      flex: 0 1 55%;
+      max-width: 55%;
+      position: relative;
+      margin-left: 6.4rem;
+      height: calc(100vh - 24rem);
+      overflow-y: scroll;
+      padding-right: 2.8rem;
     }
   }
 </style>

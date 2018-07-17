@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <nav-link v-for="linkItem in linkItems" :key="linkItem.label">
+    <nav-link class="navbar__link" v-for="linkItem in linkItems" :key="linkItem.label">
       <router-link slot="link" :to="linkItem.route" >{{ linkItem.label }}</router-link>
     </nav-link>
   </div>
@@ -37,6 +37,11 @@ export default {
     justify-content: space-around;
     position: sticky;
     top: 3.2rem;
+
+    &__link {
+      font-family: 'Josefin Slab', serif;
+      font-weight: 600;
+    }
   }
 </style>
 
