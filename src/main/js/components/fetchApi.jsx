@@ -70,14 +70,31 @@ class FetchAPI extends React.Component{
     return dishes;
   }
 
+  // create scroll Id
+  createScrollId(title){
+      let array = title.split(" ")
+
+      let scrollId = array[0];
+
+      if(array.length > 1){
+        scrollId = scrollId+ "_"+array[1]
+      }
+
+      return scrollId
+  }
+
   // creates unordered list and renders the data
   render(){
     let dishList = <div>
                       {this.renderDishes()}
                    </div>;
 
+    // create scroll id for navigating sub menu list
+    let scrollId = this.createScrollId(this.props.day);
+
     return(
       <ContentDiv
+        id     ={scrollId}
         title  ={this.props.day}
         content={dishList}
         />

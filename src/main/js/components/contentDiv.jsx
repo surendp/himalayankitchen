@@ -25,7 +25,7 @@ const styleContent = {
 class ContentDiv extends React.Component{
     render(){
       return(
-        <div style = {style}>
+        <div style = {style} id = {this.props.id}>
             <h1 style = {styleTitle} >{this.props.title}</h1>
             <div style = {styleContent}>{this.props.content}</div>
         </div>

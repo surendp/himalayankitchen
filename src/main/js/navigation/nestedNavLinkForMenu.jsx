@@ -6,29 +6,49 @@
 import React from 'react';
 import {Route, Link} from 'react-router-dom';
 
-import NavItem from './navItem.jsx';
+import SubMenuNavItem from '../components/subMenuNavItem.jsx';
 
 
 // NestedNavLinkForMenu component
-const NestedNavLinkForMenu = ({match}) =>{
+class NestedNavLinkForMenu extends React.Component{
+
+  constructor(props){
+    super(props);
+
+    this.state = {
+      recentActive: ""
+    }
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(recentActive){
+    this.setState({
+      recentActive : recentActive
+    })
+  }
+
+
 
   // return the jsx expression
-  return (<div>
-            <br/>
-            <NavItem title="Appetizers" path={match.url+ '/appetizers'} category = "sub"/>
-            <NavItem title="Salads" path={match.url + '/salads'} category = "sub"/>
-            <NavItem title="Children Menu" path={match.url + '/childrenmenu'} category = "sub"/>
-            <NavItem title="Desserts" path={match.url + '/desserts'} category = "sub"/>
-            <NavItem title="Drinks" path={match.url + '/drinks'} category = "sub"/>
-            <NavItem title="Group Menu" path={match.url + '/groupmenu'} category = "sub"/>
-            <NavItem title="Chicken Dishes" path={match.url + '/chickendishes'} category = "sub"/>
-            <NavItem title="Duck Dishes" path={match.url + '/duckdishes'} category = "sub"/>
-            <NavItem title="Lamb Dishes" path={match.url + '/lambdishes'} category = "sub"/>
-            <NavItem title="Sea Food" path={match.url + '/seafood'} category = "sub"/>
-            <NavItem title="Tandoori Dishes" path={match.url + '/tandooridishes'} category = "sub"/>
-            <NavItem title="Thali Dishes" path={match.url + '/thalidishes'} category = "sub"/>
-            <NavItem title="Vegetarian Dishes" path={match.url + '/vegetariandishes'} category = "sub"/>
-        </div>)
+  render (){
+    return (<div>
+              <br/>
+              <SubMenuNavItem title = "Appetizers" scrollId = "Appetizers" currentActive = {this.state.recentActive} handleClick={this.handleClick}/>
+              <SubMenuNavItem title = "Salads" scrollId = "Salads"  currentActive = {this.state.recentActive} handleClick={this.handleClick}/>
+              <SubMenuNavItem title = "Children Menu" scrollId = "Children_Menu"  currentActive = {this.state.recentActive} handleClick={this.handleClick}/>
+              <SubMenuNavItem title = "Desserts" scrollId = "Desserts"  currentActive = {this.state.recentActive} handleClick={this.handleClick}/>
+              <SubMenuNavItem title = "Drinks" scrollId = "Drinks"  currentActive = {this.state.recentActive} handleClick={this.handleClick}/>
+              <SubMenuNavItem title = "Group Menu" scrollId = "Group_Menu"  currentActive = {this.state.recentActive} handleClick={this.handleClick}/>
+              <SubMenuNavItem title = "Chicken Dishes" scrollId = "Chicken_Dishes"  currentActive = {this.state.recentActive} handleClick={this.handleClick}/>
+              <SubMenuNavItem title = "Duck Dishes" scrollId = "Duck_Dishes"  currentActive = {this.state.recentActive} handleClick={this.handleClick}/>
+              <SubMenuNavItem title = "Lamb Dishes" scrollId = "Lamb_Dishes"  currentActive = {this.state.recentActive} handleClick={this.handleClick}/>
+              <SubMenuNavItem title = "Sea Food" scrollId = "Sea_Food"  currentActive = {this.state.recentActive} handleClick={this.handleClick}/>
+              <SubMenuNavItem title = "Tandoori Dishes" scrollId = "Tandoori_Dishes"  currentActive = {this.state.recentActive} handleClick={this.handleClick}/>
+              <SubMenuNavItem title = "Thali Dishes" scrollId = "Thali_Dishes"  currentActive = {this.state.recentActive} handleClick={this.handleClick}/>
+              <SubMenuNavItem title = "Vegetarian Dishes" scrollId = "Vegetarian_Dishes"  currentActive = {this.state.recentActive} handleClick={this.handleClick}/>
+          </div>)
+      }
 }
 
 // export default component

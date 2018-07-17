@@ -3,6 +3,7 @@
 	width: inherit;
 	color: green;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 	-webkit-overflow-scrolling:touch;
 }
 

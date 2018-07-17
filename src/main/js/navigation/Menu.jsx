@@ -4,7 +4,7 @@ const ReactDOM = require('react-dom');
 import {Route} from 'react-router-dom';
 
 import '../css/menu.css';
-import NavItem from './navItem.jsx';
+import NavItem from '../components/navItem.jsx';
 import NestedNavLinkForMenu from './nestedNavLinkForMenu.jsx';
 
 const externalLink = {
