@@ -1,23 +1,25 @@
 package com.fullstackdevelopment.springbootstarter.Model;
 
 
-public class Dish {	
+public class Dish{	
 
 	private String name;
 	private String price;
 	private String catagory;
-	private String description;
+	private String finnishDescription;
+	private String englishDescription;
 	
 	public Dish() {
 		
 	}
 	
-	public Dish(String name, String price, String catagory, String description) {
+	public Dish(String name, String price, String catagory, String finnishDescription, String englishDescription) {
 		super();
 		this.name = name;
 		this.price = price;
 		this.catagory = catagory;
-		this.description = description;
+		this.finnishDescription = finnishDescription;
+		this.englishDescription = englishDescription;
 	}
 	
 	public String getName() {
@@ -44,16 +46,25 @@ public class Dish {
 		this.catagory = catagory;
 	}
 
-	public String getDescription() {
-		return description;
+	public String getFinnishDescription() {
+		return this.finnishDescription;
 	}
 
-	public void setDescription(String description) {
-		this.description = description;
+	public void setEnglishDescription(String englishDescription) {
+		this.englishDescription = englishDescription;
+	}
+	
+
+	public String getEnglishDescription() {
+		return this.englishDescription;
+	}
+
+	public void setFinnishDescription(String finnishDescription) {
+		this.finnishDescription = finnishDescription;
 	}
 
 	
 	public String toString() {
-		return name + " \n" + price + " \n" + catagory + "\n" + description;
+		return name + " \n" + price + " \n" + catagory + "\n" + this.englishDescription;
 	}
 }

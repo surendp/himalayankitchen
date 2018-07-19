@@ -18,6 +18,8 @@ public class GetFoodList {
 			foodList = getContentFromFile.getFoodList();
 		}
 		
+		reader.close();
+		
 		return foodList;
 	}
 }

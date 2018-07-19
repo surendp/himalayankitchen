@@ -19,9 +19,9 @@ public class GetContentFromFile {
 	private void getContent() {
 		
 		ArrayList<String> content = new ArrayList<String>();
-		String text;
+		String text=null;
 		
-		CreateDish createDish;
+		CreateDish createDish = null;
 		
 		while(reader.hasNextLine()) {
 			

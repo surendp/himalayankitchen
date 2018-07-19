@@ -1,41 +1,47 @@
 #
 LAMB  SAAG ( L,G)
 9,20
-Main Dish
-Haudutettuja lampaanpaloja ja pinattia, inkivääri-valkosipuli-currykastikkeessa. Stewed lamb pieces in spinach with ginger-garlic-currysauce.
+-
+Haudutettuja lampaanpaloja ja pinattia, inkivääri-valkosipuli-currykastikkeessa. 
+Stewed lamb pieces in spinach with ginger-garlic-currysauce.
 #
 
 #
 CHICKEN CHILLI (M,G) (Spicy)
-8,80€
-Main Dish
-Paistettuja kanan rintafileepaloja ja ruskistettua paprikaa voimakkaasti maustetussa soija-tomaatti- inkivääri-valkosipuli-chilikastikkeessa. Fried chicken fillet pieces and capsicum strongly flavored  soy-tomato-ginger-garlic-chili sauce.
+8,80&euro;
+-
+Paistettuja kanan rintafileepaloja ja ruskistettua paprikaa voimakkaasti maustetussa soija-tomaatti- inkivääri-valkosipuli-chilikastikkeessa. 
+Fried chicken fillet pieces and capsicum strongly flavored  soy-tomato-ginger-garlic-chili sauce.
 #
 
 #
 FISH MASALA (M,G)
-9,20€
-Main Dish
-Paistettuja kuhafileepaloja  tomaatti-sipuli-masalakastikkeessa. Fried pike-perch fillet pieces in tomato, onion and masala sauce.
+9,20&euro;
+-
+Paistettuja kuhafileepaloja  tomaatti-sipuli-masalakastikkeessa. 
+Fried pike-perch fillet pieces in tomato, onion and masala sauce.
 #
 
 #
 GULABI  KOFTA (G)
-8,40€
-Main Dish
-Friteerattuja kukkakaali-peruna-tuorejuustopyöryköitä,cashewpähkinä-hunaja tomaatti-voi-kermakastikkeessa. Deep fried vegetable balls consisting of cauliflower, potatoes and cottage cheese in cashew nuts and honey-tomato-butter-cream sauce.
+8,40&euro;
+-
+Friteerattuja kukkakaali-peruna-tuorejuustopyöryköitä,cashewpähkinä-hunaja tomaatti-voi-kermakastikkeessa. 
+Deep fried vegetable balls consisting of cauliflower, potatoes and cottage cheese in cashew nuts and honey-tomato-butter-cream sauce.
 #
 
 #
 MIX VEGETABLE (M,G,VE) (Spicy)
-8,40€
-Main Dish
-Paistettuja kukkakaalia,parsakaalia, vihreitä papuja, herneitä,perunaa ja porkkanaa tulisessa ja  mausteisessa sipuli-tomaattikastikkeessa. Fried cauliflower, Broccoli,   green beans, peas, potatoes and carrots in hot and spicy onion- tomato sauce.
+8,40&euro;
+-
+Paistettuja kukkakaalia,parsakaalia, vihreitä papuja, herneitä,perunaa ja porkkanaa tulisessa ja  mausteisessa sipuli-tomaattikastikkeessa. 
+Fried cauliflower, Broccoli,   green beans, peas, potatoes and carrots in hot and spicy onion- tomato sauce.
 #
 
 #
 LUNCH MIX
-9,80€
-Main Dish
-Kaksi vapaavalintaista annosta ylläolevalta listalta samaan annokseen. Two dishes  from the list above on same plate.
+9,80&euro;
+-
+Kaksi vapaavalintaista annosta ylläolevalta listalta samaan annokseen. 
+Two dishes  from the list above on same plate.
 #

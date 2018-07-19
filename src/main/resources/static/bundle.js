@@ -27062,7 +27062,7 @@ var ReservationForm = function (_React$Component) {
       var submitForm = new _submitForm2.default(formData);
 
       // submit the form date in the given api
-      var successfullySubmitted = submitForm.submitData("http://localhost:8080/makeReservation/");
+      var successfullySubmitted = submitForm.submitData("localhost:8080/makeReservation/");
 
       // prevent the form to do any default actions
       event.preventDefault();

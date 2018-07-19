@@ -1,41 +1,47 @@
 #
 LAMB MASALA (M,G)
-9,20e
-Main Dish
-Haudutettuja lampaan fileepaloja tomaatti-sipuli-masalakastikkeessa. Stewed lamb  fillet pieces in tomato-onion-masala sauce.
+9,20&euro;
+-
+Haudutettuja lampaan fileepaloja tomaatti-sipuli-masalakastikkeessa. 
+Stewed lamb  fillet pieces in tomato-onion-masala sauce.
 #
 
 #
 NARIWAL CHICKEN (M,G)
-8,80€
-Main Dish
-Haudutettuja kanafileepaloja, maustettuna sinapinsiemenillä ja  kookos-currykastikkeessa. Stewed chicken fillet pieces spiced with mustard seeds and coconut-curry sauce.
+8,80&euro;
+-
+Haudutettuja kanafileepaloja, maustettuna sinapinsiemenillä ja  kookos-currykastikkeessa. 
+Stewed chicken fillet pieces spiced with mustard seeds and coconut-curry sauce.
 #
 
 #
 FISH  CHILLI (L,G)
-9,20e
-Main Dish
-Paistettuja kuhafileepaloja ja ruskistettua paprikaa voimakkaasti maustetussa soija-tomaatti-inkivääri-valkosipuli-chilikastikkeessa. Fried pike-perch fillet pieces and capsicum, strongly flavoured  with soy-tomato-ginger-garlic-chilli sauce
+9,20&euro;
+-
+Paistettuja kuhafileepaloja ja ruskistettua paprikaa voimakkaasti maustetussa soija-tomaatti-inkivääri-valkosipuli-chilikastikkeessa. 
+Fried pike-perch fillet pieces and capsicum, strongly flavoured  with soy-tomato-ginger-garlic-chilli sauce
 #
 
 #
 PANEER KORMA (G)
-8,40€
-Main Dish
-Kotijuustoa curry- kermakastikkeessa. Cottage cheese in curry-creamy sauce.
+8,40&euro;
+-
+Kotijuustoa curry- kermakastikkeessa. 
+Cottage cheese in curry-creamy sauce.
 #
 
 #
-AALO  GOBI (Spicy)  (M,G,VE)
-8,40€
-Main Dish
-Keitettyä kukkakaalia, perunaa ja herneitä, tulisessa ja mausteisessa valkosipuli- inkivääri-currykastikkeessa. Cooked potatoes, cauliflower and peas, hot and spicy garlic ginger-curry sauce.
+AALO  GOBI (Spicy) (M,G,VE)
+8,40&euro;
+-
+Keitettyä kukkakaalia, perunaa ja herneitä, tulisessa ja mausteisessa valkosipuli- inkivääri-currykastikkeessa. 
+Cooked potatoes, cauliflower and peas, hot and spicy garlic ginger-curry sauce.
 #
 
 #
 LUNCH MIX
-9,80€
-Main Dish
-Kaksi vapaavalintaista annosta ylläolevalta listalta samaan annokseen. Two dishes  from the list above on same plate.
+9,80&euro;
+-
+Kaksi vapaavalintaista annosta ylläolevalta listalta samaan annokseen. 
+Two dishes  from the list above on same plate.
 #

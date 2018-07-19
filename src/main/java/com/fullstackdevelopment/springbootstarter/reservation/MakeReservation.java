@@ -9,11 +9,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/makeReservation/")
 public class MakeReservation{	
 	
 	@CrossOrigin(origins = "*")
-	@RequestMapping(method = RequestMethod.POST)
+	@RequestMapping(value = "/api/makereservation/", method = RequestMethod.POST)
 	public String makeReservation(@RequestBody String message) {
 		
 		// assigning sender and receiver email addresses

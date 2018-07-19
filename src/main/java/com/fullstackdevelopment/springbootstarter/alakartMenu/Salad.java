@@ -13,11 +13,11 @@ import com.fullstackdevelopment.springbootstarter.database.GetFoodList;
 public class Salad implements Menu {
 
 	@Override
-	@RequestMapping("/alakartMenu/salad")
+	@RequestMapping("/api/alakartmenu/salads")
 	@CrossOrigin(origins="*")
 	public List<Dish> getDishList() {
 		// TODO Auto-generated method stub
-		return GetFoodList.getFoodList("textFiles/alakartMenu/Salad.txt");
+		return GetFoodList.getFoodList("./textfiles/alakartmenu/Salad.txt");
 	}
 
 }

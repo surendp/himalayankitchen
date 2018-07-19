@@ -13,39 +13,39 @@ import com.fullstackdevelopment.springbootstarter.database.GetFoodList;
 @CrossOrigin(origins="*")
 public class MainDishes {
 	
-	@RequestMapping("/alakartMenu/vegetarian")
+	@RequestMapping("/api/alakartmenu/vegetariandishes")
 	public List<Dish> getVegetarianFoodList(){
-		return GetFoodList.getFoodList("textFiles/alakartMenu/VegetarianMenu.txt");		
+		return GetFoodList.getFoodList("./textfiles/alakartmenu/VegetarianMenu.txt");		
 	}
 	
-	@RequestMapping("/alakartMenu/chicken")
+	@RequestMapping("/api/alakartmenu/chickendishes")
 	public List<Dish> getChickenFoodList(){
-		return GetFoodList.getFoodList("textFiles/alakartMenu/ChickenMenu.txt");		
+		return GetFoodList.getFoodList("./textfiles/alakartmenu/ChickenMenu.txt");		
 	}
 	
-	@RequestMapping("/alakartMenu/lamb")
+	@RequestMapping("/api/alakartmenu/lambdishes")
 	public List<Dish> getLambFoodList(){
-		return GetFoodList.getFoodList("textFiles/alakartMenu/LambMenu.txt");		
+		return GetFoodList.getFoodList("./textfiles/alakartmenu/LambMenu.txt");		
 	}
 	
-	@RequestMapping("/alakartMenu/sea")
+	@RequestMapping("/api/alakartmenu/seadishes")
 	public List<Dish> getSeaFoodList(){
-		return GetFoodList.getFoodList("textFiles/alakartMenu/SeaMenu.txt");		
+		return GetFoodList.getFoodList("./textfiles/alakartmenu/SeaMenu.txt");		
 	}
 	
-	@RequestMapping("/alakartMenu/duck")
+	@RequestMapping("/api/alakartmenu/duckdishes")
 	public List<Dish> getDuckFoodList(){
-		return GetFoodList.getFoodList("textFiles/alakartMenu/DuckMenu.txt");		
+		return GetFoodList.getFoodList("./textfiles/alakartmenu/DuckMenu.txt");		
 	}
 	
-	@RequestMapping("/alakartMenu/tandoori")
+	@RequestMapping("/api/alakartmenu/tandooridishes")
 	public List<Dish> getTandooriFoodList(){
-		return GetFoodList.getFoodList("textFiles/alakartMenu/TandooriMenu.txt");		
+		return GetFoodList.getFoodList("./textfiles/alakartmenu/TandooriMenu.txt");		
 	}
 	
-	@RequestMapping("/alakartMenu/thali")
+	@RequestMapping("/api/alakartmenu/thalidishes")
 	public List<Dish> getThaliFoodList(){
-		return GetFoodList.getFoodList("textFiles/alakartMenu/ThaliMenu.txt");		
+		return GetFoodList.getFoodList("./textfiles/alakartmenu/ThaliMenu.txt");		
 	}
 	
 	

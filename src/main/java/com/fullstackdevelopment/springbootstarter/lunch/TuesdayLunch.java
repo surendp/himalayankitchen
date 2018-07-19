@@ -14,10 +14,10 @@ public class TuesdayLunch implements WeekdayLunch{
 	
 	@Override
 	@CrossOrigin(origins = "*")
-	@RequestMapping("/lunch/tuesday")
+	@RequestMapping("/api/lunch/tuesday")
 	public List<Dish> getLunchList() {
 		// TODO Auto-generated method stub
-		return GetFoodList.getFoodList("textfiles/lunch/TuesdayLunch.txt");
+		return GetFoodList.getFoodList("./textfiles/lunch/TuesdayLunch.txt");
 	}
 
 

@@ -25,7 +25,8 @@ public class CreateDish {
 		this.dish = new Dish(this.content.get(0),
 							this.content.get(1),
 							this.content.get(2),
-							this.content.get(3)
+							this.content.get(3),
+							this.content.get(4)
 							);
 	}
 }
