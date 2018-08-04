@@ -9,17 +9,18 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class MakeReservation{	
-	
-	@CrossOrigin(origins = "*")
+public class MakeReservation{
+
+
 	@RequestMapping(value = "/api/makereservation/", method = RequestMethod.POST)
+	@CrossOrigin(origins = "*")
 	public String makeReservation(@RequestBody String message) {
-		
+
 		// assigning sender and receiver email addresses
 		String from = "ravintola.himalayankitchen@gmail.com";
 		String to  = "surendra.pandey2@metropolia.fi";
 		boolean messageSent = false;
-		
+
 		if(!message.isEmpty()) {
 			ReservationThroughEmail makeReservation = new ReservationThroughEmail(message, to, from);
 			try {

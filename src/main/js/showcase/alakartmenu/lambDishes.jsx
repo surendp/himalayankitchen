@@ -3,9 +3,9 @@ import React from "react";
 import DivWithMargin from "../../components/divWithoutMargin.jsx";
 import FetchAPI from "../../components/fetchApi.jsx";
 
-// api for fetching lamb dishes list
-const api = "/lunch/monday";
+import ApiList from "../../components/api";
 
+let api=  ApiList.alakartApi.lambDishes;
 /*
 * Render FetchAPI component by passing lamb Dishes api
 */

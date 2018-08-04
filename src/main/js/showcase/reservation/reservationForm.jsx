@@ -1,6 +1,8 @@
-import React from 'react';
+﻿import React from 'react';
 import ReservationFormRender from './reservationFormRender.jsx';
 import SubmitForm from './submitForm.js';
+
+import reservationApi from '../../components/api';
 
 const mainDivStyle = {
   color: 'white',
@@ -48,7 +50,7 @@ class ReservationForm extends React.Component{
     var submitForm = new SubmitForm(formData);
 
     // submit the form date in the given api
-    var successfullySubmitted = submitForm.submitData("localhost:8080/makeReservation/");
+    var successfullySubmitted = submitForm.submitData(window.location.origin + reservationApi.reservation);
 
     // prevent the form to do any default actions
     event.preventDefault();
@@ -76,7 +78,7 @@ class ReservationForm extends React.Component{
   // update the form after successfull submition
   updateForm(successfullySubmitted){
     if(successfullySubmitted){
-      location.reload();
+      //location.reload();
       alert("Your form has been submitted successfully!!");
     }
   }

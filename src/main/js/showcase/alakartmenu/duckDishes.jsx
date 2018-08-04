@@ -3,8 +3,10 @@ import React from "react";
 import DivWithMargin from "../../components/divWithoutMargin.jsx";
 import FetchAPI from "../../components/fetchApi.jsx";
 
-// api for fetching duck dishes list
-const api = "/lunch/monday";
+
+import ApiList from "../../components/api";
+
+let api=  ApiList.alakartApi.duckDishes;
 
 /*
 * Render FetchAPI component by passing duck Dishes api

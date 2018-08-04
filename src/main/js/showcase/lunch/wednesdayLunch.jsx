@@ -1,7 +1,10 @@
 import React from "react";
 import FetchAPI from "../../components/fetchApi.jsx";
 
-let api = "/lunch/wednesday";
+import ApiList from "../../components/api";
+
+let api=  ApiList.lunchApi.wednesday;
+
 
 class WednesdayLunch extends React.Component{
 

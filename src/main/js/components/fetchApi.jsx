@@ -32,8 +32,9 @@ class FetchAPI extends React.Component{
   //Fetch the api passed as a property of this component
   //Return an array of Dish components
   fetchAndReturn(api){
-    const uri = window.location.origin + api;
-    //const uri = 'http://localhost:8080/lunch/monday';
+    console.log(api);
+    //const uri = window.location.origin + api;
+    const uri = 'http://localhost:8080'+api;
     return fetch(uri)
       .then(result => result.json())
       .then(
@@ -52,10 +53,11 @@ class FetchAPI extends React.Component{
   // return a Dish component
   returnDishComponent(dish, index){
     return <Dish
-                name = {dish.name}
-                catagory = {dish.catagory}
-                price = {dish.price}
-                description = {dish.description}
+                name = {(dish.name === "-")?"":dish.name}
+                catagory = {(dish.catagory === "-")?"":dish.catagory}
+                price = {(dish.price === "-")?"":dish.price}
+                finnishDescription = {(dish.finnishDescription === "-")?"":dish.finnishDescription}
+                englishDescription = {(dish.englishDescription === "-") ? "": dish.englishDescription}
             />
   }
 

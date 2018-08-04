@@ -1,62 +1,62 @@
 #
-Sherpa             
-5,50&euro;
+Sherpa
+5,50€
 OLUT/BEERS
-Nepalilainen,Lager III  
-0,33 L/5,50&euro;
+Nepalilainen,Lager III
+0,33 L/5,50€
 #
 
 #
-Lapin Kulta 
-5,90&euro;
+Lapin Kulta
+5,90€
 OLUT/BEERS
 III
-0,5l/5,90&euro;
+0,5l/5,90€
 #
 
 #
-Krusovice                                     
-6,90&euro;
+Krusovice
+6,90€
 OLUT/BEERS
 Imperial
-0,5l/6,90&euro;
+0,5l/6,90€
 #
 
 #
-Krusovice                                     
+Krusovice
 6,90&euro
 OLUT/BEERS
 Tumma
-0,5l/6,90&euro;
+0,5l/6,90€
 #
 
 #
-Upcider kuiva omena/Dry Apple                              
-5,90&euro;
+Upcider kuiva omena/Dry Apple
+5,90€
 CIDERI/CIDER
 -
 -
 #
 
 #
-Upcider Päärynä/Pear cider                                      
-5,90&euro;
+Upcider Päärynä/Pear cider
+5,90€
 CIDERI/CIDER
 -
 -
 #
 
 #
-Hartwall original lonkero                                           
-5,90&euro;
+Hartwall original lonkero
+5,90€
 LONKERO/LONG DRINGS
 -
 -
 #
 
 #
-Hartwall original lonkero (Cranberry)                   
-5,90&euro;
+Hartwall original lonkero (Cranberry)
+5,90€
 LONKERO/LONG DRINGS
 -
 -
@@ -67,7 +67,7 @@ J.P. Chenet   Puolimakea, France.
 -
 VALKOVIINIT
 -
-12cl/5,50&euro; 16cl/6,90&euro; 24cl/9,80&euro; 75cl/24,50&euro;
+12cl/5,50€ 16cl/6,90€ 24cl/9,80€ 75cl/24,50€
 #
 
 #
@@ -75,7 +75,7 @@ Himalaya   Chardonnay ,Kuiva, Spain
 -
 VALKOVIINIT
 -
-12cl/5,90&euro; 16cL/7,50&euro; 24cl/10,90&euro; 75cl/29,90&euro;   
+12cl/5,90€ 16cL/7,50€ 24cl/10,90€ 75cl/29,90€
 #
 
 #
@@ -83,7 +83,7 @@ Yellow tail  Unoaked Chardonnay, Kuiva, Australlia
 -
 VALKOVIINIT
 -
-12cl/5,90&euro; 16cl/7,50&euro; 24cl/10,90&euro; 75cl/29,90&euro;
+12cl/5,90€ 16cl/7,50€ 24cl/10,90€ 75cl/29,90€
 #
 
 #
@@ -91,7 +91,7 @@ Santa Carolina  Sauvignon Blanc, Kuiva, Chile
 -
 VALKOVIINIT
 -
-12cl/5,90&euro; 16cl/7,50&euro; 24cl/10,90&euro; 75cl/29,90&euro;                  
+12cl/5,90€ 16cl/7,50€ 24cl/10,90€ 75cl/29,90€
 #
 
 #
@@ -99,7 +99,7 @@ Himalaya   Tempranillo, keskitäyteläinen Spain
 -
 PUNAVIINIT
 -
-12cl/5,90&euro; 16cl/7,50&euro; 24cl/10,90&euro; 75cl/29,90&euro; 
+12cl/5,90€ 16cl/7,50€ 24cl/10,90€ 75cl/29,90€
 #
 
 #
@@ -107,7 +107,7 @@ Yellow tail  Shiraz, keskitäyteläinen, Australlia
 -
 PUNAVIINIT
 -
-12cl/5,90&euro; 16cl/7,50&euro; 24cl/10,90&euro; 75cl/29,90&euro;
+12cl/5,90€ 16cl/7,50€ 24cl/10,90€ 75cl/29,90€
 #
 
 #
@@ -115,7 +115,7 @@ Gato Negro  Cabernet Sauvignon keskitäyteläinen, Chile
 -
 PUNAVIINIT
 -
-12cl/5,90&euro;  16cl/7,50&euro; 24cl/10,90&euro; 75cl/29,90&euro;
+12cl/5,90€  16cl/7,50€ 24cl/10,90€ 75cl/29,90€
 #
 
 #
@@ -123,15 +123,15 @@ J.P. Chenet  Ice Rose  Keskihapokas, France.
 -
 ROSEEVIINIT
 -
-12cl/5,90&euro; 16cl/7,50&euro; 24cl/10,90&euro; 75cl/29,90&euro;
+12cl/5,90€ 16cl/7,50€ 24cl/10,90€ 75cl/29,90€
 #
 
 #
-Freixenet Cordon Negro Brut (Espanja)                              
-9,90&euro;
+Freixenet Cordon Negro Brut (Espanja)
+9,90€
 KUOHUVIINIT
 kuiva,erittäin hapokas, viheromenainen
-20cl/9,90&euro;
+20cl/9,90€
 #
 
 #
@@ -143,87 +143,87 @@ Puolikuiva, keskihapokas, hedelmäinen, kypsän päärynäinen, hennon  maustein
 #
 
 #
-Koskenkorva                                     
-6,00&euro;
+Koskenkorva
+6,00€
 ALCOHOL & LIQUOR
 -
-- 
+-
 #
 
 #
-Finlandia Vodka                               
-6,00&euro;
+Finlandia Vodka
+6,00€
 ALCOHOL & LIQUOR
 -
-- 
+-
 #
 
 #
-Tequila                                                 
-6,50&euro;
+Tequila
+6,50€
 ALCOHOL & LIQUOR
 -
-- 
+-
 #
 
 #
-Bacardi                                               
-6,00&euro;
+Bacardi
+6,00€
 ALCOHOL & LIQUOR
 -
-- 
+-
 #
 
 #
-Jägermeister                                     
-6,00&euro;
+Jägermeister
+6,00€
 ALCOHOL & LIQUOR
 -
-- 
+-
 #
 
 #
-Grants                                                
-6,50&euro;
+Grants
+6,50€
 ALCOHOL & LIQUOR
 -
-- 
+-
 #
 
 #
-Jameson                                             
-6,50&euro;
+Jameson
+6,50€
 ALCOHOL & LIQUOR
 -
-- 
+-
 #
 
 #
-Chivas Regal                                     
-7,20&euro;
+Chivas Regal
+7,20€
 ALCOHOL & LIQUOR
 -
-- 
+-
 #
 
 #
-Monopol                                           
-7,50&euro;
+Monopol
+7,50€
 ALCOHOL & LIQUOR
 -
-- 
+-
 #
 
 #
-Rommitoti                                                            
-6,90&euro;
+Rommitoti
+6,90€
 COCKTAIL
 -
 -
 #
 
 #
-Bacardi Cola                                                        
+Bacardi Cola
 7,50&euro
 COCKTAIL
 -
@@ -231,24 +231,24 @@ COCKTAIL
 #
 
 #
-Gin Tonic                                                              
-7,90&euro;
+Gin Tonic
+7,90€
 COCKTAIL
 -
 -
 #
 
 #
-lrish Coffee                                                           
-7,90&euro;
+lrish Coffee
+7,90€
 COCKTAIL
 -
 -
 #
 
 #
-Vodka Battery                                                    
-8,50&euro;
+Vodka Battery
+8,50€
 COCKTAIL
 -
 -

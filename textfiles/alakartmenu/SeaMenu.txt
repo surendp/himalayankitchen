@@ -1,47 +1,47 @@
 #
 FISH CURRY(G)
-15,50&euro;
+15,50€
 Main Dish
-Paistettuja kuhafileepaloja sinappisimenen-currykermakastikkeessa. 
+Paistettuja kuhafileepaloja sinappisimenen-currykermakastikkeessa.
 Fried pike-perch fillet pieces in mustard seed-curry cream sauce.
 #
 
 #
 FISH CHILLI (L)  (Very Spicy)
-15,90&euro;
+15,90€
 -
-Paistettuja kuhafileepaloja ja ruskistettua paprikaa voimakkaasti maustetussa soija-tomaatti-inkivääri-valkosipuli-chilikastikkeessa. 
+Paistettuja kuhafileepaloja ja ruskistettua paprikaa voimakkaasti maustetussa soija-tomaatti-inkivääri-valkosipuli-chilikastikkeessa.
 Fried pike-perch fillet pieces and capsicum, strongly flavoured  with soy-tomato-ginger-garlic-chilli sauce
 #
 
 #
 SAHI SALMON (G)
-15,90&euro;
+15,90€
 -
-Tandoorissa-uunissa grillattuja lohta,hunaja-tomaatti-voi-kermakastikkeessa. 
+Tandoorissa-uunissa grillattuja lohta,hunaja-tomaatti-voi-kermakastikkeessa.
 Tandoori oven grilled salmon with honey-tomato-butter-cream sauce.
 #
 
 #
 KING PRAWN MASALA (L,G) (Spicy)
-16,90&euro;
+16,90€
 -
-Paistettuja jättikatkarapuja ja tomaatti-sipuli-masalakastikkeessa.  
+Paistettuja jättikatkarapuja ja tomaatti-sipuli-masalakastikkeessa.
 Fried king prawns in tomato,onion and masala sauce.
 #
 
 #
 GHINGA MACHHA KORMA(G)
-17,20&euro;
+17,20€
 -
-Paistettuja jättikatkarapuja cashewpähkinä-curry-kermakastikkeessa. 
+Paistettuja jättikatkarapuja cashewpähkinä-curry-kermakastikkeessa.
 Fried  king   prawns in cashew-curry-cream sauce.
 #
 
 #
 GHINGA MACHHA KARAHI (G) (Spicy)
-17,50&euro;
+17,50€
 -
-Tandoori-uunissa grillattuja jättikatkarapuja, Paistettuja paprikaa ja tomattia,  Sitruunalla maustettuja, himalayan tapaan. 
+Tandoori-uunissa grillattuja jättikatkarapuja, Paistettuja paprikaa ja tomattia,  Sitruunalla maustettuja, himalayan tapaan.
 Lemon flavoured-tandoori oven grilled-king prawns, capsicum and tomatoes in Himalayan style.
 #

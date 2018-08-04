@@ -1,13 +1,13 @@
 #
-SHAHI   PANNER (G) 
+SHAHI   PANNER (G)
 8,00€
--    
+-
 Leipäjuustoa tomaatti-hunaja-voi-kermakastikkeessa.
 Finnish cottage cheese in tomato-honey-butter-cream sauce.
 #
 
 #
-KANAARANSKALAISILLA  
+KANAARANSKALAISILLA
 8,00€
 -
 Korppujauholla kuorrutettuja ja friteerattuja kanarintafileesuikaleita ranskalaisilla.
@@ -15,15 +15,15 @@ Deep fried breadcrumbs coated chicken breast fillet strips with French fries.
 #
 
 #
-BUTTER CHICKEN (G)  
+BUTTER CHICKEN (G)
 8,00€
--  
+-
 Tandoori-uunissa grillattuja kanarintafileepaloja tomaatti-voi-kermakastikkeessa.
 Tandoori oven grilled chicken fillet pieces in tomato- butter-cream sauce.
 #
 
 #
-PAPAD / NAAN 
+PAPAD / NAAN
 2,00€
 LISUKKEET / SIDE ORDERS
 -
@@ -31,7 +31,7 @@ LISUKKEET / SIDE ORDERS
 #
 
 #
-VALKOSIPULI NAAN 
+VALKOSIPULI NAAN
 3,00€
 LISUKKEET / SIDE ORDERS
 -
@@ -39,7 +39,7 @@ LISUKKEET / SIDE ORDERS
 #
 
 #
-PICKELS / CHUTNEY 
+PICKELS / CHUTNEY
 2,00€
 LISUKKEET / SIDE ORDERS
 -
@@ -47,7 +47,7 @@ LISUKKEET / SIDE ORDERS
 #
 
 #
-RAITA 
+RAITA
 2,00€
 LISUKKEET / SIDE ORDERS
 -
@@ -55,7 +55,7 @@ LISUKKEET / SIDE ORDERS
 #
 
 #
-RIISIÄ 
+RIISIÄ
 3,00€
 LISUKKEET / SIDE ORDERS
 -

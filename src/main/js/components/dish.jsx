@@ -14,7 +14,8 @@ class Dish extends React.Component{
           <p className = "dish-price">{this.props.price}</p>
         </div>
         <p className = "dish-catagory">{this.props.catagory}</p>
-        <p className = "dish-description">{this.props.description}</p>
+        <p className = "dish-description">{this.props.finnishDescription}</p>
+        <p className = "dish-description">{this.props.englishDescription}</p>
       </div>
     );
   }

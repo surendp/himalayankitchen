@@ -1,13 +1,13 @@
 #
-KASVIS THALI / VEGETERIAN THALI    
-18,50&euro;
+KASVIS THALI / VEGETERIAN THALI
+18,50€
 Title of the list
 -
 -
 #
 
-# 
-SHAHI   PANNER 
+#
+SHAHI   PANNER
 -
 KASVIS THALI / VEGETERIAN THALI
 Leipäjuustoa tomaatti-hunaja-voi-kermakastikkeessa.
@@ -28,11 +28,11 @@ SAG TOFU
 KASVIS THALI / VEGETERIAN THALI
 Tofua inkivääri-pinaattikastikkeessa.
 Tofu in ginger-spinach sauce.
-# 
+#
 
 #
-LIHA THALI / MEAT THALI    
-22,50&euro;
+LIHA THALI / MEAT THALI
+22,50€
 Title of the list
 -
 -
@@ -41,7 +41,7 @@ Title of the list
 #
 BUTTER CHICKEN
 -
-LIHA THALI / MEAT THALI 
+LIHA THALI / MEAT THALI
 Yrtti-jogurttimarinoituja ja tandoori-uunissa grillattuja  kanarintafileepaloja tomaatti-voi-kermakastikkeessa.
 Herb- yoghurt marinated and tandoori oven grilled chicken fillet pieces in tomato- butter-cream sauce.
 #
@@ -57,7 +57,7 @@ Stewed lamb  fillet pieces in tomato-onion-curry sauce.
 #
 KING PRAWN MASALA (L,G)
 -
-LIHA THALI / MEAT THALI 
+LIHA THALI / MEAT THALI
 Spicy Paistettuja jättikatkarapuja ja tomaatti-sipuli-  chilli-masalakastikkeessa.
-Fried king prawns in tomato,onion chilli and masala  sauce. 
+Fried king prawns in tomato,onion chilli and masala  sauce.
 #

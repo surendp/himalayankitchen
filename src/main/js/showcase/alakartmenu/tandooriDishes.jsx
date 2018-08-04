@@ -3,9 +3,9 @@ import React from "react";
 import DivWithMargin from "../../components/divWithoutMargin.jsx";
 import FetchAPI from "../../components/fetchApi.jsx";
 
-// api for fetching tandoori dishes list
-const api = "/lunch/monday";
+import ApiList from "../../components/api";
 
+let api=  ApiList.alakartApi.tandooriDishes;
 /*
 * Render FetchAPI component by passing tandoori Dishes api
 */

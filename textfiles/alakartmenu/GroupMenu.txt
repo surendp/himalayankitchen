@@ -1,6 +1,6 @@
 #
 JHINGE MACHHA SOUP (L,G)
-22.50 &euro; /hlö
+22.50€ /hlö
 Alkuruoat/Appetizer
 Kermainen katkarapukeitto.
 Creamy shrimp soup.
@@ -8,7 +8,7 @@ Creamy shrimp soup.
 
 #
 VEG  PAKAUDA (M,G)
-22.50 &euro; /hlö
+22.50€ /hlö
 Alkuruoat/Appetizer
 Linssijauholla kuorrutettua friteerattua kukkakaalia, perunaa ja sipulia.
 Potatoes, cauliflower and onions dipped in chickpea batter and deepfried
@@ -16,7 +16,7 @@ Potatoes, cauliflower and onions dipped in chickpea batter and deepfried
 
 #
 CHICKEN FINGER
-22.50 &euro; /hlö
+22.50€ /hlö
 Alkuruoat/Appetizer
 Korppujauholla kuorrutettuja ja friteerattuja kanarintafileesuikaleita.
 Deep fried   breadcrumbs coated chicken breast fillet strips.
@@ -24,7 +24,7 @@ Deep fried   breadcrumbs coated chicken breast fillet strips.
 
 #
 KARAI  PANNER (G) (Medium Spicy)
-22.50 &euro; /hlö
+22.50€ /hlö
 PÄÄRUOAT/MAIN COURSES
 Paistettua tuorejuustoa ja paprikaa, tulisessa talonkastikkeessa.
 Fried cheese and capsicum in a spicy house sauce.
@@ -32,7 +32,7 @@ Fried cheese and capsicum in a spicy house sauce.
 
 #
 CHICKEN TIKKA MASALA (G)
-22.50 &euro; /hlö
+22.50€ /hlö
 PÄÄRUOAT/MAIN COURSES
 Tandoori-uunissa grillattuja kanafileepaloja, tomaatti-sipuli- masalakastikkeessa.
 Tandoori oven grilled chicken  fillet pieces in tomato-onion masala sauce.
@@ -40,7 +40,7 @@ Tandoori oven grilled chicken  fillet pieces in tomato-onion masala sauce.
 
 #
 DAHI BHEDO (G) Spicy
-22.50 &euro; /hlö
+22.50€ /hlö
 PÄÄRUOAT/MAIN COURSES
 Haudutettuja lampaan fileepaloja ,talon jogurtti- ajwain- valkosipuli-currykastikkeessa.
 Stewed lamb fillet pieces in house yoghurt and curry  sauce, flavoured with ajwain.
@@ -48,7 +48,7 @@ Stewed lamb fillet pieces in house yoghurt and curry  sauce, flavoured with ajwa
 
 #
 FISH CURRY(G)
-22.50 &euro; /hlö
+22.50€ /hlö
 PÄÄRUOAT/MAIN COURSES
 Paistettuja kuhafileepaloja sinappisimenen-currykermakastikkeessa.
 Fried pike-perch fillet pieces in mustard seed-curry cream sauce
@@ -56,7 +56,7 @@ Fried pike-perch fillet pieces in mustard seed-curry cream sauce
 
 #
 KULFI (G)
-22.50 &euro; /hlö
+22.50€ /hlö
 JÄLKIRUOAT/DESSERTS
 Nepalilaistyyppine maitopohjainen jäädyke jossa pistaasimantelia ja cashew- pähkinöitä, maustettu kevyesti kardemummalla.
 -
@@ -64,7 +64,7 @@ Nepalilaistyyppine maitopohjainen jäädyke jossa pistaasimantelia ja cashew- p�
 
 #
 FRIED BANANA (G)
-22.50 &euro; /hlö
+22.50€ /hlö
 JÄLKIRUOAT/DESSERTS
 Paistettua banaania kinuskisiirapissa jäätelön ja kermavaahdon kanssa.
 -

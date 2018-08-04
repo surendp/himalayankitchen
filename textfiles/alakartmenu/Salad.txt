@@ -1,6 +1,6 @@
 #
 FETA SALAD (G)
-10,20&euro;
+10,20€
 -
 Salaatti, jossa fetajuustoa, salaattia, kurkkua, tomaattia,sipulia,porkanaa,paprikaa   ja oliivia.
 Fetacheese, lettuce, cucumber, tomato, onion, carrot, capsicum and olives
@@ -8,16 +8,16 @@ Fetacheese, lettuce, cucumber, tomato, onion, carrot, capsicum and olives
 
 #
 CHICKEN SALAD (G)
-10,90&euro;
+10,90€
 -
-Salaatti, jossa yrtti-jogurttimarinoituja ja tandoori-uunissa grillattuja pieniä  kanafileepaloja, salaattia, kurkkua, tomaattia, sipulia,porkanaa ja paprikaa.  
+Salaatti, jossa yrtti-jogurttimarinoituja ja tandoori-uunissa grillattuja pieniä  kanafileepaloja, salaattia, kurkkua, tomaattia, sipulia,porkanaa ja paprikaa.
 yoghurt-herb marinated, tandoori-grilled chicken fillet, lettuce, cucumber, tomato,  onion, carrot  and capsicum.
 #
 
 #
 LOHI SALAD (G)
-11,50&euro;
+11,50€
 -
-Salaatti, jossa yrtti-jogurttimarinoituja ja tandoori-uunissa grillattuja  lohifileepaloja,   salaattia, kurkkua, tomaattia, sipulia,porkanaa ja paprikaa.     
+Salaatti, jossa yrtti-jogurttimarinoituja ja tandoori-uunissa grillattuja  lohifileepaloja,   salaattia, kurkkua, tomaattia, sipulia,porkanaa ja paprikaa.
 yoghurt-herb marinated, tandoori-grilled salmon fillet, lettuce, cucumber, tomato, onion, carrot  and capsicum.
 #
