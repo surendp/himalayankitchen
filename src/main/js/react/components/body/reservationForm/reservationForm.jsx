@@ -14,7 +14,7 @@ const mainDivStyle = {
   //overflowX:'show'
 };
 
-class ReservationForm extends React.Component{
+class ReservationForm extends React.Component {
 
   constructor(props){
     super(props);
@@ -48,7 +48,7 @@ class ReservationForm extends React.Component{
     var submitForm = new SubmitForm(formData);
 
     // submit the form date in the given api
-    var successfullySubmitted = submitForm.submitData("http://localhost:8080/makeReservation/");
+    var successfullySubmitted = submitForm.submitData("https://secret-castle-23220.herokuapp.com/makeReservation/");
 
     // prevent the form to do any default actions
     event.preventDefault();
@@ -76,8 +76,8 @@ class ReservationForm extends React.Component{
   // update the form after successfull submition
   updateForm(successfullySubmitted){
     if(successfullySubmitted){
-      location.reload();
-      alert("Your form has been submitted successfully!!");
+      // location.reload();
+      // alert("Your form has been submitted successfully!!");
     }
   }
 

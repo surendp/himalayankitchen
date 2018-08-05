@@ -21,7 +21,7 @@ export default {
 </script>
 
 
-<style lang="scss" scoped>
+<style lang="scss">
   .showcase {
     width: 100%;
     height: calc(100vh - 21rem);
@@ -38,7 +38,7 @@ export default {
 
 
     &__logo {
-      flex: 0 1 30%;
+      flex: 0 1 15%;
       text-align: center;
 
       & > img {
@@ -48,13 +48,14 @@ export default {
     }
 
     &__display-area {
-      flex: 0 1 55%;
-      max-width: 55%;
+      flex: 0 1 85%;
+      max-width: 85%;
       position: relative;
-      margin-left: 6.4rem;
+      // margin-left: 6.4rem;
       height: calc(100vh - 24rem);
       overflow-y: scroll;
-      padding-right: 2.8rem;
+      overflow-x: hidden;
+      padding-right: 1.8rem;
     }
   }
 </style>

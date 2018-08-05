@@ -1,11 +1,11 @@
 
-@media (min-width: 650px) {
+@media (min-width: 768px) {
   #root {
     display: none;
   }
 }
 
-@media (max-width: 649px) {
+@media (max-width: 768px) {
   #vue {
     display: none;
   }

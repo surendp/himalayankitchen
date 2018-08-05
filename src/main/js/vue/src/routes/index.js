@@ -11,7 +11,7 @@ export default [
     component: AboutUs
   },
   {
-    path: '/menu',
+    path: '/menu/:menuListItem',
     component: Menu
   },
   {

@@ -1,0 +1,31 @@
+.menu-list {
+  position: sticky;
+  top: 3vh;
+
+  &__item {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    box-sizing: border-box;
+
+
+
+    &:hover {
+      color: orange;
+    }
+    &-active {
+      color: orange;
+      border-bottom: 2px solid orange;
+    }
+  }
+}
+
+@media (max-width: 892px) {
+  .menu-list__item {
+    font-size: 0.9rem;
+    line-height: 2rem;
+  }
+}

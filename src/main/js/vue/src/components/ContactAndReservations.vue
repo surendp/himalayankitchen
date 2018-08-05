@@ -1,5 +1,5 @@
 <template>
-  <div class="display-area display-area_half">
+  <div class="display-area">
     <div class="display-area__item">
       <div class="display-area__item_background"></div>
       <h3 class="display-area__item_header">Make Reservation </h3>
@@ -69,7 +69,7 @@
 </template>
 
 <script>
-import axios from '../services/axios'
+import axios from 'axios'
 
 export default {
   name: 'ContactAndReservations',
@@ -100,12 +100,18 @@ export default {
         Date: ${this.date} \n
         Message: ${this.message}
       `
-      axios().post('/makeReservation', payload, {
+      const newpayload = JSON.stringify(payload)
+      console.log(typeof payload)
+      fetch('https://secret-castle-23220.herokuapp.com/makeReservation',{
+        method: 'POST',
+        body: newpayload,
         headers: {
-          'Content-Type': 'text/plain',
-          'Access-Control-Request-Method': 'POST',
-        }
-      })    
+            "Content-Type": "application/json; charset=utf-8",
+            
+        },
+        referrer: "*client",
+        credentials: "omit"
+      })  
     }
   }
 }
