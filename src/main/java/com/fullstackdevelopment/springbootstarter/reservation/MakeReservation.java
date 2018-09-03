@@ -6,14 +6,14 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MakeReservation{
 
-
-	@RequestMapping(value = "/api/makereservation/", method = RequestMethod.POST)
 	@CrossOrigin(origins = "*")
+	@RequestMapping(value = "/api/makereservation", method = RequestMethod.POST)
 	public String makeReservation(@RequestBody String message) {
 
 		// assigning sender and receiver email addresses
@@ -33,4 +33,5 @@ public class MakeReservation{
 		System.out.println((messageSent) ?  "Message Successfully sent!!" : "Message Sending failed!!");
 		return (messageSent) ?  "Message Successfully sent!!" : "Message Sending failed!!";
 	}
+	
 }

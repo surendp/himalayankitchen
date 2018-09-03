@@ -92,7 +92,7 @@ Object.defineProperty(exports, "__esModule", {
 
 // reservation form api
 
-var reservation = '/api/lunch/makereservation';
+var reservation = '/api/makereservation';
 
 // lunch menu apis
 
@@ -28251,7 +28251,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, "\r\n.dish {\r\n  padding-bottom: 20%;\r\n  font-family: 'comic Sans MS';\r\n}\r\n\r\n.dish-name-price {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: space-between;\r\n\r\n    font-size: 150%;\r\n    padding: 0;\r\n}\r\n\r\n.dish-name {\r\n  font-weight: bold;\r\n}\r\n\r\n.dish-price {\r\n  font-family: 'comic Sans MS';\r\n  font-style: italic;\r\n  color: white;\r\n}\r\n\r\n.dish-catagory{\r\n  font-size: 150%;\r\n  margin: 0;\r\n}\r\n\r\n.dish-description{\r\n  font-size: 130%;\r\n  margin: 0;\r\n  padding-top: 0.5em;\r\n}\r\n", ""]);
+exports.push([module.i, "\r\n.dish {\r\n  padding-bottom: 20%;\r\n  font-family: 'comic Sans MS';\r\n}\r\n\r\n.dish-name-price {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: space-between;\r\n\r\n    font-size: 100%;\r\n    padding: 0;\r\n}\r\n\r\n.dish-name {\r\n  font-weight: bold;\r\n}\r\n\r\n.dish-price {\r\n  font-family: 'comic Sans MS';\r\n  font-style: italic;\r\n  color: white;\r\n}\r\n\r\n.dish-catagory{\r\n  font-size: 75%;\r\n  margin: 0;\r\n}\r\n\r\n.dish-description{\r\n  font-size: 70%;\r\n  margin: 0;\r\n  padding-top: 0.5em;\r\n}\r\n", ""]);
 
 // exports
 

@@ -2,7 +2,7 @@
 
 // reservation form api
 
-const reservation = '/api/lunch/makereservation';
+const reservation = '/api/makereservation';
 
 // lunch menu apis
 

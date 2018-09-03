@@ -9,7 +9,7 @@
     flex-direction: row;
     justify-content: space-between;
 
-    font-size: 150%;
+    font-size: 100%;
     padding: 0;
 }
 
@@ -24,12 +24,12 @@
 }
 
 .dish-catagory{
-  font-size: 150%;
+  font-size: 75%;
   margin: 0;
 }
 
 .dish-description{
-  font-size: 130%;
+  font-size: 70%;
   margin: 0;
   padding-top: 0.5em;
 }
