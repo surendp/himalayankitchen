@@ -5,13 +5,22 @@
         <div>{{ menuItem.name }}</div>
         <div>{{ menuItem.price }}</div>
       </div>
-      <div v-if="menuItem.catagory" class="menu-item__content">
+      <div 
+        v-if="!(menuItem.catagory === '-')" 
+        class="menu-item__content"
+      >
         {{ menuItem.catagory}}
       </div>
-      <div class="menu-item__content">
+
+      <div v-if="!(menuItem.finnishDescription==='-')" 
+        class="menu-item__content"
+      >
         {{ menuItem.finnishDescription }}
       </div>
-      <div class="menu-item__content">
+      <div 
+        v-if="!(menuItem.englishDescription==='-')" 
+        class="menu-item__content"
+      >
         {{ menuItem.englishDescription }}
       </div>
     </div>

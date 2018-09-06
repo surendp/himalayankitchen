@@ -70,7 +70,6 @@
 
 <script>
 import axios from 'axios'
-
 export default {
   name: 'ContactAndReservations',
   data () {
@@ -100,18 +99,16 @@ export default {
         Date: ${this.date} \n
         Message: ${this.message}
       `
-      const newpayload = JSON.stringify(payload)
-      console.log(typeof payload)
-      fetch('https://secret-castle-23220.herokuapp.com/makeReservation',{
+      const options = {
+        url: 'https://secret-castle-23220.herokuapp.com/api/makereservation',
         method: 'POST',
-        body: newpayload,
-        headers: {
-            "Content-Type": "application/json; charset=utf-8",
-            
+        headers: { 
+          'Content-Type': 'text/plain;charset=utf-8',
+          'Accept': '*/*'
         },
-        referrer: "*client",
-        credentials: "omit"
-      })  
+        data: payload,
+      }
+      axios(options)
     }
   }
 }

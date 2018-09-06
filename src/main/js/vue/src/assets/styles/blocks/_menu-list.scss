@@ -11,8 +11,6 @@
     line-height: 2rem;
     box-sizing: border-box;
 
-
-
     &:hover {
       color: orange;
     }
@@ -26,6 +24,6 @@
 @media (max-width: 892px) {
   .menu-list__item {
     font-size: 0.9rem;
-    line-height: 2rem;
+    line-height: 2.2rem;
   }
 }

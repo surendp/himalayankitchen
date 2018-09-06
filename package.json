@@ -12,7 +12,7 @@
       "react"
     ]
   },
-  "author": "",
+  "author": "Sagar Acharya <acharyasaagar@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free-brands": "^5.0.13",

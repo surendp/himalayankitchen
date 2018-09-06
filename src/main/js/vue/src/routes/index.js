@@ -7,6 +7,10 @@ import ContactAndReservations from '../components/ContactAndReservations'
 
 export default [
   {
+    path: '/',
+    component: AboutUs
+  },
+  {
     path: '/about-us',
     component: AboutUs
   },

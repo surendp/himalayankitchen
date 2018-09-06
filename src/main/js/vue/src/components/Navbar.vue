@@ -20,7 +20,7 @@ export default {
         { label: 'Menu', route: '/menu/appetizers' },
         { label: 'Lunch', route: '/lunch' },
         { label: 'Order Online', route: '/order-online' },
-        { label: 'Contact & Reservations', route: 'contact-and-reservations'}
+        { label: 'Contact & Reservations', route: '/contact-and-reservations'}
       ]
     }
   }
