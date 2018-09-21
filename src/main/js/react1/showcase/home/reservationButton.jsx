@@ -1,5 +1,5 @@
 import React from 'react';
-import reservation from '../../../resources/static/images/reservation.png';
+import reservation from '../../../../resources/static/images/reservation.png';
 import ImgButtons from '../../components/imgButtons.jsx';
 
 class ReservationButton extends React.Component{

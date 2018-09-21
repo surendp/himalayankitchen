@@ -1,5 +1,5 @@
 import React from 'react';
-import seeMenu from '../../../resources/static/images/seeMenu.png';
+import seeMenu from '../../../../resources/static/images/seeMenu.png';
 import ImgButtons from '../../components/imgButtons.jsx';
 
 class SeeMenuButton extends React.Component{

@@ -1,5 +1,5 @@
 import React from 'react';
-import menuIcon from '../../resources/static/images/menu_icon.png';
+import menuIcon from '../../../resources/static/images/menu_icon.png';
 import '../css/header.css';
 
 

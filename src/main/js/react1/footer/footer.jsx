@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../css/footer.css';
-import facebookIcon from '../../resources/static/images/facebookIcon.png';
-import instagramIcon from '../../resources/static/images/instagramIcon.png';
-import callIcon from '../../resources/static/images/callIcon.png';
-import mapIcon from '../../resources/static/images/mapIcon.png';
+import facebookIcon from '../../../resources/static/images/facebookIcon.png';
+import instagramIcon from '../../../resources/static/images/instagramIcon.png';
+import callIcon from '../../../resources/static/images/callIcon.png';
+import mapIcon from '../../../resources/static/images/mapIcon.png';
 
 import {NavLink} from 'react-router-dom';
 

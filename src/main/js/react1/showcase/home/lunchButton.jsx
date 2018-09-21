@@ -1,5 +1,5 @@
 import React from 'react';
-import lunch from '../../../resources/static/images/lunch.png';
+import lunch from '../../../../resources/static/images/lunch.png';
 import ImgButtons from '../../components/imgButtons.jsx';
 
 class LunchButton extends React.Component{

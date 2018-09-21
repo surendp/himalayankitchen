@@ -239,8 +239,8 @@ var FetchAPI = function (_React$Component) {
       var _this2 = this;
 
       console.log(api);
-      //const uri = window.location.origin + api;
-      var uri = 'http://localhost:8080' + api;
+      var uri = window.location.origin + api;
+      //const uri = 'http://localhost:8080'+api;
       return fetch(uri).then(function (result) {
         return result.json();
       }).then(function (data) {

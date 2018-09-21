@@ -8,7 +8,7 @@ const PATHS = {
 };
 
 module.exports = {
-  entry: './src/main/js/index.js',
+  entry: './src/main/js/react1/index.js',
 
   output: {
     path: PATHS.build,
