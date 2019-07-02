@@ -24,7 +24,6 @@ class FetchAPI extends React.Component{
   componentDidMount(){
     //using fetchAndReturn method
     let dishes = this.fetchAndReturn(this.props.api);
-    console.log(dishes);
     // save the dishes in the state
     //this.setState({dishes:dishes});
   }

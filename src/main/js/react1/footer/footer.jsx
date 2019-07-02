@@ -28,6 +28,9 @@ class Footer extends React.Component{
         <div className ="contents">
           Developers: <a href="https://www.linkedin.com/in/surendra-pandey-7a276a118/" target="_blank">Surendra</a>
           <a href="https://www.linkedin.com/in/lordsubro/" target="_blank"> Subodh</a>
+          <div>
+            Designer: <a href="https://www.facebook.com/profile.php?id=100015779768011" target="_blank">Huong Tran</a>
+          </div>
         </div>
 
       </footer>

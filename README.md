@@ -2,6 +2,17 @@
 
 This is a website project for a restaurant named Himalayan Kitchen which is in Turku, Finland.
 
+## How to start the application
+
+Step 1 -> git clone http://secret-castle-23220.herokuapp.com/
+
+Step 2 -> mvn spring-boot:run
+
+## Website link
+http://secret-castle-23220.herokuapp.com/ 
+
+NOTE: (The server serving the application is heroku free server. It takes 20 to 30 seconds to load the first request.)
+
 ## Requirements
 - Display the lunch and Ala kart menu list
 - Functionality to make reservation through email

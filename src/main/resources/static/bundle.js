@@ -225,7 +225,6 @@ var FetchAPI = function (_React$Component) {
     value: function componentDidMount() {
       //using fetchAndReturn method
       var dishes = this.fetchAndReturn(this.props.api);
-      console.log(dishes);
       // save the dishes in the state
       //this.setState({dishes:dishes});
     }
@@ -25946,8 +25945,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./app.css", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!./app.css");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!./app.css", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!./app.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -25965,7 +25964,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, ".App{\r\n\theight: inherit;\r\n\twidth: inherit;\r\n\tcolor: green;\r\n\toverflow-x: hidden;\r\n\tscroll-behavior: smooth;\r\n\t-webkit-overflow-scrolling:touch;\r\n}\r\n\r\n.container{\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n}\r\n\r\n/*.styleBackground{\r\n  background-image: url(\"../media/bg2.jpeg\");\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-position: center;\r\n  background-attachment: fixed;\r\n\toverflow-y: scroll;\r\n}*/\r\n", ""]);
+exports.push([module.i, ".App{\r\n\theight: inherit;\r\n\tmax-width: 500px;\r\n\tcolor: green;\r\n\tflex-grow: 1;\r\n\toverflow-x: hidden;\r\n\tscroll-behavior: smooth;\r\n\t-webkit-overflow-scrolling:touch;\r\n}\r\n\r\n.container{\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n}\r\n\r\n/*.styleBackground{\r\n  background-image: url(\"../media/bg2.jpeg\");\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-position: center;\r\n  background-attachment: fixed;\r\n\toverflow-y: scroll;\r\n}*/\r\n", ""]);
 
 // exports
 
@@ -26154,8 +26153,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./title.css", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!./title.css");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!./title.css", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!./title.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -26268,8 +26267,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./header.css", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!./header.css");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!./header.css", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!./header.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -26287,7 +26286,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, ".App-header {\r\n  background-color: #ff9900;\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  align-items: center;\r\n  position: fixed;\r\n  width: 100%;\r\n}\r\n\r\n#menuIcon {\r\n  max-height: 35px;\r\n  max-width: 35px;\r\n  margin: 1% 1% 1% 0%;\r\n}\r\n\r\n/* @keyframes App-logo-spin {\r\n  from { transform: rotate(0deg); }\r\n  to { transform: rotate(360deg); }\r\n} */\r\n", ""]);
+exports.push([module.i, ".App-header {\r\n  background-color: #ff9900;\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  align-items: center;\r\n  position: fixed;\r\n  width: 100%;\r\n  max-width: 500px;\r\n}\r\n\r\n#menuIcon {\r\n  max-height: 35px;\r\n  max-width: 35px;\r\n  margin: 1% 1% 1% 0%;\r\n}\r\n\r\n/* @keyframes App-logo-spin {\r\n  from { transform: rotate(0deg); }\r\n  to { transform: rotate(360deg); }\r\n} */\r\n", ""]);
 
 // exports
 
@@ -26407,8 +26406,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./body.css", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!./body.css");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!./body.css", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!./body.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -26524,8 +26523,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./imgButtons.css", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!./imgButtons.css");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!./imgButtons.css", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!./imgButtons.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -26867,8 +26866,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./homePageContent.css", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!./homePageContent.css");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!./homePageContent.css", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!./homePageContent.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -28232,8 +28231,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./dish.css", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!./dish.css");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!./dish.css", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!./dish.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -29286,6 +29285,16 @@ var Footer = function (_React$Component) {
             'a',
             { href: 'https://www.linkedin.com/in/lordsubro/', target: '_blank' },
             ' Subodh'
+          ),
+          _react2.default.createElement(
+            'div',
+            null,
+            'Designer: ',
+            _react2.default.createElement(
+              'a',
+              { href: 'https://www.facebook.com/profile.php?id=100015779768011', target: '_blank' },
+              'Huong Tran'
+            )
           )
         )
       );
@@ -29318,8 +29327,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./footer.css", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!./footer.css");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!./footer.css", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!./footer.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -29472,8 +29481,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./menu.css", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!./menu.css");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!./menu.css", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!./menu.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -29724,8 +29733,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./navigation.css", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!./navigation.css");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!./navigation.css", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!./navigation.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -29856,8 +29865,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./slideShow.css", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!./slideShow.css");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!./slideShow.css", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!./slideShow.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -29948,8 +29957,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./root.css", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!./root.css");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!./root.css", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!./root.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -29967,7 +29976,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, "html{\r\n  height: 100%;\r\n  width: 100%;\r\n  overflow-x: hidden;\r\n  overflow-y: hidden;\r\n}\r\n\r\nbody{\r\n  height: 100%;\r\n  width: inherit;\r\n  margin: inherit;\r\n}\r\n\r\n#root{\r\n  height: 100%;\r\n  width: 100%;\r\n  margin: inherit;\r\n}\r\n", ""]);
+exports.push([module.i, "html{\r\n  height: 100%;\r\n  width: 100%;\r\n  overflow-x: hidden;\r\n  overflow-y: hidden;\r\n}\r\n\r\nbody{\r\n  height: 100%;\r\n  width: inherit;\r\n  margin: inherit;\r\n}\r\n\r\n#root{\r\n  height: 100%;\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  margin: inherit;\r\n}\r\n", ""]);
 
 // exports
 
